@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/FearNot.unity
+  isLoaded: 1
+  isActive: 1
