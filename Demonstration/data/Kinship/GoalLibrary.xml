@@ -1,0 +1,70 @@
+<GoalLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./schemas/GoalLibrary.xsd">
+
+  <ActivePursuitGoal name="Say-hello(User)">
+		<PreConditions>
+			<RecentEvent occurred="False" subject="[SELF]" action="Say" target="User" parameters="hello" />
+		</PreConditions>
+		<SuccessConditions>
+			<NewEvent occurred="True" subject="[SELF]" action="Say" target="User" parameters="hello" />
+		</SuccessConditions>
+    </ActivePursuitGoal>
+    
+    <!-- Reply goal -->
+    <ActivePursuitGoal name="ReplyTo([target],ask-why,insult)">
+		<PreConditions>
+			<NewEvent occurred="True" subject="[target]" action="Say" target="[SELF]" parameters="insult"/>
+		</PreConditions>
+		<SuccessConditions>
+			<NewEvent occurred="True" subject="[SELF]" action="Say" target="[target]" parameters="ask-why" />
+		</SuccessConditions>
+	</ActivePursuitGoal>
+    
+     <!-- While agent is happy enough, he will not care much -->
+    <ActivePursuitGoal name="Dont-mind([target],[role])">
+		<PreConditions>
+			<NewEvent occurred="True" subject="User" action="Grant" target="[target]" parameters="[role]" />
+            <Property name="[target]" operator="!=" value="[SELF]"/>
+            <Property name="[SELF](desiredRole)" operator="=" value="[role]"/>
+			<MoodCondition operator="GreaterEqual" value="2.0"/>
+		</PreConditions>
+		<SuccessConditions>
+			<NewEvent occurred="True" subject="[SELF]" action="Say" target="[target]" parameters="dont-mind" />
+		</SuccessConditions>
+	</ActivePursuitGoal>
+    
+	<!-- Destructive resolution goals -->
+	<ActivePursuitGoal name="Insult([target],[role])">
+		<PreConditions>
+			<NewEvent occurred="True" subject="User" action="Grant" target="[target]" parameters="[role]" />
+            <Property name="[target]" operator="!=" value="[SELF]"/>
+            <Property name="[SELF](desiredRole)" operator="=" value="[role]"/>
+			<MoodCondition operator="LesserThan" value="2.0"/>
+		</PreConditions>
+		<SuccessConditions>
+			<NewEvent occurred="True" subject="[SELF]" action="Say" target="[target]" parameters="insult" />
+		</SuccessConditions>
+	</ActivePursuitGoal>
+    
+    
+		<!--Kinship goals -->
+    
+ <ActivePursuitGoal name="get-permission([target])">
+			<PreConditions>
+				<!--  <RecentEvent occurred="True" action="ask-favour" target="[target]" parameters="[type]"/> -->
+				<RecentEvent occurred="True" subject="User" action="TalkTo"/>
+				<!-- <Property name="[AGENT](totem)" operator="=" value="clinic"/>-->
+				<Property name="[target]" operator="!=" value="[SELF]"/> 
+			</PreConditions>
+			<SuccessConditions>
+				<RecentEvent occurred="True" subject="[SELF]" action="permission-to-visit" target="[target]" />
+			</SuccessConditions>
+			<FailureConditions>
+		
+			</FailureConditions>
+			<ExpectedEffects>
+			</ExpectedEffects>	
+	</ActivePursuitGoal>	
+
+
+</GoalLibrary>

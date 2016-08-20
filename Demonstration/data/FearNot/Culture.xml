@@ -1,0 +1,135 @@
+
+<Culture name="Culture">
+	<Symbols>
+	</Symbols>
+	<!-- Values given for actions -->
+	<SIAttributionRule target="[target]" value="10">
+		<Preconditions>
+			<Property name="[target](isPerson)" operator="=" value="True"/>
+			<Property name="[target]" operator="!=" value="[SELF]"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	
+	
+	<SIAttributionRule target="[target]" value="10">
+		<Preconditions>
+			<Property name="[target](isOlder)" operator="=" value="True"/>
+			<Property name="[target]" operator="!=" value="[SELF]"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	
+	<SIAttributionRule target="[target]" value="0">
+		<Preconditions>
+			<Property name="[target](isSibling,[SELF])" operator="=" value="True"/>
+			<Property name="[target]" operator="!=" value="[SELF]"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	
+	<SIAttributionRule target="[target]" value="10">
+		<Preconditions>
+			<Property name="[target](isElder)" operator="=" value="True"/>
+			<Property name="[target]" operator="!=" value="[SELF]"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	
+	<SIAttributionRule target="[target]" value="10">
+		<Preconditions>
+		     <RecentEvent occurred="True" subject="[target]" action="TalkTo" target="[x]" />
+		     <Property name="[x](skinLevel)" operator="=" value="3"/>
+		     <Property name="[target](skinLevel)" operator="=" value="3"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	
+	<SIAttributionRule target="[target]" value="-5">
+		<Preconditions>
+		     <RecentEvent occurred="True" subject="[target]" action="TalkTo" target="[x]"/>
+		     <Property name="[x](isElder)" operator="=" value="True"/>
+		</Preconditions>		
+	</SIAttributionRule>
+	<!-- Status assumed for action to occur -->
+	<SIConferrals>	
+		
+		<SIConferral conferralTarget="[x]" value="10">
+			<Preconditions>
+				<RecentEvent occurred="True" subject="[x]" action="TalkTo" target="[SELF]"/>
+				<Property name="[SELF](skinLevel)" operator="=" value="3"/>
+				<Property name="[x](skinLevel)" operator="=" value="3"/>
+			</Preconditions>
+			<ConferralAct action="ShowJoy" target="[x]" />
+		</SIConferral>
+		
+		<SIConferral conferralTarget="[x]" value="10">
+			<Preconditions>
+				<RecentEvent occurred="True" subject="[x]" action="TalkTo" target="[SELF]"/>
+				<Property name="[SELF](skinLevel)" operator="=" value="1"/>
+				<Property name="[x](skinLevel)" operator="=" value="3"/>
+			</Preconditions>
+			<ConferralAct action="ExpressHappiness" target="[x]" />
+		</SIConferral>
+		
+		
+		
+		<SIConferral conferralTarget="[x]" value="-10">
+			<Preconditions>
+				<RecentEvent occurred="True" subject="[x]" action="TalkTo" target="[SELF]"/>
+				<Property name="[SELF](isElder)" operator="=" value="True"/>
+				<Property name="[x](isElder)" operator="!=" value="True"/>
+				
+			</Preconditions>
+			<ConferralAct action="TalkTo" target="[x]" />
+		</SIConferral>
+        
+        <SIConferral conferralTarget="[target]" value="20">
+            <Preconditions>
+                <RecentEvent occurred="True" subject="[target]" action="TalkTo" target="[x]"/>
+                <RecentEvent occurred="True" subject="[x]" action="ask-favour"  target="[SELF]" parameters="[type]"/>
+
+                <Property name="[target]" operator="!=" value="[SELF]"/>
+                <Property name="[target](totem)" operator="!=" value="[type]"/>
+                <Property name="[x](totem)" operator="=" value="[type]"/>
+                <Property name="[SELF](isElder)" operator="=" value="True"/>
+                <Property name="[SELF](totem)" operator="=" value="[type]"/>
+            </Preconditions>
+            <ConferralAct action="permission-to-visit"  target="[target]"  parameters="[type]"/>
+        </SIConferral>
+        
+        
+		
+		 <SIConferral conferralTarget="[x]" value="10">
+			<Preconditions>
+				<RecentEvent occurred="True" subject="[x]" action="ask-favour" target="[SELF]" parameters="[type]"/>
+				<Property name="[SELF](isElder)" operator="!=" value="True"/>
+				<Property name="[SELF](totem)" operator="=" value="[type]"/>
+			</Preconditions>
+			<ConferralAct action="agree-to-favour" target="[x]" parameters="[type]"/>
+		</SIConferral>
+		
+		 <SIConferral conferralTarget="[x]" value="10">
+			<Preconditions>
+				 <RecentEvent occurred="True" subject="[SELF]" action="agree-to-favour" target="[target]" parameters="[type]"/>
+				
+				<Property name="[x](isElder)" operator="=" value="True"/>
+				<Property name="[target](totem)" operator="!=" value="[type]"/>
+				<Property name="[x](totem)" operator="=" value="[type]"/>
+			</Preconditions>
+			<ConferralAct action="ask-favour" target="[x]" parameters="[type]"/>
+		</SIConferral>
+
+	</SIConferrals>
+	<!--status needed for action?-->
+	<SIClaims>
+		<SIClaim action="ask-favour" value="10"/>	
+	</SIClaims>
+		<!--  <SIClaims>
+		<SIClaim action="ask-favour" value="10"/>	
+	</SIClaims>
+<SIClaims>
+		<SIClaim action="agree-to-favour" value="10"/>	
+	</SIClaims>
+	<SIClaims>
+		<SIClaim action="permission-to-visit" value="10"/>	
+	</SIClaims>-->
+	
+	
+	
+</Culture>

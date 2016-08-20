@@ -1,0 +1,28 @@
+<Scenarios>	
+	
+	<Scenario name="Introduction">
+
+	
+	<Agent name="Jacob" displayName="Jacob" role="Bully" platform="ion" host="localhost"
+		   port="46874" debugMode="True" sex="M" actionsFile="Actions" 
+		   goalsFile="GoalLibrary" cultureName="Culture">
+						
+	</Agent>
+	
+	<Agent name="Marc" displayName="Marc" role="Bystander" platform="ion" host="localhost"
+		   port="46875" debugMode="True" sex="M" actionsFile="Actions" 
+		   goalsFile="GoalLibrary" cultureName="Culture">
+						
+	</Agent>
+	
+	
+	<Agent name="Samson" displayName="Samson" role="Victim" platform="ion" host="localhost"
+		   port="46876" debugMode="True" sex="M" actionsFile="Actions"
+		   goalsFile="GoalLibrary" cultureName="Culture">
+					
+	</Agent>
+
+ </Scenario>
+
+	
+</Scenarios>

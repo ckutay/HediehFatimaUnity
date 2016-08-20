@@ -1,0 +1,19 @@
+# global variables
+
+Type(value:ask-to-stop-smoke)
+-> Utterance(value: "Can I ask you a favour? Could you stop smoking?")
+
+Type(value:ask-to-switch-bar)
+-> Utterance(value: "Would you mind if we go to another bar?")
+
+Type(value:agree-to-stop-smoke)
+-> Utterance(value: "Sure, I will stop smoking.")
+
+Type(value:agree-to-switch-bar)
+-> Utterance(value: "Sure, we can go to another bar.")
+
+Type(value:ask-to-intervene)
+-> Utterance(value: "You know, this smoke is bothering me!")
+
+Type(value:agree-to-intervene)
+-> Utterance(value: "Let me see if I can do anything about it.")

@@ -1,0 +1,77 @@
+<Character role="Aboriginal">
+	
+	<EmotionalThresholds>
+		<EmotionalThreshold emotion="Distress" 			threshold="1" decay="2"/>
+        <EmotionalThreshold emotion="Joy" 				threshold="2" decay="3"/>
+        <EmotionalThreshold emotion="Admiration" 		threshold="2" decay="3"/>
+		<EmotionalThreshold emotion="Reproach" 			threshold="4" decay="3"/>
+        <EmotionalThreshold emotion="Pride" 			threshold="3" decay="3"/>
+        <EmotionalThreshold emotion="Shame" 			threshold="2" decay="4"/>
+        
+		<EmotionalThreshold emotion="Love" 				threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Hate" 				threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Hope" 				threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Fear" 				threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Satisfaction"		threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Relief" 			threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Fears-Confirmed" 	threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Disappointment" 	threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Happy-For" 		threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Pitty" 			threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Resentment" 		threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Gloating" 			threshold="1" decay="7"/>
+       
+		<EmotionalThreshold emotion="Gratification" 	threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Remorse" 			threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Gratitude" 		threshold="1" decay="7"/>
+		<EmotionalThreshold emotion="Anger" 			threshold="1" decay="7"/>
+	</EmotionalThresholds>
+
+	<Goals>
+        <Goal name="Say-hello(User)" importanceOfSuccess="1" importanceOfFailure="1" />
+		
+	</Goals>
+
+	
+	<EventReactions>
+	<!--
+		**********************************
+		**** AGENT ACTIONS' REACTIONS ****
+		**********************************
+		-->
+		
+		<!-- Reaction to get insulted or insult -->
+		<EmotionalReaction desirability="-3" praiseworthiness="-3">
+			<Event action="Say" target="SELF" parameters="school"/>
+		</EmotionalReaction>
+        		
+		<EmotionalReaction desirability="4" desirabilityForOther="-4" praiseworthiness="-2">
+			<Event action="Say" subject="SELF" parameters="clinic"/>
+		</EmotionalReaction>
+	</EventReactions>
+	
+    <!--
+	***************************
+	**** ACTION TENDENCIES ****
+	***************************
+	-->
+	<ActionTendencies>
+		
+		<!-- Emotional expressions for User's actions -->
+		<ActionTendency action="ExpressHappiness()">
+			<Preconditions>
+            </Preconditions>
+			<ElicitingEmotion type="Joy" minIntensity="1">
+				<CauseEvent action="Say" />
+			</ElicitingEmotion>
+		</ActionTendency>
+				
+		<ActionTendency action="ExpressSadness()">
+			<Preconditions>
+            </Preconditions>
+			<ElicitingEmotion type="Distress" minIntensity="1">
+				<CauseEvent action="Say"/>
+			</ElicitingEmotion>
+		</ActionTendency>
+	</ActionTendencies>
+</Character>
