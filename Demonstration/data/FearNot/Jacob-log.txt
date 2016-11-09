@@ -1,6 +1,0 @@
-
-Connecting to localhost:46874
-
-Jacob: Processing message: AGENTS Jacob Samson Marc User
-
-Sending Look-AT: Jacob

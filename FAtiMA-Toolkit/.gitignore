@@ -1,8 +1,0 @@
-bin
-obj
-*.suo
-*.coverage
-/ExportDlls
-*.user
-TestResults
-/Components/KnowledgeBase/java-files/*.java
