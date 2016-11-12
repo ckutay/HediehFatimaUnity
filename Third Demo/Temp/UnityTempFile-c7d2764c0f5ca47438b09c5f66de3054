@@ -1,11 +1,20 @@
 -debug
 -target:library
 -nowarn:0169
--out:'Temp/Assembly-CSharp.dll'
+-out:'Temp/Assembly-CSharp-Editor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
 -r:'Assets/AssetDLLs/ActionLibrary.dll'
 -r:'Assets/AssetDLLs/AutobiographicMemory.dll'
 -r:'Assets/AssetDLLs/Conditions.dll'
@@ -20,8 +29,10 @@
 -r:'Assets/AssetDLLs/SocialImportanceAsset.dll'
 -r:'Assets/AssetDLLs/Utilities.dll'
 -r:'Assets/AssetDLLs/WellFormedNames.dll'
+-r:'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Editor/SALSAEditor.dll'
 -r:'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_1
@@ -98,19 +109,7 @@
 -define:UNITY_EDITOR_64
 -define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
-'Assets/AnimationScript.cs'
-'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Third Party Support/Fuse Character Creator/CM_FuseSetup.cs'
-'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Third Party Support/Fuse Character Creator/CM_FuseSync.cs'
-'Assets/Scripts/AgentControler.cs'
-'Assets/Scripts/Animation/FaceController.cs'
-'Assets/Scripts/Animation/LipSyncBehaviour.cs'
-'Assets/Scripts/Animation/LipSyncData.cs'
-'Assets/Scripts/AssetManagerBridge.cs'
-'Assets/Scripts/DialogController.cs'
-'Assets/Scripts/SarahDemo.cs'
-'Assets/Scripts/SingleCharacterDemo.cs'
-'Assets/Scripts/Storage/StorageProvider.cs'
-'Assets/Scripts/Storage/StreamingAssetsStorageProvider.cs'
-'Assets/Scripts/UnityBodyImplement.cs'
+'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Third Party Support/Fuse Character Creator/Editor/CM_FuseSetupEditor.cs'
+'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Third Party Support/Fuse Character Creator/Editor/CM_FuseSyncEditor.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll'

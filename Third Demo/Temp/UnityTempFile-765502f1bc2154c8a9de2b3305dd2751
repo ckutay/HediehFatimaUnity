@@ -29,10 +29,10 @@
 -r:'Assets/AssetDLLs/SocialImportanceAsset.dll'
 -r:'Assets/AssetDLLs/Utilities.dll'
 -r:'Assets/AssetDLLs/WellFormedNames.dll'
--r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
--r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
 -r:'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Editor/SALSAEditor.dll'
 -r:'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_1

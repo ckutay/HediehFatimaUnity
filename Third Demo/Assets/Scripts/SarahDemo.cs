@@ -31,7 +31,7 @@ public class SarahDemo : MonoBehaviour
   
     
     [SerializeField]
-	private CharacterDefinition m_character01;
+private CharacterDefinition m_character01;
 
 	[Space]
 	[SerializeField]
@@ -58,7 +58,6 @@ public class SarahDemo : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-
 	    switch (m_demoName)
 	    {
 	        case DemoName.EmotionalAppraisal:
@@ -71,12 +70,11 @@ public class SarahDemo : MonoBehaviour
 	            _scenarioFile = "Scenarios/SIDemo.iat";
                 break;
         }
-	
+
 	    AssetManager.Instance.Bridge = new AssetManagerBridge();
         m_character01.dialogController.Clear();
-
-			_iat = IntegratedAuthoringToolAsset.LoadFromFile(StorageProvider.CurrentProvider, _scenarioFile);
-
+        _iat = IntegratedAuthoringToolAsset.LoadFromFile(StorageProvider.CurrentProvider, _scenarioFile);
+        
         var characterList = _iat.GetAllCharacters().ToList();
         for (int i = 0; i < characterSelectionButtons.Count; i++)
         {
@@ -91,18 +89,13 @@ public class SarahDemo : MonoBehaviour
             }
         }
 
-    
-
-	}
+    }
 
     public void StartVersion(int charNumber)
-	{
-		Debug.LogWarning(StorageProvider.CurrentProvider);
-		Debug.LogWarning( _scenarioFile);
-
+    {
         _iat = IntegratedAuthoringToolAsset.LoadFromFile(StorageProvider.CurrentProvider, _scenarioFile);
 
-        _agentController = new AgentControler(_iat.GetAllCharacters().ToList()[charNumber], _iat, m_character01.CharaterArchtype, null, m_character01.dialogController);
+        _agentController = new AgentControler(_iat.GetAllCharacters().ToList()[charNumber], _iat, m_character01.CharaterArchtype, m_character01.SceneAnchor, m_character01.dialogController);
 
         StopAllCoroutines();
         
@@ -116,7 +109,7 @@ public class SarahDemo : MonoBehaviour
 	
 	private void UpdateButtonTexts(bool hide, IEnumerable<DialogueStateActionDTO> dialogOptions)
 	{
-		Debug.LogWarning(hide);
+
         if (hide)
 	    {
 	        if (!m_buttonList.Any())
@@ -143,7 +136,7 @@ public class SarahDemo : MonoBehaviour
 				m_buttonList.Add(b);
 			}
 		}
-	
+		//Debug.LogWarning(m_character01);
 	}
     
 	public void Reply(string type)
@@ -193,6 +186,7 @@ public class SarahDemo : MonoBehaviour
 		_agentController.UpdateEmotionExpression();
 		
 	    var state = _iat.GetCurrentDialogueState("Client");
+
 	    if (!_iat.GetDialogueActions(IntegratedAuthoringToolAsset.PLAYER, state).Any())
 	    {
             UpdateButtonTexts(true, null);
