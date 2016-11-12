@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_character01:
     dialogController: {fileID: 433526443}
     CharaterArchtype: {fileID: 2095318725}
-    SceneAnchor: {fileID: 1808916567}
+    SceneAnchor: {fileID: 0}
   m_dialogButtonArchetype: {fileID: 11411466, guid: a6dcc26afc01649428e68538c726131f,
     type: 2}
   m_dialogButtonZone: {fileID: 269724514}
