@@ -31,7 +31,7 @@ public class SingleCharacterDemo : MonoBehaviour
   
     
     [SerializeField]
-private CharacterDefinition m_character01;
+	private CharacterDefinition m_character01;
 
 	[Space]
 	[SerializeField]
@@ -88,7 +88,6 @@ private CharacterDefinition m_character01;
                 characterSelectionButtons[i].gameObject.SetActive(false);
             }
         }
-
     }
 
     public void StartVersion(int charNumber)
@@ -136,7 +135,6 @@ private CharacterDefinition m_character01;
 				m_buttonList.Add(b);
 			}
 		}
-		//Debug.LogWarning(m_character01);
 	}
     
 	public void Reply(string type)
