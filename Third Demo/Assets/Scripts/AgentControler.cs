@@ -32,13 +32,17 @@ namespace Assets.Scripts
 			_rpc = rpc;
 		    m_iat = iat;
 			m_dialogController = dialogCrt;
-	        _body = GameObject.Instantiate(archetype);
+			if (anchor){
+				_body = GameObject.Instantiate(archetype);
 
 			var t = _body.transform;
 			t.SetParent(anchor, false);
 			t.localPosition = Vector3.zero;
 			t.localRotation = Quaternion.identity;
 			t.localScale = Vector3.one;
+			}else{
+				_body=archetype;
+			}
 
 			m_dialogController.SetCharacterLabel("Client");
 		}

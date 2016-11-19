@@ -95,7 +95,7 @@ private CharacterDefinition m_character01;
     {
         _iat = IntegratedAuthoringToolAsset.LoadFromFile(StorageProvider.CurrentProvider, _scenarioFile);
 
-        _agentController = new AgentControler(_iat.GetAllCharacters().ToList()[charNumber], _iat, m_character01.CharaterArchtype, m_character01.SceneAnchor, m_character01.dialogController);
+		_agentController = new AgentControler(_iat.GetAllCharacters().ToList()[charNumber], _iat, gameObject.GetComponent(typeof(UnityBodyImplement)) as UnityBodyImplement, m_character01.SceneAnchor, m_character01.dialogController);
 
         StopAllCoroutines();
         
