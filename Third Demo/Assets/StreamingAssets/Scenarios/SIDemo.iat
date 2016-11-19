@@ -111,7 +111,7 @@
 					"Utterance": "Unfortunately not. You're here to help us at the IEIA to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "a30ffba8-be72-4079-b738-bbb2a1c94dd9",
+					"Id": "e622f672-c362-4dc1-8ac6-0a1457c70e78",
 					"CurrentState": "Intro_yes",
 					"NextState": "Intro_continue1",
 					"Meaning": "Introduction",
@@ -119,7 +119,7 @@
 					"Utterance": "You're here to help us at the IEIA to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "4a535862-2793-4515-b59f-4a7cf097356b",
+					"Id": "251f3b6f-e539-4096-8bcb-997fb96ee8cb",
 					"CurrentState": "Personality1",
 					"NextState": "Personality2",
 					"Meaning": "PersonalityTest",
