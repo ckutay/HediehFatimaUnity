@@ -79,12 +79,12 @@
 					"Utterance": "Hello, I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
 				}, 
 				{
-					"Id": "f7626be6-3ce4-4a20-9018-58c5471d3478",
+					"Id": "a9a76ad6-535e-464e-bde4-bf31b88cc55b",
 					"CurrentState": "Intro_continue1",
 					"NextState": "Intro_continue2",
 					"Meaning": "Introduction",
 					"Style": "GoodMood",
-					"Utterance": "The Indigenous people on Omosa have started to report that the animals they hunt have started to die out and a few other worrying changes to the ecosystem. It's our job to sort this stuff out and help where we can."
+					"Utterance": "The Indigenous people on Omosa have started to report that the animals they hunt have started to die out and they've noticed a few other worrying changes to the ecosystem. It's our job to sort this stuff out and help where we can."
 				}, 
 				{
 					"Id": "ac1d28a1-20bc-4a44-8537-c7227f058cc8",
