@@ -2088,6 +2088,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 453494}
   - 114: {fileID: 11479282}
+  - 114: {fileID: 114000012390210774}
   m_Layer: 0
   m_Name: Ana-New
   m_TagString: Untagged
@@ -4015,10 +4016,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176148}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.44, z: -9.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children:
   - {fileID: 460510}
   m_Father: {fileID: 0}
@@ -4112,7 +4113,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108474}
-  m_LocalRotation: {x: -0.07316575, y: 0.049818218, z: -0.006792677, w: 0.99605155}
+  m_LocalRotation: {x: -0.07316576, y: 0.04981822, z: -0.0067926776, w: 0.9960516}
   m_LocalPosition: {x: 0.07909208, y: -0.106266744, z: -0.014821031}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5154,7 +5155,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121172}
-  m_LocalRotation: {x: 0.07285701, y: -0.26251265, z: 0.029833533, w: 0.9617114}
+  m_LocalRotation: {x: 0.072857015, y: -0.26251268, z: 0.029833535, w: 0.96171147}
   m_LocalPosition: {x: -0.014156065, y: -0.0067719785, z: 0.016068561}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6161,3 +6162,26 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 176148}
   m_IsPrefabParent: 1
+--- !u!114 &114000012390210774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c890db427b247fc9bb457a0070442c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_demoName: 0
+  m_character01:
+    dialogController: {fileID: 0}
+    CharaterArchtype: {fileID: 11479282}
+    SceneAnchor: {fileID: 0}
+  m_dialogButtonArchetype: {fileID: 11411466, guid: a6dcc26afc01649428e68538c726131f,
+    type: 2}
+  m_dialogButtonZone: {fileID: 0}
+  m_agentProblemReminderRepeatTime: 3
+  VersionMenu: {fileID: 0}
+  characterSelectionButtons:
+  - {fileID: 0}
