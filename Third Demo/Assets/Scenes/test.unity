@@ -240,6 +240,11 @@ Prefab:
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011673965438, guid: a0687e47166be428e95f55a108a6663f, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.26
@@ -295,17 +300,17 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[0].BlendShapeId
-      value: 15
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[2].BlendShapeId
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[3].BlendShapeId
-      value: 15
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -325,22 +330,67 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[1].BlendShapeId
-      value: 14
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[2].Weight
-      value: 39.9
+      value: 73.6
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[3].Weight
-      value: 100
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 114000012739747126, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: m_demoName
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[1].Weight
+      value: 54.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[1].BlendShapeId
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[1].Weight
+      value: 56.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].BlendShapeId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].Weight
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[3].BlendShapeId
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[3].Weight
+      value: 80.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[0].Weight
+      value: 55.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[0].Weight
+      value: 52.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0687e47166be428e95f55a108a6663f, type: 2}
