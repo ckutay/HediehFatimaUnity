@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -392,6 +392,11 @@ Prefab:
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[0].Weight
       value: 52.5
       objectReference: {fileID: 0}
+    - target: {fileID: 137000011658004944, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f78e70b6a0c3a64681d36246a58169b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0687e47166be428e95f55a108a6663f, type: 2}
   m_IsPrefabParent: 0
@@ -753,7 +758,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Char A
+  m_Text: Start
 --- !u!222 &616767321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1420,7 +1425,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1003217792}
   m_LocalRotation: {x: 0, y: 0.043619394, z: 0, w: 0.99904823}
-  m_LocalPosition: {x: -0.11, y: 0, z: -10}
+  m_LocalPosition: {x: 0.241, y: -0.106, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
