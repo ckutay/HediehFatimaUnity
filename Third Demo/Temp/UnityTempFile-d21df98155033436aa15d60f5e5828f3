@@ -1,26 +1,26 @@
 -debug
 -target:library
 -nowarn:0169
--out:Temp/Assembly-CSharp-firstpass.dll
--r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:Assets/AssetDLLs/ActionLibrary.dll
--r:Assets/AssetDLLs/AutobiographicMemory.dll
--r:Assets/AssetDLLs/Conditions.dll
--r:Assets/AssetDLLs/EmotionalAppraisal.dll
--r:Assets/AssetDLLs/EmotionalDecisionMaking.dll
--r:Assets/AssetDLLs/GAIPS.Rage.dll
--r:Assets/AssetDLLs/GAIPS.Serialization.dll
--r:Assets/AssetDLLs/IntegratedAuthoringTool.dll
--r:Assets/AssetDLLs/KnowledgeBase.dll
--r:Assets/AssetDLLs/RageAssetManager.dll
--r:Assets/AssetDLLs/RolePlayCharacter.dll
--r:Assets/AssetDLLs/SocialImportanceAsset.dll
--r:Assets/AssetDLLs/Utilities.dll
--r:Assets/AssetDLLs/WellFormedNames.dll
--r:"Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll"
--r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-out:'Temp/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'Assets/AssetDLLs/ActionLibrary.dll'
+-r:'Assets/AssetDLLs/AutobiographicMemory.dll'
+-r:'Assets/AssetDLLs/Conditions.dll'
+-r:'Assets/AssetDLLs/EmotionalAppraisal.dll'
+-r:'Assets/AssetDLLs/EmotionalDecisionMaking.dll'
+-r:'Assets/AssetDLLs/GAIPS.Rage.dll'
+-r:'Assets/AssetDLLs/GAIPS.Serialization.dll'
+-r:'Assets/AssetDLLs/IntegratedAuthoringTool.dll'
+-r:'Assets/AssetDLLs/KnowledgeBase.dll'
+-r:'Assets/AssetDLLs/RageAssetManager.dll'
+-r:'Assets/AssetDLLs/RolePlayCharacter.dll'
+-r:'Assets/AssetDLLs/SocialImportanceAsset.dll'
+-r:'Assets/AssetDLLs/Utilities.dll'
+-r:'Assets/AssetDLLs/WellFormedNames.dll'
+-r:'Assets/Crazy Minnow Studio/SALSA with RandomEyes/Plugins/SALSA.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_1
@@ -76,16 +76,16 @@
 -define:ENABLE_LOCALIZATION
 -define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
 -define:ENABLE_EDITOR_TESTS_RUNNER
--define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE_OSX
 -define:UNITY_STANDALONE
 -define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
 -define:ENABLE_TEXTUREID_MAP
 -define:ENABLE_RUNTIME_GI
 -define:ENABLE_MOVIES
 -define:ENABLE_NETWORK
 -define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
 -define:ENABLE_UNITYWEBREQUEST
--define:ENABLE_EVENT_QUEUE
 -define:ENABLE_CLUSTERINPUT
 -define:ENABLE_WEBSOCKET_HOST
 -define:ENABLE_MONO
@@ -95,9 +95,8 @@
 -define:UNITY_ASSERTIONS
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
--define:UNITY_EDITOR_WIN
--define:ENABLE_VSTU
+-define:UNITY_EDITOR_OSX
 -define:CROSS_PLATFORM_INPUT
-Assets/Plugins/WebGL/WebGLStorageProvider.cs
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Runtime.Serialization.dll"
--r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll"
+'Assets/Plugins/WebGL/WebGLStorageProvider.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.Linq.dll'
