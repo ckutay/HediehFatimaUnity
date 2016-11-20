@@ -230,6 +230,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.size
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -244,6 +249,11 @@ Prefab:
         type: 2}
       propertyPath: _facialExpressions.Array.data[1]._blends.Array.size
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._blends.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000011673965438, guid: a0687e47166be428e95f55a108a6663f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -397,6 +407,31 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0f78e70b6a0c3a64681d36246a58169b, type: 2}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._expressionName
+      value: AI_phoneme
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._blends.Array.data[0].BlendShapeId
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._blends.Array.data[0].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[5]._expressionName
+      value: Gratitude
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[5]._blends.Array.data[0].BlendShapeId
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0687e47166be428e95f55a108a6663f, type: 2}
   m_IsPrefabParent: 0
