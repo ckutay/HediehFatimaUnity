@@ -134,7 +134,7 @@ namespace Assets.Scripts
 		{
 			Name nextState = speakAction.Parameters[1];
 			var dialog = m_iat.GetDialogueActions(IntegratedAuthoringToolAsset.AGENT, speakAction.Parameters[0].ToString()).FirstOrDefault(a => string.Equals(a.Meaning, speakAction.Parameters[2].ToString(), StringComparison.CurrentCultureIgnoreCase) && string.Equals(a.Style, speakAction.Parameters[3].ToString(), StringComparison.CurrentCultureIgnoreCase));
-			Debug.LogWarning(IntegratedAuthoringToolAsset.AGENT.ToString()+speakAction.Parameters[0].ToString()+speakAction.Parameters[1].ToString()+speakAction.Parameters[2].ToString()+speakAction.Parameters[3].ToString());
+	//		Debug.LogWarning(IntegratedAuthoringToolAsset.AGENT.ToString()+speakAction.Parameters[0].ToString()+speakAction.Parameters[1].ToString()+speakAction.Parameters[2].ToString()+speakAction.Parameters[3].ToString());
 			if (dialog == null)
 			{
 				Debug.LogWarning("Unknown dialog action.");

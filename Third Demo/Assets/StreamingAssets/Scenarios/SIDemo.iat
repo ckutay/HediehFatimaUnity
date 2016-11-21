@@ -95,11 +95,11 @@
 					"Utterance": "Your job is to collect the data from the other researchers who are working on the island as well as to talk to some of the Omosans living in the local village."
 				}, 
 				{
-					"Id": "ba39692a-558f-4d3a-9948-5eb480e8829a",
+					"Id": "5c6c5094-8ca5-4885-b87b-cfb62b6bdcd3",
 					"CurrentState": "Intro_continue3",
 					"NextState": "Personality1",
 					"Meaning": "Introduction",
-					"Style": "BadMood",
+					"Style": "GoodMood",
 					"Utterance": "Charlie, Zafirah, Pedro and Kim have all made some interesting findings that they would like to share with you."
 				}, 
 				{
