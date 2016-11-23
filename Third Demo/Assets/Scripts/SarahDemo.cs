@@ -81,7 +81,7 @@ private CharacterDefinition m_character01;
             if (i < characterList.Count)
             {
                 characterSelectionButtons[i].gameObject.SetActive(true);
-                characterSelectionButtons[i].GetComponentInChildren<Text>().text = characterList[i].CharacterName;
+				characterSelectionButtons[i].GetComponentInChildren<Text>().text = "Start";// characterList[i].CharacterName;
             }
             else
             {
