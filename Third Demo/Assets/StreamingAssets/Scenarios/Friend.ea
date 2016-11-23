@@ -74,19 +74,19 @@
 							"EventName": "Event(Action-Start, Player, Speak(*, *, *, [type]), Player)",
 							"Conditions":
 								{
-									"Set": ["Likes([type]) = False"]
-								},
-							"Desirability": -6,
-							"Praiseworthiness": -9
-						}, 
-						{
-							"EventName": "Event(Action-Start, Player, Speak(*, *, *, [type]), Player)",
-							"Conditions":
-								{
 									"Set": ["Likes([type]) = True"]
 								},
 							"Desirability": 6,
 							"Praiseworthiness": 10
+						}, 
+						{
+							"EventName": "Event(Action-Start, Player, Speak(*, *, *, [type]), Self)",
+							"Conditions":
+								{
+									"Set": ["Likes([type]) = False"]
+								},
+							"Desirability": -6,
+							"Praiseworthiness": -9
 						}, 
 						{
 							"EventName": "Event(Action-Start, Self, Speak(*, *, IsAnybodyThereQuestion, *), *)",
