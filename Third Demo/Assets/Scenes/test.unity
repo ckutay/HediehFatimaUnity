@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -223,6 +223,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 133127000}
+--- !u!137 &151338952 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 137000011658004944, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
 --- !u!1001 &184267097
 Prefab:
   m_ObjectHideFlags: 0
@@ -622,6 +627,11 @@ MonoBehaviour:
   m_emotionFieldOne: {fileID: 996221826}
   m_moodFieldOne: {fileID: 952744608}
   m_dialogOne: {fileID: 1121962790}
+--- !u!4 &519840721 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000010813619992, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
 --- !u!1 &523150549
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +810,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 616767318}
+--- !u!137 &679474658 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
 --- !u!1 &701924950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,7 +1029,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2, y: 0.4}
-  m_SizeDelta: {x: 560, y: 64}
+  m_SizeDelta: {x: 560, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &823139300
 MonoBehaviour:
@@ -1808,7 +1823,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -2099,6 +2114,465 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1320561261}
+--- !u!1 &1331104807 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013479979450, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
+--- !u!114 &1331104813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331104807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1624661579, guid: 7a255d2e87aae364fbd819c455094253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salsa3D: {fileID: 0}
+  skinnedMeshRenderer: {fileID: 0}
+  prevSkinnedMeshRenderer: {fileID: 0}
+  getSkndMshRndr: 0
+  blendShapes: []
+  lookUpIndex: 0
+  lookDownIndex: 0
+  lookLeftIndex: 0
+  lookRightIndex: 0
+  blinkIndex: 0
+  lookPosition: 4
+  lookAmount:
+    lookUp: 0
+    lookDown: 0
+    lookLeft: 0
+    lookRight: 0
+    blink: 0
+  randomEyes: 1
+  maxRandomInterval: 3
+  blendSpeed: 8
+  rangeOfMotion: 50
+  blinkDuration: 0.05
+  blinkSpeed: 12
+  openMax: 5
+  closeMax: 100
+  eyePosition: {fileID: 1897519680}
+  eyePosVerify: {fileID: 0}
+  lookTarget: {fileID: 0}
+  lookSensitivity: 4
+  targetAffinity: 0
+  targetAffinityPercentage: 0.5
+  invertTracking: 0
+  trackBehind: 0
+  blink: 1
+  maxBlinkInterval: 5
+  broadcast: 0
+  broadcastReceiversCount: 0
+  prevBroadcastReceiversCount: 0
+  expandBroadcast: 0
+  broadcastReceivers: []
+  propagateToChildren: 0
+  broadcastNeeded: 0
+  broadcastCS: 0
+  broadcastCSReceiversCount: 0
+  prevBroadcastCSReceiversCount: 0
+  expandBroadcastCS: 0
+  broadcastCSReceivers: []
+  propagateToChildrenCS: 0
+  selectedCustomShape: 0
+  noneShapeIndex: 0
+  excludeEyeShapes: 1
+  dynamicCustomShapes: []
+  customShapeCount: 0
+  expandCustomShapes: 0
+  customShapes: []
+  randomCustomShapes: 1
+  maxCustomShapeInterval: 3
+  randomCSBlendSpeedMin: 0.75
+  randomCSBlendSpeedMax: 2
+  randomCSRangeOfMotionMin: 10
+  randomCSRangeOfMotionMax: 40
+  randomCSDurationMin: 0.25
+  randomCSDurationMax: 2.5
+  csNotRandomToggle: 0
+  useCustomShapesOnly: 0
+  showEyeShapes: 1
+  showTracking: 1
+  showEyeProps: 1
+  showCustom: 1
+  showBroadcast: 1
+  showBroadcastCS: 1
+  expandShapeGroups: 0
+  groups: []
+  shapeGroupCount: 0
+  targetAffinityPrev: 0
+--- !u!114 &1331104814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331104807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1624661579, guid: 7a255d2e87aae364fbd819c455094253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salsa3D: {fileID: 0}
+  skinnedMeshRenderer: {fileID: 679474658}
+  prevSkinnedMeshRenderer: {fileID: 679474658}
+  getSkndMshRndr: 0
+  blendShapes:
+  - Facial_Blends.Blink_Left
+  - Facial_Blends.Blink_Right
+  - Facial_Blends.BrowsDown_Left
+  - Facial_Blends.BrowsDown_Right
+  - Facial_Blends.BrowsIn_Left
+  - Facial_Blends.BrowsIn_Right
+  - Facial_Blends.BrowsOuterLower_Left
+  - Facial_Blends.BrowsOuterLower_Right
+  - Facial_Blends.BrowsUp_Left
+  - Facial_Blends.BrowsUp_Right
+  - Facial_Blends.CheekPuff_Left
+  - Facial_Blends.CheekPuff_Right
+  - Facial_Blends.EyesWide_Left
+  - Facial_Blends.EyesWide_Right
+  - Facial_Blends.Frown_Left
+  - Facial_Blends.Frown_Right
+  - Facial_Blends.JawBackward
+  - Facial_Blends.JawForeward
+  - Facial_Blends.JawRotateY_Left
+  - Facial_Blends.JawRotateY_Right
+  - Facial_Blends.JawRotateZ_Left
+  - Facial_Blends.JawRotateZ_Right
+  - Facial_Blends.Jaw_Down
+  - Facial_Blends.Jaw_Left
+  - Facial_Blends.Jaw_Right
+  - Facial_Blends.Jaw_Up
+  - Facial_Blends.LowerLipDown_Left
+  - Facial_Blends.LowerLipDown_Right
+  - Facial_Blends.LowerLipIn
+  - Facial_Blends.LowerLipOut
+  - Facial_Blends.Midmouth_Left
+  - Facial_Blends.Midmouth_Right
+  - Facial_Blends.MouthDown
+  - Facial_Blends.MouthNarrow_Left
+  - Facial_Blends.MouthNarrow_Right
+  - Facial_Blends.MouthOpen
+  - Facial_Blends.MouthUp
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Left
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Right
+  - Facial_Blends.NoseScrunch_Left
+  - Facial_Blends.NoseScrunch_Right
+  - Facial_Blends.Smile_Left
+  - Facial_Blends.Smile_Right
+  - Facial_Blends.Squint_Left
+  - Facial_Blends.Squint_Right
+  - Facial_Blends.TongueUp
+  - Facial_Blends.UpperLipIn
+  - Facial_Blends.UpperLipOut
+  - Facial_Blends.UpperLipUp_Left
+  - Facial_Blends.UpperLipUp_Right
+  lookUpIndex: 0
+  lookDownIndex: 0
+  lookLeftIndex: 0
+  lookRightIndex: 0
+  blinkIndex: 0
+  lookPosition: 4
+  lookAmount:
+    lookUp: 0
+    lookDown: 0
+    lookLeft: 0
+    lookRight: 0
+    blink: 0
+  randomEyes: 1
+  maxRandomInterval: 3
+  blendSpeed: 8
+  rangeOfMotion: 50
+  blinkDuration: 0.05
+  blinkSpeed: 12
+  openMax: 5
+  closeMax: 100
+  eyePosition: {fileID: 1897519680}
+  eyePosVerify: {fileID: 1897519680}
+  lookTarget: {fileID: 0}
+  lookSensitivity: 4
+  targetAffinity: 0
+  targetAffinityPercentage: 0.5
+  invertTracking: 0
+  trackBehind: 0
+  blink: 1
+  maxBlinkInterval: 5
+  broadcast: 0
+  broadcastReceiversCount: 0
+  prevBroadcastReceiversCount: 0
+  expandBroadcast: 0
+  broadcastReceivers: []
+  propagateToChildren: 0
+  broadcastNeeded: 0
+  broadcastCS: 0
+  broadcastCSReceiversCount: 0
+  prevBroadcastCSReceiversCount: 0
+  expandBroadcastCS: 0
+  broadcastCSReceivers: []
+  propagateToChildrenCS: 0
+  selectedCustomShape: 1
+  noneShapeIndex: 1
+  excludeEyeShapes: 1
+  dynamicCustomShapes:
+  - Facial_Blends.Blink_Left
+  - None
+  customShapeCount: 1
+  expandCustomShapes: 0
+  customShapes:
+  - shapeIndex: 0
+    shapeName: Facial_Blends.Blink_Left
+    overrideOn: 0
+    notRandom: 0
+    isOn: 0
+    blendSpeed: 5
+    rangeOfMotion: 100
+  randomCustomShapes: 1
+  maxCustomShapeInterval: 3
+  randomCSBlendSpeedMin: 0.75
+  randomCSBlendSpeedMax: 2
+  randomCSRangeOfMotionMin: 10
+  randomCSRangeOfMotionMax: 40
+  randomCSDurationMin: 0.25
+  randomCSDurationMax: 2.5
+  csNotRandomToggle: 0
+  useCustomShapesOnly: 1
+  showEyeShapes: 1
+  showTracking: 1
+  showEyeProps: 1
+  showCustom: 1
+  showBroadcast: 1
+  showBroadcastCS: 1
+  expandShapeGroups: 0
+  groups: []
+  shapeGroupCount: 0
+  targetAffinityPrev: 0
+--- !u!114 &1331104815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331104807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525a624e4b9004142be066c74b42ec4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salsa3D: {fileID: 0}
+  randomEyes3D: {fileID: 0}
+  body: {fileID: 679474658}
+  eyelashes: {fileID: 151338952}
+  leftEyeName: LeftEye
+  leftEyeBone: {fileID: 1872622391}
+  rightEyeName: RightEye
+  rightEyeBone: {fileID: 1371675341}
+  facialHair: []
+  beardName: Beards
+  moustacheName: Moustaches
+  saySmall:
+  - shapeIndex: 33
+    shapeName: Facial_Blends.MouthNarrow_Left
+    percentage: 25
+  - shapeIndex: 34
+    shapeName: Facial_Blends.MouthNarrow_Right
+    percentage: 25
+  - shapeIndex: 37
+    shapeName: Facial_Blends.MouthWhistle_NarrowAdjust_Left
+    percentage: 100
+  - shapeIndex: 38
+    shapeName: Facial_Blends.MouthWhistle_NarrowAdjust_Right
+    percentage: 100
+  - shapeIndex: 47
+    shapeName: Facial_Blends.UpperLipOut
+    percentage: 25
+  - shapeIndex: 22
+    shapeName: Facial_Blends.Jaw_Down
+    percentage: 50
+  sayMedium:
+  - shapeIndex: 46
+    shapeName: Facial_Blends.UpperLipIn
+    percentage: 100
+  - shapeIndex: 48
+    shapeName: Facial_Blends.UpperLipUp_Left
+    percentage: 65
+  - shapeIndex: 49
+    shapeName: Facial_Blends.UpperLipUp_Right
+    percentage: 65
+  - shapeIndex: 26
+    shapeName: Facial_Blends.LowerLipDown_Left
+    percentage: 65
+  - shapeIndex: 27
+    shapeName: Facial_Blends.LowerLipDown_Right
+    percentage: 65
+  - shapeIndex: 41
+    shapeName: Facial_Blends.Smile_Left
+    percentage: 45
+  - shapeIndex: 42
+    shapeName: Facial_Blends.Smile_Right
+    percentage: 45
+  - shapeIndex: 36
+    shapeName: Facial_Blends.MouthUp
+    percentage: 30
+  - shapeIndex: 32
+    shapeName: Facial_Blends.MouthDown
+    percentage: 25
+  - shapeIndex: 45
+    shapeName: Facial_Blends.TongueUp
+    percentage: 40
+  sayLarge:
+  - shapeIndex: 35
+    shapeName: Facial_Blends.MouthOpen
+    percentage: 75
+  shapeNames:
+  - Facial_Blends.Blink_Left
+  - Facial_Blends.Blink_Right
+  - Facial_Blends.BrowsDown_Left
+  - Facial_Blends.BrowsDown_Right
+  - Facial_Blends.BrowsIn_Left
+  - Facial_Blends.BrowsIn_Right
+  - Facial_Blends.BrowsOuterLower_Left
+  - Facial_Blends.BrowsOuterLower_Right
+  - Facial_Blends.BrowsUp_Left
+  - Facial_Blends.BrowsUp_Right
+  - Facial_Blends.CheekPuff_Left
+  - Facial_Blends.CheekPuff_Right
+  - Facial_Blends.EyesWide_Left
+  - Facial_Blends.EyesWide_Right
+  - Facial_Blends.Frown_Left
+  - Facial_Blends.Frown_Right
+  - Facial_Blends.JawBackward
+  - Facial_Blends.JawForeward
+  - Facial_Blends.JawRotateY_Left
+  - Facial_Blends.JawRotateY_Right
+  - Facial_Blends.JawRotateZ_Left
+  - Facial_Blends.JawRotateZ_Right
+  - Facial_Blends.Jaw_Down
+  - Facial_Blends.Jaw_Left
+  - Facial_Blends.Jaw_Right
+  - Facial_Blends.Jaw_Up
+  - Facial_Blends.LowerLipDown_Left
+  - Facial_Blends.LowerLipDown_Right
+  - Facial_Blends.LowerLipIn
+  - Facial_Blends.LowerLipOut
+  - Facial_Blends.Midmouth_Left
+  - Facial_Blends.Midmouth_Right
+  - Facial_Blends.MouthDown
+  - Facial_Blends.MouthNarrow_Left
+  - Facial_Blends.MouthNarrow_Right
+  - Facial_Blends.MouthOpen
+  - Facial_Blends.MouthUp
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Left
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Right
+  - Facial_Blends.NoseScrunch_Left
+  - Facial_Blends.NoseScrunch_Right
+  - Facial_Blends.Smile_Left
+  - Facial_Blends.Smile_Right
+  - Facial_Blends.Squint_Left
+  - Facial_Blends.Squint_Right
+  - Facial_Blends.TongueUp
+  - Facial_Blends.UpperLipIn
+  - Facial_Blends.UpperLipOut
+  - Facial_Blends.UpperLipUp_Left
+  - Facial_Blends.UpperLipUp_Right
+  initialize: 0
+--- !u!114 &1331104816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331104807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1976067524, guid: 7a255d2e87aae364fbd819c455094253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinnedMeshRenderer: {fileID: 679474658}
+  prevSkinnedMeshRenderer: {fileID: 679474658}
+  getSkndMshRndr: 0
+  audioSrc: {fileID: 0}
+  audioClip: {fileID: 0}
+  blendShapes:
+  - Facial_Blends.Blink_Left
+  - Facial_Blends.Blink_Right
+  - Facial_Blends.BrowsDown_Left
+  - Facial_Blends.BrowsDown_Right
+  - Facial_Blends.BrowsIn_Left
+  - Facial_Blends.BrowsIn_Right
+  - Facial_Blends.BrowsOuterLower_Left
+  - Facial_Blends.BrowsOuterLower_Right
+  - Facial_Blends.BrowsUp_Left
+  - Facial_Blends.BrowsUp_Right
+  - Facial_Blends.CheekPuff_Left
+  - Facial_Blends.CheekPuff_Right
+  - Facial_Blends.EyesWide_Left
+  - Facial_Blends.EyesWide_Right
+  - Facial_Blends.Frown_Left
+  - Facial_Blends.Frown_Right
+  - Facial_Blends.JawBackward
+  - Facial_Blends.JawForeward
+  - Facial_Blends.JawRotateY_Left
+  - Facial_Blends.JawRotateY_Right
+  - Facial_Blends.JawRotateZ_Left
+  - Facial_Blends.JawRotateZ_Right
+  - Facial_Blends.Jaw_Down
+  - Facial_Blends.Jaw_Left
+  - Facial_Blends.Jaw_Right
+  - Facial_Blends.Jaw_Up
+  - Facial_Blends.LowerLipDown_Left
+  - Facial_Blends.LowerLipDown_Right
+  - Facial_Blends.LowerLipIn
+  - Facial_Blends.LowerLipOut
+  - Facial_Blends.Midmouth_Left
+  - Facial_Blends.Midmouth_Right
+  - Facial_Blends.MouthDown
+  - Facial_Blends.MouthNarrow_Left
+  - Facial_Blends.MouthNarrow_Right
+  - Facial_Blends.MouthOpen
+  - Facial_Blends.MouthUp
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Left
+  - Facial_Blends.MouthWhistle_NarrowAdjust_Right
+  - Facial_Blends.NoseScrunch_Left
+  - Facial_Blends.NoseScrunch_Right
+  - Facial_Blends.Smile_Left
+  - Facial_Blends.Smile_Right
+  - Facial_Blends.Squint_Left
+  - Facial_Blends.Squint_Right
+  - Facial_Blends.TongueUp
+  - Facial_Blends.UpperLipIn
+  - Facial_Blends.UpperLipOut
+  - Facial_Blends.UpperLipUp_Left
+  - Facial_Blends.UpperLipUp_Right
+  saySmallIndex: 0
+  sayMediumIndex: 0
+  sayLargeIndex: 0
+  saySmallTrigger: 0.0005
+  sayMediumTrigger: 0.003
+  sayLargeTrigger: 0.0055
+  audioUpdateDelay: 0.08
+  blendSpeed: 10
+  rangeOfMotion: 100
+  isTalking: 0
+  prevIsTalking: 0
+  broadcast: 0
+  broadcastReceiversCount: 0
+  expandBroadcast: 0
+  broadcastReceivers: []
+  propagateToChildren: 0
+  average: 0
+  say: 
+  sayIndex: 0
+  sayAmount:
+    saySmall: 0
+    sayMedium: 0
+    sayLarge: 0
+--- !u!1 &1371675341 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000011040764378, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
 --- !u!1 &1458177059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2608,6 +3082,11 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
+--- !u!1 &1872622391 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013909227732, guid: a0687e47166be428e95f55a108a6663f,
+    type: 2}
+  m_PrefabInternal: {fileID: 184267097}
 --- !u!1 &1874088534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +3121,47 @@ RectTransform:
   m_AnchoredPosition: {x: -9, y: 0}
   m_SizeDelta: {x: -470, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1897519680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1897519682}
+  - 114: {fileID: 1897519681}
+  m_Layer: 0
+  m_Name: RandomEyes3D_Eye_Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1897519681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897519680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -818653955, guid: 7a255d2e87aae364fbd819c455094253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showGizmo: 1
+--- !u!4 &1897519682
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1897519680}
+  m_LocalRotation: {x: 0.011358689, y: -0.9973978, z: 0.03609835, w: -0.061364315}
+  m_LocalPosition: {x: 0.00006748736, y: 0.06579234, z: 0.08975946}
+  m_LocalScale: {x: 0.9345795, y: 0.9345794, z: 0.9345797}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 519840721}
+  m_RootOrder: 3
 --- !u!1 &1942484762
 GameObject:
   m_ObjectHideFlags: 0
