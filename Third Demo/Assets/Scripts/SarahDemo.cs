@@ -133,8 +133,8 @@ private CharacterDefinition m_character01;
 				var t = b.transform;
 				t.SetParent(m_dialogButtonZone,false);
 
-                //                b.GetComponentInChildren<Text>().color = Color.yellow;
-                //                GameObject.Find("DialogButton").GetComponent <Text>().color = Color.yellow;
+                //b.GetComponentInChildren<Text>().color = Color.yellow;
+				//GameObject.Find("DialogButton(Clone)").GetComponent <Text>().color = Color.yellow;
 
                 b.GetComponentInChildren<Text>().text = d.Utterance;
 
