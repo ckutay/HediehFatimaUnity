@@ -130,7 +130,7 @@ public class SingleCharacterDemo : MonoBehaviour
 				var t = b.transform;
 				t.SetParent(m_dialogButtonZone,false);
 				b.GetComponentInChildren<Text>().text = d.Utterance;
-				var style = d.Style;
+                var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
 				m_buttonList.Add(b);
 			}
