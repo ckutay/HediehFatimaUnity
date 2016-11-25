@@ -134,12 +134,12 @@
 					"Utterance": "Yeah they sound interesting."
 				}, 
 				{
-					"Id": "823e204e-20e0-4325-b91a-be0c55bbe986",
+					"Id": "5c222c7c-c046-4fa4-a519-d872450945cb",
 					"CurrentState": "Start",
 					"NextState": "Greeting",
 					"Meaning": "Greeting",
 					"Style": "Formal",
-					"Utterance": "Press to START"
+					"Utterance": "START"
 				}],
 			"AgentDialogues": [
 				{

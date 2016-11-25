@@ -11,6 +11,8 @@ using UnityEngine.UI;
 
 public class SarahDemo : MonoBehaviour 
 {
+    string groupName;
+    int questionNumber = 0;
     public enum DemoName
     {
         EmotionalAppraisal,
@@ -78,20 +80,22 @@ private CharacterDefinition m_character01;
         //removing the start button
         this.StartVersion(0);
 
-/*        var characterList = _iat.GetAllCharacters().ToList();
-        for (int i = 0; i < characterSelectionButtons.Count; i++)
-        {
-            if (i < characterList.Count)
-            {
-                characterSelectionButtons[i].gameObject.SetActive(true);
-				characterSelectionButtons[i].GetComponentInChildren<Text>().text = "Start";// characterList[i].CharacterName;
-            }
-            else
-            {
-                characterSelectionButtons[i].gameObject.SetActive(false);
-            }
-        }
-        */
+//        Time.timeScale = 0;
+
+        /*        var characterList = _iat.GetAllCharacters().ToList();
+                for (int i = 0; i < characterSelectionButtons.Count; i++)
+                {
+                    if (i < characterList.Count)
+                    {
+                        characterSelectionButtons[i].gameObject.SetActive(true);
+                        characterSelectionButtons[i].GetComponentInChildren<Text>().text = "Start";// characterList[i].CharacterName;
+                    }
+                    else
+                    {
+                        characterSelectionButtons[i].gameObject.SetActive(false);
+                    }
+                }
+                */
     }
 
     public void StartVersion(int charNumber)
@@ -124,6 +128,8 @@ private CharacterDefinition m_character01;
 		}
 		else
         {
+            GameObject.Find("MenuZone").GetComponent<Image>().enabled = true;
+
             if (m_buttonList.Count == dialogOptions.Count())
                 return;
 
@@ -145,10 +151,7 @@ private CharacterDefinition m_character01;
 
                 var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
-//                b.onClick.AddListener((() => Reply(style)));
-
                 m_buttonList.Add(b);
-                
 			}
 		}
 		//Debug.LogWarning(m_character01);
@@ -156,20 +159,42 @@ private CharacterDefinition m_character01;
     
 	public void Reply(string type)
 	{
+        //make group number textbox invisible
+        questionNumber = questionNumber + 1;
+        if (questionNumber == 1)
+        {
+            GameObject.Find("InputField").transform.localScale = new Vector3(0, 0, 0);
+            GameObject.Find("Text").transform.localScale = new Vector3(0, 0, 0);
+        }
 
         var state = _iat.GetCurrentDialogueState("Client");
 		if (state == IntegratedAuthoringToolAsset.TERMINAL_DIALOGUE_STATE)
 			return;
 
 		var reply = _iat.GetDialogueActions(IntegratedAuthoringToolAsset.PLAYER, state).FirstOrDefault(a => String.Equals(a.Style, type, StringComparison.CurrentCultureIgnoreCase));
+
+        //reply.utterance needs to be saved
+
 		var actionFormat = string.Format("Speak({0},{1},{2},{3})",reply.CurrentState,reply.NextState,reply.Meaning,reply.Style);
 
-		StartCoroutine(PlayerReplyAction(actionFormat,reply.NextState));
+        //recording Group Name
+        groupName = GameObject.Find("InputField").GetComponent<InputField>().text;
+        PlayerPrefs.SetString("group", groupName);
+        
+    //        WWWForm form = new WWWForm();
+
+   //        form.AddField("username", PlayerPrefs.GetString("group"));
+  //      form.AddField("username", groupName);
+        Debug.LogWarning(groupName);
+        Debug.LogWarning(reply.Utterance);
+        Debug.LogWarning(questionNumber); 
+
+        StartCoroutine(PlayerReplyAction(actionFormat,reply.NextState));
 	}
 
 	private IEnumerator PlayerReplyAction(string replyActionName, string nextState)
 	{
-		const float WAIT_TIME = 0.5f;
+        const float WAIT_TIME = 0.5f;
 		_agentController.AddEvent(string.Format("Event(Action-Start,Player,{0},Client)", replyActionName));
 		yield return new WaitForSeconds(WAIT_TIME);
 		_agentController.AddEvent(string.Format("Event(Action-Finished,Player,{0},Client)", replyActionName));
