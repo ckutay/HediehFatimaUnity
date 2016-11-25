@@ -74,8 +74,11 @@ private CharacterDefinition m_character01;
 	    AssetManager.Instance.Bridge = new AssetManagerBridge();
         m_character01.dialogController.Clear();
         _iat = IntegratedAuthoringToolAsset.LoadFromFile(StorageProvider.CurrentProvider, _scenarioFile);
-        
-        var characterList = _iat.GetAllCharacters().ToList();
+
+        //removing the start button
+        this.StartVersion(0);
+
+/*        var characterList = _iat.GetAllCharacters().ToList();
         for (int i = 0; i < characterSelectionButtons.Count; i++)
         {
             if (i < characterList.Count)
@@ -88,7 +91,7 @@ private CharacterDefinition m_character01;
                 characterSelectionButtons[i].gameObject.SetActive(false);
             }
         }
-
+        */
     }
 
     public void StartVersion(int charNumber)
@@ -108,8 +111,7 @@ private CharacterDefinition m_character01;
 	}
 	
 	private void UpdateButtonTexts(bool hide, IEnumerable<DialogueStateActionDTO> dialogOptions)
-	{
-
+	{       
         if (hide)
 	    {
 	        if (!m_buttonList.Any())
@@ -130,10 +132,15 @@ private CharacterDefinition m_character01;
 				var b = Instantiate(m_dialogButtonArchetype);
 				var t = b.transform;
 				t.SetParent(m_dialogButtonZone,false);
-				b.GetComponentInChildren<Text>().text = d.Utterance;
-				var style = d.Style;
+
+                //                b.GetComponentInChildren<Text>().color = Color.yellow;
+                //                GameObject.Find("DialogButton").GetComponent <Text>().color = Color.yellow;
+
+                b.GetComponentInChildren<Text>().text = d.Utterance;
+                var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
 				m_buttonList.Add(b);
+                
 			}
 		}
 		//Debug.LogWarning(m_character01);
