@@ -137,12 +137,6 @@ private CharacterDefinition m_character01;
                 //                GameObject.Find("DialogButton").GetComponent <Text>().color = Color.yellow;
 
                 b.GetComponentInChildren<Text>().text = d.Utterance;
-
-                b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
-
-                //This doesn't change the color of the text to yellow?!
-                b.GetComponentInChildren<Text>().color = Color.yellow;
-
                 var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
 //                b.onClick.AddListener((() => Reply(style)));

@@ -198,8 +198,8 @@ namespace Assets.Scripts
 			_rpc.PerceptionActionLoop(_events);
 			yield return null;
 			_rpc.ActionFinished(actionRpc);
-//			m_iat.SetDialogueState("Client", "Disconnected");
-//			_body.Hide();
+			m_iat.SetDialogueState("Client", "Disconnected");
+			_body.Hide();
 			yield return new WaitForSeconds(2);
 			m_dialogController.Clear();
 			m_versionMenu.SetActive(true);

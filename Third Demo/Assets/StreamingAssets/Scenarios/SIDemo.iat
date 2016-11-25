@@ -14,14 +14,6 @@
 				}],
 			"PlayerDialogues": [
 				{
-					"Id": "bc6e824f-8fc8-4e1e-a97f-9217c2e2e504",
-					"CurrentState": "End",
-					"NextState": "Close",
-					"Meaning": "Close",
-					"Style": "Formal",
-					"Utterance": "FINISH"
-				}, 
-				{
 					"Id": "026e745f-e0c5-48af-b006-a62709ae4d74",
 					"CurrentState": "Re_Greeting",
 					"NextState": "Intro_no",
@@ -199,7 +191,7 @@
 					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "9b3bce19-6d9c-4d74-991c-687fccc83b3d",
+					"Id": "d959a668-fffa-4b5e-9990-341c785ab35c",
 					"CurrentState": "Last",
 					"NextState": "End",
 					"Meaning": "End",
