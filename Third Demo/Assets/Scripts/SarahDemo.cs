@@ -139,7 +139,9 @@ private CharacterDefinition m_character01;
                 b.GetComponentInChildren<Text>().text = d.Utterance;
                 var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
-				m_buttonList.Add(b);
+//                b.onClick.AddListener((() => Reply(style)));
+
+                m_buttonList.Add(b);
                 
 			}
 		}
@@ -148,7 +150,8 @@ private CharacterDefinition m_character01;
     
 	public void Reply(string type)
 	{
-	    var state = _iat.GetCurrentDialogueState("Client");
+
+        var state = _iat.GetCurrentDialogueState("Client");
 		if (state == IntegratedAuthoringToolAsset.TERMINAL_DIALOGUE_STATE)
 			return;
 

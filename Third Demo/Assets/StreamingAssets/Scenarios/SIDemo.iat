@@ -30,84 +30,84 @@
 					"Utterance": "Yes I am actually."
 				}, 
 				{
-					"Id": "4f1590ff-f04d-4bf7-9c37-b633898ef219",
-					"CurrentState": "Re_Personality10",
+					"Id": "0580034d-521c-4200-aff0-61a88647c933",
+					"CurrentState": "Re_Personality1",
+					"NextState": "Personality2",
+					"Meaning": "PerssonalityTest",
+					"Style": "Formal",
+					"Utterance": "Easily upset"
+				}, 
+				{
+					"Id": "a6f3ebab-9e3c-4644-b8ac-1e115cf696d1",
+					"CurrentState": "Re_Personality1",
+					"NextState": "Personality2",
+					"Meaning": "PrsonalityTest",
+					"Style": "Formal",
+					"Utterance": "Calm"
+				}, 
+				{
+					"Id": "b974c6e3-9e2d-4f37-889c-b75f65986690",
+					"CurrentState": "Re_Personality2",
+					"NextState": "Personality3",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Prefer things to stay the same and not so creative"
+				}, 
+				{
+					"Id": "1c476891-bf4c-47b8-9ae4-a3ea9f520fcd",
+					"CurrentState": "Re_Personality2",
+					"NextState": "Personality3",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Creative and open to new experiences"
+				}, 
+				{
+					"Id": "8036d9d1-e684-4ba6-86b7-7ad9d49743bd",
+					"CurrentState": "Re_Personality3",
+					"NextState": "Personality4",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Dependable and Self-disciplined"
+				}, 
+				{
+					"Id": "0aa0f684-ff6a-4fb2-a5bc-60dda7674a90",
+					"CurrentState": "Re_Personality3",
+					"NextState": "Personality4",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Disorganized and Careless"
+				}, 
+				{
+					"Id": "fdcb1e28-9b80-4bdc-939e-f7750b614728",
+					"CurrentState": "Re_Personality4",
+					"NextState": "Personality5",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Quiet and Reserved"
+				}, 
+				{
+					"Id": "696c9378-c581-4f56-bb21-2975d3d3fc6d",
+					"CurrentState": "Re_Personality4",
+					"NextState": "Personality5",
+					"Meaning": "PersonalityTest",
+					"Style": "Formal",
+					"Utterance": "Extraverted and Enthusiastic"
+				}, 
+				{
+					"Id": "9201d45d-6ad5-4227-8a3a-037a0276a801",
+					"CurrentState": "Re_Personality5",
 					"NextState": "Question1",
 					"Meaning": "PersonalityTest",
 					"Style": "Formal",
 					"Utterance": "Critical and quarrelsome"
 				}, 
 				{
-					"Id": "7b87c81b-fc5e-4cd0-87df-5a429621535f",
-					"CurrentState": "Re_Personality10",
+					"Id": "19f9a4c4-553b-4e3b-be13-b883be9faaed",
+					"CurrentState": "Re_Personality5",
 					"NextState": "Question1",
 					"Meaning": "Personalitytest",
 					"Style": "Formal",
 					"Utterance": "Warm and caring"
-				}, 
-				{
-					"Id": "89ed8519-2d6d-4294-93a8-eec6a5e5edaa",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PerssonalityTest",
-					"Style": "Formal",
-					"Utterance": "Easily upset"
-				}, 
-				{
-					"Id": "8adfef4b-d836-4ecd-a04d-7f5cb4550d47",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PrsonalityTest",
-					"Style": "Formal",
-					"Utterance": "Calm"
-				}, 
-				{
-					"Id": "4d843f58-26b1-4b82-9919-a856e84ecfda",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Prefer things to stay the same and not so creative"
-				}, 
-				{
-					"Id": "6018a84a-76f9-4d2f-9dce-91c5ddaeef8b",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Creative and open to new experiences"
-				}, 
-				{
-					"Id": "56b44506-80ce-44c5-898c-e3da7c191c4a",
-					"CurrentState": "Re_Personality6",
-					"NextState": "Personality7",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Dependable and Self-disciplined"
-				}, 
-				{
-					"Id": "c68fbea5-a1be-48c9-b200-2678be1aeb7e",
-					"CurrentState": "Re_Personality6",
-					"NextState": "Personality7",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Disorganized and Careless"
-				}, 
-				{
-					"Id": "e69332be-951c-4dd3-bd78-00fb1bddb343",
-					"CurrentState": "Re_Personality8",
-					"NextState": "Personality9",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Quiet and Reserved"
-				}, 
-				{
-					"Id": "5f4b1dbb-5700-4e4b-bd58-326e02a45a93",
-					"CurrentState": "Re_Personality8",
-					"NextState": "Personality9",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Extraverted and Enthusiastic"
 				}, 
 				{
 					"Id": "60104bee-6d96-4098-b604-1fbe017559cd",
@@ -199,84 +199,44 @@
 					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your theory of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"
 				}, 
 				{
-					"Id": "57958bd2-2390-4e59-9272-d0e3f224e8c5",
+					"Id": "79168eac-7759-4e8b-85f6-eb135c6543e7",
 					"CurrentState": "Personality1",
-					"NextState": "Personality2",
+					"NextState": "Re_Personality1",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "You are going to meet Charlie the ecologist in the research lab. He gets upset easily but he’s always willing to try something new at work."
+					"Utterance": "You are going to meet Charlie the ecologist in the research lab. He gets upset easily but he’s always willing to try something new at work. What about you?"
 				}, 
 				{
-					"Id": "de6584ce-8b6b-480a-ae40-8cd5fbe4a6e2",
-					"CurrentState": "Personality10",
-					"NextState": "Re_Personality10",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Do you tend to be warm and caring or critical and quarrelsome?"
-				}, 
-				{
-					"Id": "5e4d7720-6610-464f-8d02-072e6ee6f9e0",
+					"Id": "87051d9c-5cfb-41cd-ad0a-fd4e8e7c0a7f",
 					"CurrentState": "Personality2",
 					"NextState": "Re_Personality2",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "Do you get easily upset or keep calm?"
+					"Utterance": "You will also meet Zafirah the climatologist in the weather station. She is very creative and can be critical about other people’s ideas. What about you?"
 				}, 
 				{
-					"Id": "554865a3-d3fe-4abd-9828-a0b8ad14c97c",
+					"Id": "d475a747-3c12-4722-8b78-82493d0b9919",
 					"CurrentState": "Personality3",
-					"NextState": "Personality4",
+					"NextState": "Re_Personality3",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "You will also meet Zafirah the climatologist in the weather station. She is very creative and can be critical about other people’s ideas. "
+					"Utterance": "In the village you will meet Lyina the hunter. She is enthusiastic and somewhat disorganized. What about you?"
 				}, 
 				{
-					"Id": "6213efcd-b7cb-477e-af60-6b73f123fe24",
+					"Id": "e659b743-2064-4c84-b79f-05fe29fa59c7",
 					"CurrentState": "Personality4",
 					"NextState": "Re_Personality4",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "Would you say you are open to new ideas and experiences or prefer things to stay the same?"
+					"Utterance": "When you get to the counting station you’ll find Pedro. He is a quiet person and dependable and self-disciplined in his job. What about you?"
 				}, 
 				{
-					"Id": "26dd8c16-a6fd-4c4b-a91b-848183bc36aa",
+					"Id": "ac5c9363-27c4-4b05-bcb9-30c031fbf109",
 					"CurrentState": "Personality5",
-					"NextState": "Personality6",
+					"NextState": "Re_Personality5",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "In the village you will meet Lyina the hunter. She is enthusiastic and somewhat disorganized. "
-				}, 
-				{
-					"Id": "0e22ac87-62d6-48e4-b460-9bc092eff6d5",
-					"CurrentState": "Personality6",
-					"NextState": "Re_Personality6",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Do you tend to be dependable and self-disciplined or disorganized and careless?"
-				}, 
-				{
-					"Id": "233c3f31-7f5a-4a40-86a7-61b7d4fdee74",
-					"CurrentState": "Personality7",
-					"NextState": "Personality8",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "When you get to the counting station you’ll find Pedro. He is a quiet person and dependable and self-disciplined in his job. "
-				}, 
-				{
-					"Id": "bcdffec3-9b61-4aaa-b1fd-18f1fce3b27b",
-					"CurrentState": "Personality8",
-					"NextState": "Re_Personality8",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Would you say you are quiet and reserved, or extraverted and enthusiastic?"
-				}, 
-				{
-					"Id": "87a6bfb9-0d31-4de6-9b6a-b39fa2270bec",
-					"CurrentState": "Personality9",
-					"NextState": "Personality10",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable."
+					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable. What about you?"
 				}, 
 				{
 					"Id": "dc318063-8e99-4015-ae04-586dd4d9bdc8",
