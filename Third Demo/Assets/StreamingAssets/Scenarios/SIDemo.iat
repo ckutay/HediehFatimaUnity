@@ -41,7 +41,7 @@
 					"Id": "7b87c81b-fc5e-4cd0-87df-5a429621535f",
 					"CurrentState": "Re_Personality10",
 					"NextState": "Question1",
-					"Meaning": "Personalitytest",
+					"Meaning": "PersonalityTest",
 					"Style": "Formal",
 					"Utterance": "Warm and caring"
 				}, 
@@ -49,7 +49,7 @@
 					"Id": "89ed8519-2d6d-4294-93a8-eec6a5e5edaa",
 					"CurrentState": "Re_Personality2",
 					"NextState": "Personality3",
-					"Meaning": "PerssonalityTest",
+					"Meaning": "PersonalityTest",
 					"Style": "Formal",
 					"Utterance": "Easily upset"
 				}, 
@@ -57,7 +57,7 @@
 					"Id": "8adfef4b-d836-4ecd-a04d-7f5cb4550d47",
 					"CurrentState": "Re_Personality2",
 					"NextState": "Personality3",
-					"Meaning": "PrsonalityTest",
+					"Meaning": "PersonalityTest",
 					"Style": "Formal",
 					"Utterance": "Calm"
 				}, 
@@ -114,7 +114,7 @@
 					"CurrentState": "Re_Question1",
 					"NextState": "Answer_no",
 					"Meaning": "Question",
-					"Style": "Forrmal",
+					"Style": "Formal",
 					"Utterance": "No not really."
 				}, 
 				{
@@ -170,7 +170,7 @@
 					"Id": "bbbb7f0e-ff46-4b19-a06d-efa2572d2bea",
 					"CurrentState": "Intro_continue2",
 					"NextState": "Personality1",
-					"Meaning": "ntroduction",
+					"Meaning": “Introduction",
 					"Style": "GoodMood",
 					"Utterance": "Your job is to collect the data from the other researchers who are working on the island as well as to talk to some of the Omosans living in the local village."
 				}, 
