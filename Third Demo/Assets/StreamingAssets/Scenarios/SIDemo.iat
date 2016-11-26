@@ -14,8 +14,8 @@
 				}],
 			"PlayerDialogues": [
 				{
-					"Id": "bc6e824f-8fc8-4e1e-a97f-9217c2e2e504",
-					"CurrentState": "End",
+					"Id": "538d176b-68f7-45b8-b976-d1349959c3f5",
+					"CurrentState": "EndDialog",
 					"NextState": "Close",
 					"Meaning": "Close",
 					"Style": "Formal",
@@ -38,7 +38,7 @@
 					"Utterance": "Yes I am actually."
 				}, 
 				{
-					"Id": "0580034d-521c-4200-aff0-61a88647c933",
+					"Id": "bf2594fd-49d8-497b-8a5d-fff23aa982fb",
 					"CurrentState": "Re_Personality1",
 					"NextState": "Personality2",
 					"Meaning": "PersonalityTest",
@@ -46,11 +46,11 @@
 					"Utterance": "Easily upset"
 				}, 
 				{
-					"Id": "a6f3ebab-9e3c-4644-b8ac-1e115cf696d1",
+					"Id": "928d0786-45cd-4e20-97b6-11d937ce4292",
 					"CurrentState": "Re_Personality1",
 					"NextState": "Personality2",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Calm"
 				}, 
 				{
@@ -62,11 +62,11 @@
 					"Utterance": "Prefer things to stay the same and not so creative"
 				}, 
 				{
-					"Id": "1c476891-bf4c-47b8-9ae4-a3ea9f520fcd",
+					"Id": "bd17c902-3866-4ffe-9390-03930b707c86",
 					"CurrentState": "Re_Personality2",
 					"NextState": "Personality3",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Creative and open to new experiences"
 				}, 
 				{
@@ -78,11 +78,11 @@
 					"Utterance": "Dependable and Self-disciplined"
 				}, 
 				{
-					"Id": "0aa0f684-ff6a-4fb2-a5bc-60dda7674a90",
+					"Id": "d3d763f8-8f5e-4616-8c66-d95de6335232",
 					"CurrentState": "Re_Personality3",
 					"NextState": "Personality4",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Disorganized and Careless"
 				}, 
 				{
@@ -94,11 +94,11 @@
 					"Utterance": "Quiet and Reserved"
 				}, 
 				{
-					"Id": "696c9378-c581-4f56-bb21-2975d3d3fc6d",
+					"Id": "c45ece73-c9e1-4809-a4a8-379d40d6e25d",
 					"CurrentState": "Re_Personality4",
 					"NextState": "Personality5",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Extraverted and Enthusiastic"
 				}, 
 				{
@@ -110,11 +110,11 @@
 					"Utterance": "Critical and quarrelsome"
 				}, 
 				{
-					"Id": "19f9a4c4-553b-4e3b-be13-b883be9faaed",
+					"Id": "d013c14c-c377-47cd-bef9-b4997a41f9db",
 					"CurrentState": "Re_Personality5",
 					"NextState": "Question1",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Warm and caring"
 				}, 
 				{
@@ -126,11 +126,11 @@
 					"Utterance": "No not really."
 				}, 
 				{
-					"Id": "a68a01da-c83d-439d-983e-54ed26950e03",
+					"Id": "addccbed-2758-4e33-bfe6-58dbcd369d94",
 					"CurrentState": "Re_Question1",
 					"NextState": "Answer_yes",
 					"Meaning": "Question",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Yeah they sound interesting."
 				}, 
 				{
@@ -199,9 +199,9 @@
 					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "9b3bce19-6d9c-4d74-991c-687fccc83b3d",
+					"Id": "358b9d19-9da4-4f44-8464-c0d387075813",
 					"CurrentState": "Last",
-					"NextState": "End",
+					"NextState": "EndDialog",
 					"Meaning": "End",
 					"Style": "GoodMood",
 					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your theory of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"

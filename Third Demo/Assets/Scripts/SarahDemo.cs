@@ -13,6 +13,8 @@ public class SarahDemo : MonoBehaviour
 {
     string groupName;
     int questionNumber = 0;
+    string userReply;
+
     public enum DemoName
     {
         EmotionalAppraisal,
@@ -144,7 +146,7 @@ private CharacterDefinition m_character01;
 
                 b.GetComponentInChildren<Text>().text = d.Utterance;
 
-                b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
+               // b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
 
                 //This doesn't change the color of the text to yellow?!
                 b.GetComponentInChildren<Text>().color = Color.yellow;
@@ -173,26 +175,42 @@ private CharacterDefinition m_character01;
 
 		var reply = _iat.GetDialogueActions(IntegratedAuthoringToolAsset.PLAYER, state).FirstOrDefault(a => String.Equals(a.Style, type, StringComparison.CurrentCultureIgnoreCase));
 
-        //reply.utterance needs to be saved
+        if (reply.Utterance == "FINISH")
+        {
+            Debug.LogWarning(reply.Utterance);
+            Application.Quit();
 
-		var actionFormat = string.Format("Speak({0},{1},{2},{3})",reply.CurrentState,reply.NextState,reply.Meaning,reply.Style);
+        }
+
+        var actionFormat = string.Format("Speak({0},{1},{2},{3})",reply.CurrentState,reply.NextState,reply.Meaning,reply.Style);
 
         //recording Group Name
         groupName = GameObject.Find("InputField").GetComponent<InputField>().text;
-        PlayerPrefs.SetString("group", groupName);
-        
-    //        WWWForm form = new WWWForm();
+        userReply = reply.Utterance;
 
-   //        form.AddField("username", PlayerPrefs.GetString("group"));
-  //      form.AddField("username", groupName);
-        Debug.LogWarning(groupName);
-        Debug.LogWarning(reply.Utterance);
-        Debug.LogWarning(questionNumber); 
+
+        StartCoroutine(SaveToDB());
+
+        //      Debug.LogWarning(groupName);
+        //     Debug.LogWarning(userReply);
+        //     Debug.LogWarning(questionNumber); 
 
         StartCoroutine(PlayerReplyAction(actionFormat,reply.NextState));
 	}
 
-	private IEnumerator PlayerReplyAction(string replyActionName, string nextState)
+    IEnumerator SaveToDB()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("username", groupName);
+        form.AddField("question", questionNumber);
+        form.AddField("answer", userReply);
+        WWW w = new WWW("comp.mq.edu.au/vworlds/save_sarah_data.php", form);
+        yield return w;
+    }
+
+
+
+    private IEnumerator PlayerReplyAction(string replyActionName, string nextState)
 	{
         const float WAIT_TIME = 0.5f;
 		_agentController.AddEvent(string.Format("Event(Action-Start,Player,{0},Client)", replyActionName));
