@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -257,8 +257,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
-      propertyPath: _facialExpressions.Array.data[14]._blends.Array.size
+      propertyPath: _facialExpressions.Array.data[0]._blends.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._blends.Array.size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000011673965438, guid: a0687e47166be428e95f55a108a6663f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -540,7 +550,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[14]._blends.Array.data[3].BlendShapeId
-      value: 31
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -550,7 +560,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[14]._blends.Array.data[4].BlendShapeId
-      value: 31
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -815,6 +825,71 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[14]._blends.Array.data[30].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[0].BlendShapeId
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_BlendShapeWeights.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_BlendShapeWeights.Array.data[35]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_BlendShapeWeights.Array.data[48]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_BlendShapeWeights.Array.data[49]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[1].BlendShapeId
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[1].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[2].BlendShapeId
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[2].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[1].BlendShapeId
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[1].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[2].BlendShapeId
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[2].Weight
       value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
