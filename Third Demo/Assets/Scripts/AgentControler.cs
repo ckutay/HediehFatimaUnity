@@ -107,10 +107,13 @@ namespace Assets.Scripts
 					continue;
 
 				string actionKey = actionRpc.ActionName.ToString();
-				Debug.Log("Action Key: " + actionKey);
+				//Debug.Log("Action Key: " + actionKey);
 
 				switch (actionKey)
 				{
+					case "Start":
+
+					break;
 					case "Speak":
 						m_activeController.StartCoroutine(HandleSpeak(actionRpc));
                         break;
