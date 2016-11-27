@@ -89,50 +89,15 @@
 					"Id": "fdcb1e28-9b80-4bdc-939e-f7750b614728",
 					"CurrentState": "Re_Personality4",
 					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
+
+{
+					"Id": "5c222c7c-c046-4fa4-a519-d872450945cb",
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": "Greeting",
 					"Style": "Formal",
-					"Utterance": "Quiet and Reserved"
-				}, 
-				{
-					"Id": "c45ece73-c9e1-4809-a4a8-379d40d6e25d",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Extraverted and Enthusiastic"
-				}, 
-				{
-					"Id": "9201d45d-6ad5-4227-8a3a-037a0276a801",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Critical and quarrelsome"
-				}, 
-				{
-					"Id": "d013c14c-c377-47cd-bef9-b4997a41f9db",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Warm and caring"
-				}, 
-				{
-					"Id": "60104bee-6d96-4098-b604-1fbe017559cd",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_no",
-					"Meaning": "Question",
-					"Style": "Formal",
-					"Utterance": "No not really."
-				}, 
-				{
-					"Id": "addccbed-2758-4e33-bfe6-58dbcd369d94",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_yes",
-					"Meaning": "Question",
-					"Style": "Informal",
-					"Utterance": "Yeah they sound interesting."
-				}, 
+					"Utterance": "START"
+				}
 				{
 					"Id": "5c222c7c-c046-4fa4-a519-d872450945cb",
 					"CurrentState": "Start",
