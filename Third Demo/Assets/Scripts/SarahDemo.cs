@@ -146,10 +146,10 @@ private CharacterDefinition m_character01;
 
                 b.GetComponentInChildren<Text>().text = d.Utterance;
 
-               // b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
+  //              b.GetComponentInChildren<Text>().resizeTextMaxSize = 26;
 
                 //This doesn't change the color of the text to yellow?!
-                b.GetComponentInChildren<Text>().color = Color.yellow;
+//                b.GetComponentInChildren<Text>().color = Color.yellow;
 
                 var style = d.Style;
 				b.onClick.AddListener((() => Reply(style)));
@@ -161,39 +161,47 @@ private CharacterDefinition m_character01;
     
 	public void Reply(string type)
 	{
-        //make group number textbox invisible
-        questionNumber = questionNumber + 1;
-        if (questionNumber == 1)
-        {
-            GameObject.Find("InputField").transform.localScale = new Vector3(0, 0, 0);
-            GameObject.Find("Text").transform.localScale = new Vector3(0, 0, 0);
-        }
+        //recording Group Name
+        groupName = GameObject.Find("InputField").GetComponent<InputField>().text;
 
         var state = _iat.GetCurrentDialogueState("Client");
 		if (state == IntegratedAuthoringToolAsset.TERMINAL_DIALOGUE_STATE)
 			return;
 
 		var reply = _iat.GetDialogueActions(IntegratedAuthoringToolAsset.PLAYER, state).FirstOrDefault(a => String.Equals(a.Style, type, StringComparison.CurrentCultureIgnoreCase));
+        userReply = reply.Utterance;
+
+        //make group number textbox invisible & make sure group number entered
+        questionNumber = questionNumber + 1;
+
+        if (questionNumber == 1)
+        {
+            if (groupName == "")
+            {
+                questionNumber = questionNumber - 1;
+                return;
+            }
+
+            else
+            {
+                GameObject.Find("InputField").transform.localScale = new Vector3(0, 0, 0);
+                GameObject.Find("Text").transform.localScale = new Vector3(0, 0, 0);
+            }
+        }
 
         if (reply.Utterance == "FINISH")
         {
-            Debug.LogWarning(reply.Utterance);
             Application.Quit();
 
         }
 
         var actionFormat = string.Format("Speak({0},{1},{2},{3})",reply.CurrentState,reply.NextState,reply.Meaning,reply.Style);
-
-        //recording Group Name
-        groupName = GameObject.Find("InputField").GetComponent<InputField>().text;
-        userReply = reply.Utterance;
-
-
+        
         StartCoroutine(SaveToDB());
 
-        //      Debug.LogWarning(groupName);
-        //     Debug.LogWarning(userReply);
-        //     Debug.LogWarning(questionNumber); 
+//             Debug.LogWarning(groupName);
+//             Debug.LogWarning(userReply);
+//             Debug.LogWarning(questionNumber); 
 
         StartCoroutine(PlayerReplyAction(actionFormat,reply.NextState));
 	}

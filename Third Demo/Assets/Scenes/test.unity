@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -258,12 +258,12 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -272,8 +272,53 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
-      propertyPath: _facialExpressions.Array.data[14]._blends.Array.size
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.size
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[4]._blends.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[14]._blends.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[13]._blends.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[12]._blends.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4000011673965438, guid: a0687e47166be428e95f55a108a6663f, type: 2}
       propertyPath: m_LocalPosition.x
@@ -350,7 +395,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[0].BlendShapeId
-      value: 14
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -380,47 +425,47 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[1].Weight
-      value: 54.2
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[1].BlendShapeId
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
-        type: 2}
-      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[1].Weight
-      value: 56.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
-        type: 2}
-      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].BlendShapeId
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
-        type: 2}
-      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].Weight
-      value: 79
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
-        type: 2}
-      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[3].BlendShapeId
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[1].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].BlendShapeId
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[2].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[3].BlendShapeId
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
       propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[3].Weight
-      value: 80.6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[1]._blends.Array.data[0].Weight
-      value: 55.8
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[3]._blends.Array.data[0].Weight
-      value: 52.5
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 137000011658004944, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -460,7 +505,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[0].Weight
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -500,7 +545,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[0].BlendShapeId
-      value: 17
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -530,7 +575,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[12]._blends.Array.data[0].BlendShapeId
-      value: 16
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -835,7 +880,7 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[0].BlendShapeId
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -860,12 +905,12 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[1].BlendShapeId
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[1].Weight
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -875,27 +920,27 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[2].Weight
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[1].BlendShapeId
-      value: 41
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[1].Weight
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[2].BlendShapeId
-      value: 42
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[2].Weight
-      value: 100
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 137000012748107318, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -910,12 +955,12 @@ Prefab:
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[0].BlendShapeId
-      value: 41
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
       propertyPath: _facialExpressions.Array.data[0]._blends.Array.data[0].Weight
-      value: 48
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
         type: 2}
@@ -931,6 +976,266 @@ Prefab:
         type: 2}
       propertyPath: _facialExpressions.Array.data[5]._blends.Array.data[0].Weight
       value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[13]._blends.Array.data[1].BlendShapeId
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[13]._blends.Array.data[1].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[13]._blends.Array.data[0].BlendShapeId
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[13]._blends.Array.data[0].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[12]._blends.Array.data[1].BlendShapeId
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[12]._blends.Array.data[1].Weight
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[1].BlendShapeId
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[1].Weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[2].BlendShapeId
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[2].Weight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[11]._blends.Array.data[0].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[1].BlendShapeId
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[1].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[2].BlendShapeId
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[2].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[3].BlendShapeId
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[3].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[0].BlendShapeId
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[10]._blends.Array.data[0].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[1].BlendShapeId
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[1].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[2].BlendShapeId
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[2].Weight
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[9]._blends.Array.data[0].BlendShapeId
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[1].BlendShapeId
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[1].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[2].BlendShapeId
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[2].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[3].BlendShapeId
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[3].Weight
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[4].BlendShapeId
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[4].Weight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[8]._blends.Array.data[0].BlendShapeId
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[1].BlendShapeId
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[2].BlendShapeId
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[0].BlendShapeId
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[0].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[1].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[7]._blends.Array.data[2].Weight
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[1].BlendShapeId
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[1].Weight
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[2].BlendShapeId
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[2].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[0].BlendShapeId
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[6]._blends.Array.data[0].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[4]._blends.Array.data[1].BlendShapeId
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[4]._blends.Array.data[1].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[4]._blends.Array.data[0].BlendShapeId
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[4]._blends.Array.data[0].Weight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[3].BlendShapeId
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[3].Weight
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010056369090, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[0].Weight
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0687e47166be428e95f55a108a6663f, type: 2}
