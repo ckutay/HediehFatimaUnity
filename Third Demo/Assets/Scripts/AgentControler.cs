@@ -148,7 +148,8 @@ namespace Assets.Scripts
 			{
 				var id = dialog.Id.ToString("N");
 				var p = "TTS-Dialogs/" + id + "/speech";
-				var clip = Resources.Load<AudioClip>(p);
+
+				var clip = Resources.Load<AudioClip>(p) ;
 				var data = Resources.Load<TextAsset>(p);
 
 				m_dialogController.AddDialogLine(dialog.Utterance);

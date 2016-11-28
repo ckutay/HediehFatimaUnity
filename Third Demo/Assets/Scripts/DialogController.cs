@@ -45,7 +45,11 @@ namespace Assets.Scripts
 
 		public void AddDialogLine(string line, Name evt = null)
 		{
-            GameObject.Find("MenuZone").GetComponent<Image>().enabled = false;
+			try{
+				GameObject.Find("MenuZone").GetComponent<Image>().enabled = false;
+			}catch{
+
+			}
             //small hack to draw the text background in the agent dialogue
             GameObject.Find("TextBackground1").GetComponent<Image>().enabled = true;
             //    GameObject.Find("TextBackground2").GetComponent<Image>().enabled = true;
