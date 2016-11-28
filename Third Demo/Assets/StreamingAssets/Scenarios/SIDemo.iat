@@ -46,11 +46,11 @@
 					"Utterance": "Easily upset"
 				}, 
 				{
-					"Id": "a6f3ebab-9e3c-4644-b8ac-1e115cf696d1",
+					"Id": "07f2411f-6cd3-417d-be05-a77302304587",
 					"CurrentState": "Re_Personality1",
 					"NextState": "Personality2",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Calm"
 				}, 
 				{
@@ -62,11 +62,11 @@
 					"Utterance": "Prefer things to stay the same and not so creative"
 				}, 
 				{
-					"Id": "1c476891-bf4c-47b8-9ae4-a3ea9f520fcd",
+					"Id": "8e42571d-5c9d-41d9-9771-88952b7239ed",
 					"CurrentState": "Re_Personality2",
 					"NextState": "Personality3",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Creative and open to new experiences"
 				}, 
 				{
@@ -78,11 +78,11 @@
 					"Utterance": "Dependable and Self-disciplined"
 				}, 
 				{
-					"Id": "0aa0f684-ff6a-4fb2-a5bc-60dda7674a90",
+					"Id": "1ea74820-3c01-4091-b95d-37d5adb12eac",
 					"CurrentState": "Re_Personality3",
 					"NextState": "Personality4",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Disorganized and Careless"
 				}, 
 				{
@@ -94,11 +94,11 @@
 					"Utterance": "Quiet and Reserved"
 				}, 
 				{
-					"Id": "696c9378-c581-4f56-bb21-2975d3d3fc6d",
+					"Id": "d624af7a-dfcc-4bfa-98c4-b4d9658803be",
 					"CurrentState": "Re_Personality4",
 					"NextState": "Personality5",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Extraverted and Enthusiastic"
 				}, 
 				{
@@ -110,11 +110,11 @@
 					"Utterance": "Critical and quarrelsome"
 				}, 
 				{
-					"Id": "19f9a4c4-553b-4e3b-be13-b883be9faaed",
+					"Id": "cd66f70e-589f-40c2-820b-958cb07e817b",
 					"CurrentState": "Re_Personality5",
 					"NextState": "Question1",
 					"Meaning": "PersonalityTest",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Warm and caring"
 				}, 
 				{
@@ -134,11 +134,11 @@
 					"Utterance": "No not really."
 				}, 
 				{
-					"Id": "a68a01da-c83d-439d-983e-54ed26950e03",
+					"Id": "c87815f3-6fa1-4401-b9da-506826e5e0c5",
 					"CurrentState": "Re_Question1",
 					"NextState": "Answer_yes",
 					"Meaning": "Question",
-					"Style": "Formal",
+					"Style": "Informal",
 					"Utterance": "Yeah they sound interesting."
 				}, 
 				{
