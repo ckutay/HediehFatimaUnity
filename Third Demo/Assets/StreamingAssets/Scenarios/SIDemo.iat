@@ -118,6 +118,14 @@
 					"Utterance": "Warm and caring"
 				}, 
 				{
+					"Id": "34201053-c4d5-4e7a-9543-e4390fc2300a",
+					"CurrentState": "Re_Pre_Greeting",
+					"NextState": "Greeting",
+					"Meaning": "Greeting",
+					"Style": "Formal",
+					"Utterance": "BEGIN"
+				}, 
+				{
 					"Id": "60104bee-6d96-4098-b604-1fbe017559cd",
 					"CurrentState": "Re_Question1",
 					"NextState": "Answer_no",
@@ -134,9 +142,9 @@
 					"Utterance": "Yeah they sound interesting."
 				}, 
 				{
-					"Id": "5c222c7c-c046-4fa4-a519-d872450945cb",
+					"Id": "b25f93db-7281-4a06-b7e6-c5a5b656fc60",
 					"CurrentState": "Start",
-					"NextState": "Greeting",
+					"NextState": "Pre_Greeting",
 					"Meaning": "Greeting",
 					"Style": "Formal",
 					"Utterance": "START"
@@ -159,12 +167,12 @@
 					"Utterance": "That’s great because they can’t wait to meet you!"
 				}, 
 				{
-					"Id": "aa9b7982-bb79-4c7e-b378-6ffd8aeabb1c",
+					"Id": "25eeb0d8-a06c-4750-b70f-6c82ef77aa5c",
 					"CurrentState": "Greeting",
 					"NextState": "Re_Greeting",
 					"Meaning": "Greeting",
 					"Style": "GoodMood",
-					"Utterance": "Hello, I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
+					"Utterance": "I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
 				}, 
 				{
 					"Id": "5c2678ff-5116-41fb-9c07-bb51f112f314",
@@ -245,6 +253,14 @@
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
 					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable. What about you?"
+				}, 
+				{
+					"Id": "d07ef0df-a841-4ba5-9dd4-d4cd43aecd0e",
+					"CurrentState": "Pre_greeting",
+					"NextState": "Re_Pre_Greeting",
+					"Meaning": "Greeting",
+					"Style": "GoodMood",
+					"Utterance": "Hello, before we get started, please enter your group number in the textbox and then press BEGIN."
 				}, 
 				{
 					"Id": "dc318063-8e99-4015-ae04-586dd4d9bdc8",
