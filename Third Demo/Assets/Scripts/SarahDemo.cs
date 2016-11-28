@@ -168,7 +168,7 @@ public class SarahDemo : MonoBehaviour
 	public void Reply (string type)
 	{
 		//recording Group Name
-		groupName = GameObject.Find ("GroupNumber").GetComponent<InputField> ().text;
+		groupName = GameObject.Find ("InputField").GetComponent<InputField> ().text;
 
 		var state = _iat.GetCurrentDialogueState ("Client");
 		if (state == IntegratedAuthoringToolAsset.TERMINAL_DIALOGUE_STATE)
@@ -185,7 +185,7 @@ public class SarahDemo : MonoBehaviour
 				return;
 			} else {
 
-				GameObject.Find ("GroupNumber").transform.localScale = new Vector3 (0, 0, 0);
+				GameObject.Find ("inputField").transform.localScale = new Vector3 (0, 0, 0);
 				GameObject.Find ("Text").transform.localScale = new Vector3 (0, 0, 0);
 			}
 		}

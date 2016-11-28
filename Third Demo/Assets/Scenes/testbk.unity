@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.5750856, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1237,6 +1237,16 @@ Prefab:
       propertyPath: _facialExpressions.Array.data[2]._blends.Array.data[0].Weight
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012739747126, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_agentProblemReminderRepeatTime
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 82000012049439634, guid: a0687e47166be428e95f55a108a6663f,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f5ecedfa285c37e4f9da6b6ad09a283f, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a0687e47166be428e95f55a108a6663f, type: 2}
   m_IsPrefabParent: 0
@@ -2505,7 +2515,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RPC Dialogue Zone Layout 2
+  m_Text: 
 --- !u!222 &1121962791
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3737,7 +3747,7 @@ GameObject:
   - 114: {fileID: 1682350892}
   - 114: {fileID: 1682350891}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: GroupNumber
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3751,7 +3761,7 @@ RectTransform:
   m_GameObject: {fileID: 1682350889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
-  m_LocalScale: {x: 1.1108687, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 599838973}
@@ -3760,7 +3770,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 205, y: -111}
+  m_AnchoredPosition: {x: 205, y: -180}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682350891
@@ -3785,7 +3795,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.99264705, g: 0.99994594, b: 0.99994594, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3937,7 +3947,7 @@ RectTransform:
   m_GameObject: {fileID: 1822002242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.62003577, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 526702378}
@@ -3945,10 +3955,10 @@ RectTransform:
   - {fileID: 2018577974}
   m_Father: {fileID: 2102376606}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0.7}
+  m_AnchorMin: {x: 10, y: 0.7}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 204, y: -352}
-  m_SizeDelta: {x: -200, y: -100}
+  m_AnchoredPosition: {x: -3768.5, y: -460}
+  m_SizeDelta: {x: 7537, y: -90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1822002244
 MonoBehaviour:
@@ -4265,8 +4275,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015873092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2638472, y: 1.2873056, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 269724514}
