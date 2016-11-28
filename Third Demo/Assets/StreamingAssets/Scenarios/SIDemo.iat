@@ -14,8 +14,8 @@
 				}],
 			"PlayerDialogues": [
 				{
-					"Id": "bc6e824f-8fc8-4e1e-a97f-9217c2e2e504",
-					"CurrentState": "End",
+					"Id": "af6dd7f8-24b2-4865-98ce-aa4164243ecb",
+					"CurrentState": "EndSarah",
 					"NextState": "Close",
 					"Meaning": "Close",
 					"Style": "Formal",
@@ -207,9 +207,9 @@
 					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "9b3bce19-6d9c-4d74-991c-687fccc83b3d",
+					"Id": "26df411f-c015-41ed-a076-abf0b756dcff",
 					"CurrentState": "Last",
-					"NextState": "End",
+					"NextState": "EndSarah",
 					"Meaning": "End",
 					"Style": "GoodMood",
 					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your theory of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"
