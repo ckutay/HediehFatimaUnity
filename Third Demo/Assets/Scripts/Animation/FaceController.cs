@@ -37,8 +37,7 @@ namespace Assets.Scripts
 					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);
 				//fudge to smile
 				mesh.SetBlendShapeWeight(41, 40);
-				mesh.SetBlendShapeWeight(42,40);
-				
+				mesh.SetBlendShapeWeight(42,40);				
 			}
 		}
 

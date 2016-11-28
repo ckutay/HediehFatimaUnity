@@ -139,12 +139,8 @@ private CharacterDefinition m_character01;
 				if (d.Utterance=="START")Reply(d.Style);
             GameObject.Find("MenuZone").GetComponent<Image>().enabled = true;
 
-           
-
 			foreach (var d in dialogOptions)
 			{
-				
-
 				var b = Instantiate(m_dialogButtonArchetype);
 				var t = b.transform;
 				t.SetParent(m_dialogButtonZone,false);
@@ -154,10 +150,12 @@ private CharacterDefinition m_character01;
 
                 b.GetComponentInChildren<Text>().text = d.Utterance;
 
-               // b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
+                b.GetComponentInChildren<Text>().verticalOverflow = VerticalWrapMode.Overflow;
+
+                 b.GetComponentInChildren<Text>().resizeTextMaxSize = 16;
 
                 //This doesn't change the color of the text to yellow?!
-                b.GetComponentInChildren<Text>().color = Color.yellow;
+                //b.GetComponentInChildren<Text>().color = Color.yellow;
 
                 var style = d.Style;
 
