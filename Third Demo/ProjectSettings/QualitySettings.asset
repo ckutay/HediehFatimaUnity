@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 3
+  m_CurrentQuality: 0
   m_QualitySettings:
   - serializedVersion: 2
     name: Fastest
@@ -167,7 +167,4 @@ QualitySettings:
     asyncUploadBufferSize: 4
     excludedTargetPlatforms:
     - WebGL
-  m_PerPlatformDefaultQuality:
-    Standalone: 0
-    Web: 0
-    WebGL: 1
+  m_PerPlatformDefaultQuality: {}

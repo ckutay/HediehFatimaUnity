@@ -147,7 +147,7 @@ public class SarahDemo : MonoBehaviour
 
 					b.GetComponentInChildren<Text> ().verticalOverflow = VerticalWrapMode.Overflow;
 
-					b.GetComponentInChildren<Text> ().resizeTextMaxSize = 14;
+					b.GetComponentInChildren<Text> ().resizeTextMaxSize = 12;
 
 					//This doesn't change the color of the text to yellow?!
 					//b.GetComponentInChildren<Text>().color = Color.yellow;
@@ -185,7 +185,7 @@ public class SarahDemo : MonoBehaviour
 				return;
 			} else {
 
-				GameObject.Find ("inputField").transform.localScale = new Vector3 (0, 0, 0);
+				GameObject.Find ("InputField").transform.localScale = new Vector3 (0, 0, 0);
 				GameObject.Find ("Text").transform.localScale = new Vector3 (0, 0, 0);
 			}
 		}
@@ -209,7 +209,7 @@ public class SarahDemo : MonoBehaviour
 		form.AddField ("username", groupName);
 		form.AddField ("question", questionNumber);
 		form.AddField ("answer", userReply);
-		WWW w = new WWW ("comp.mq.edu.au/vworlds/save_sarah_data.php", form);
+		WWW w = new WWW ("10.1.2.3/save_sarah_data.php", form);
 		yield return w;
 	}
 

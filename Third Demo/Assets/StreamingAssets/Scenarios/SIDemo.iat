@@ -207,12 +207,12 @@
 					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "26df411f-c015-41ed-a076-abf0b756dcff",
+					"Id": "80bb3a7e-cbca-434c-bb7c-4ee6da7cd896",
 					"CurrentState": "Last",
 					"NextState": "EndSarah",
 					"Meaning": "End",
 					"Style": "GoodMood",
-					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your theory of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"
+					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your conclusions of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"
 				}, 
 				{
 					"Id": "79168eac-7759-4e8b-85f6-eb135c6543e7",
