@@ -191,7 +191,7 @@ public class SarahDemo : MonoBehaviour
 		}
 
 
-		if (reply.Utterance == "FINISH") {
+		if (reply.Utterance == "BYE") {
 			Application.Quit ();
 		}
 
@@ -209,8 +209,11 @@ public class SarahDemo : MonoBehaviour
 		form.AddField ("username", groupName);
 		form.AddField ("question", questionNumber);
 		form.AddField ("answer", userReply);
-		WWW w = new WWW ("10.1.2.3/save_sarah_data.php", form);
-		yield return w;
+        form.AddField("day", 1);
+        WWW w = new WWW ("comp.mq.edu.au/vworlds/save_sarah_data.php", form);
+
+        //        WWW w = new WWW ("10.1.2.3/save_sarah_data.php", form);
+        yield return w;
 	}
 
 

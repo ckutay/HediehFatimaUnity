@@ -14,12 +14,12 @@
 				}],
 			"PlayerDialogues": [
 				{
-					"Id": "af6dd7f8-24b2-4865-98ce-aa4164243ecb",
+					"Id": "f01348b1-f038-4cb3-b1eb-88b65cc0cdb9",
 					"CurrentState": "EndSarah",
 					"NextState": "Close",
 					"Meaning": "Close",
 					"Style": "Formal",
-					"Utterance": "FINISH"
+					"Utterance": "BYE"
 				}, 
 				{
 					"Id": "026e745f-e0c5-48af-b006-a62709ae4d74",
@@ -36,6 +36,14 @@
 					"Meaning": "Greeting",
 					"Style": "Informal",
 					"Utterance": "Yes I am actually."
+				}, 
+				{
+					"Id": "bb19d565-a3e3-4777-9454-3474be5ae8c4",
+					"CurrentState": "Re_Guide2",
+					"NextState": "Guide3",
+					"Meaning": "Guidance",
+					"Style": "Formal",
+					"Utterance": "Yeah, make notes and use “?” and island map at top left in Omosa to help me navigate. "
 				}, 
 				{
 					"Id": "0580034d-521c-4200-aff0-61a88647c933",
@@ -151,17 +159,17 @@
 				}],
 			"AgentDialogues": [
 				{
-					"Id": "70c58954-f0a7-4c14-b5b1-aaffb59ae785",
+					"Id": "5e011343-03ca-4ba6-ac43-80f6df8483b4",
 					"CurrentState": "Answer_no",
-					"NextState": "Last",
+					"NextState": "Guide1",
 					"Meaning": "Answer",
 					"Style": "GoodMood",
 					"Utterance": "No problem, it can be a bit overwhelming when you first arrive!"
 				}, 
 				{
-					"Id": "0b6c3f29-2082-4e26-8482-c9d5cd59b649",
+					"Id": "e43a7fdc-0e69-41b3-9be7-db522cdb456a",
 					"CurrentState": "Answer_yes",
-					"NextState": "Last",
+					"NextState": "Guide1",
 					"Meaning": "Answer",
 					"Style": "GoodMood",
 					"Utterance": "That’s great because they can’t wait to meet you!"
@@ -175,20 +183,52 @@
 					"Utterance": "I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
 				}, 
 				{
-					"Id": "5c2678ff-5116-41fb-9c07-bb51f112f314",
+					"Id": "5af127ef-aada-4e50-b906-83ebccf612f2",
+					"CurrentState": "Guide1",
+					"NextState": "Guide2",
+					"Meaning": "Guidance",
+					"Style": "GoodMood",
+					"Utterance": "If you want help with how to move around Omosa take the question mark (\"?\") button on the top left, and click the island map to move quickly around the island. I'm sure you can work it out. "
+				}, 
+				{
+					"Id": "66a1d53a-ded1-4194-b475-587d19fb4ec0",
+					"CurrentState": "Guide2",
+					"NextState": "Re_Guide2",
+					"Meaning": "Guidance",
+					"Style": "GoodMood",
+					"Utterance": "Remember to take notes as you talk to people so that later you can make some conclusions of what is causing these ecological changes. Did you get that?"
+				}, 
+				{
+					"Id": "1531e9f1-3786-4de8-ac5c-68ffd03d6f1b",
+					"CurrentState": "Guide3",
+					"NextState": "Last",
+					"Meaning": "Guidance",
+					"Style": "GoodMood",
+					"Utterance": "You are a fast learner!"
+				}, 
+				{
+					"Id": "9bb13768-6cd6-450f-968b-5e52898c76a6",
 					"CurrentState": "Intro_continue1",
 					"NextState": "Intro_continue2",
 					"Meaning": "Introduction",
 					"Style": "GoodMood",
-					"Utterance": "The Indigenous people on Omosa have started to report that the animals they hunt have started to die out and a few other worrying changes to the ecosystem. It's our job to sort this stuff out and help where we can."
+					"Utterance": "The people of Omosa are worried that they can no longer find enough food to eat because the staple animal food source—the Yernt—is becoming harder to find. It's our job to sort this stuff out and help where we can."
 				}, 
 				{
-					"Id": "bbbb7f0e-ff46-4b19-a06d-efa2572d2bea",
+					"Id": "af6e2b10-4fc9-43b7-ba45-0734f04c9c8f",
 					"CurrentState": "Intro_continue2",
+					"NextState": "Intro_continue3",
+					"Meaning": "Introduction",
+					"Style": "GoodMood",
+					"Utterance": "You will be working with the research team as we are trying to understand the problem and test our ideas about how to find a solution."
+				}, 
+				{
+					"Id": "dc4dec2c-eabe-4326-8ad1-a85a3a06a209",
+					"CurrentState": "Intro_continue3",
 					"NextState": "Personality1",
 					"Meaning": "Introduction",
 					"Style": "GoodMood",
-					"Utterance": "Your job is to collect the data from the other researchers who are working on the island as well as to talk to some of the Omosans living in the local village."
+					"Utterance": "Today you will be collecting information from the rest of the team and also talking to the Omosans who have a rich knowledge about their lands."
 				}, 
 				{
 					"Id": "99d202c0-1d8b-4557-9d1a-f74818ed5da1",
@@ -207,12 +247,12 @@
 					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
 				}, 
 				{
-					"Id": "80bb3a7e-cbca-434c-bb7c-4ee6da7cd896",
+					"Id": "9e38bb80-f274-4cfa-bf6f-83c4cbf8ebc2",
 					"CurrentState": "Last",
 					"NextState": "EndSarah",
 					"Meaning": "End",
 					"Style": "GoodMood",
-					"Utterance": "After you’ve gathered as much data as you can, I want you to prepare a presentation on your conclusions of what is causing these ecological changes. Remember to take notes as you talk to people, and good luck!"
+					"Utterance": "After we finish this call, your next task is to open the files “Student Workbook” and “Omosa” on your desktop and login with the group id on your card. Have fun and see you later. Bye!"
 				}, 
 				{
 					"Id": "79168eac-7759-4e8b-85f6-eb135c6543e7",
@@ -223,12 +263,12 @@
 					"Utterance": "You are going to meet Charlie the ecologist in the research lab. He gets upset easily but he’s always willing to try something new at work. What about you?"
 				}, 
 				{
-					"Id": "87051d9c-5cfb-41cd-ad0a-fd4e8e7c0a7f",
+					"Id": "51d71ee8-bcea-43a5-9c4c-98f0281d0c66",
 					"CurrentState": "Personality2",
 					"NextState": "Re_Personality2",
 					"Meaning": "PersonalityTest",
 					"Style": "GoodMood",
-					"Utterance": "You will also meet Zafirah the climatologist in the weather station. She is very creative and can be critical about other people’s ideas. What about you?"
+					"Utterance": "You will also meet Zafirah who uses computer simulations to make predictions about how changes in the weather and other events might impact on the island ecology. She is very creative though sometimes critical about other people’s ideas. What about you?"
 				}, 
 				{
 					"Id": "d475a747-3c12-4722-8b78-82493d0b9919",
@@ -255,8 +295,8 @@
 					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable. What about you?"
 				}, 
 				{
-					"Id": "d07ef0df-a841-4ba5-9dd4-d4cd43aecd0e",
-					"CurrentState": "Pre_greeting",
+					"Id": "47f4f399-7348-41ae-aff6-73c21eb29d8a",
+					"CurrentState": "Pre_Greeting",
 					"NextState": "Re_Pre_Greeting",
 					"Meaning": "Greeting",
 					"Style": "GoodMood",
