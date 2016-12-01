@@ -210,9 +210,9 @@ public class SarahDemo : MonoBehaviour
 		form.AddField ("question", questionNumber);
 		form.AddField ("answer", userReply);
         form.AddField("day", 1);
-        WWW w = new WWW ("comp.mq.edu.au/vworlds/save_sarah_data.php", form);
+    //    WWW w = new WWW ("comp.mq.edu.au/vworlds/save_sarah_data.php", form);
 
-        //        WWW w = new WWW ("10.1.2.3/save_sarah_data.php", form);
+          WWW w = new WWW ("10.1.2.3/save_sarah_data.php", form);
         yield return w;
 	}
 
