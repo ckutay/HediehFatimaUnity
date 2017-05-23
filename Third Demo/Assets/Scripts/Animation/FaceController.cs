@@ -33,11 +33,13 @@ namespace Assets.Scripts
 
 			public void SetBlends(SkinnedMeshRenderer mesh, float amount)
 			{
-				foreach (var b in _blends)
-					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);
+				/*foreach (var b in _blends)
+					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);*/
+					
+					
 				//fudge to smile
-				mesh.SetBlendShapeWeight(41, 40);
-				mesh.SetBlendShapeWeight(42,40);				
+				/*mesh.SetBlendShapeWeight(41, 40);
+				mesh.SetBlendShapeWeight(42,40);	*/			
 			}
 		}
 
