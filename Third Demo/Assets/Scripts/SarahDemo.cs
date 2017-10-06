@@ -157,7 +157,7 @@ public class SarahDemo : MonoBehaviour
 					b.onClick.AddListener ((() => Reply (style)));
 					m_buttonList.Add (b);
 				
-					GameObject.Find ("MenuZone").GetComponent<Image> ().enabled = true;
+				//	GameObject.Find ("MenuZone").GetComponent<Image> ().enabled = true;
 				}
 			}
 
@@ -168,7 +168,7 @@ public class SarahDemo : MonoBehaviour
 	public void Reply (string type)
 	{
 		//recording Group Name
-		groupName = GameObject.Find ("InputField").GetComponent<InputField> ().text;
+	//	groupName = GameObject.Find ("InputField").GetComponent<InputField> ().text;
 
 		var state = _iat.GetCurrentDialogueState ("Client");
 		if (state == IntegratedAuthoringToolAsset.TERMINAL_DIALOGUE_STATE)
@@ -185,7 +185,7 @@ public class SarahDemo : MonoBehaviour
 				return;
 			} else {
 
-				GameObject.Find ("InputField").transform.localScale = new Vector3 (0, 0, 0);
+//				GameObject.Find ("InputField").transform.localScale = new Vector3 (0, 0, 0);
 				GameObject.Find ("Text").transform.localScale = new Vector3 (0, 0, 0);
 			}
 		}

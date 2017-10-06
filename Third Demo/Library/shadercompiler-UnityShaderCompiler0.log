@@ -1,2 +1,45 @@
-Base path: /Applications/Unity 5.4/Unity.app/Contents
-Cmd: getPlatforms
+Base path: /Applications/Unity/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: preprocess
+  error: 1 plat 20 at (116): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  insize=6170 outsize=2307 ok=1
+Cmd: compileSnippet
+  error: 2 plat 15 at (64): undeclared identifier 'TreeVertLeaf'\nCompiling Vertex program with DIRECTIONAL
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA
+  api=15 type=0 insize=2185 outsize=0 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=0
+Cmd: preprocess
+  insize=796 outsize=796 ok=1
+Cmd: preprocess
+  insize=1730 outsize=987 ok=1
+Cmd: preprocess
+  error: 2 plat 20 at (21): Surface shader vertex function 'TreeVertLeaf' not found
+  insize=1413 outsize=928 ok=0
+Cmd: preprocess
+  insize=2488 outsize=2488 ok=1
+Cmd: preprocess
+  insize=1629 outsize=3059 ok=1
+Cmd: preprocess
+  insize=1254 outsize=1254 ok=1
+Cmd: preprocess
+  insize=924 outsize=1401 ok=1
+Cmd: preprocess
+  insize=2437 outsize=2437 ok=1
+Cmd: preprocess
+  insize=8896 outsize=2326 ok=1
+Cmd: preprocess
+  error: 1 plat 20 at (58): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
+  insize=2020 outsize=827 ok=1
+Cmd: preprocess
+  insize=1794 outsize=1045 ok=1
+Cmd: preprocess
+  insize=1394 outsize=1394 ok=1
+Cmd: preprocess
+  insize=1964 outsize=645 ok=1
+Cmd: preprocess
+  insize=959 outsize=1633 ok=1
+Cmd: preprocess
+  insize=3825 outsize=1601 ok=1
+Cmd: preprocess
+  insize=4221 outsize=1721 ok=1
+Cmd: preprocess
+  insize=3134 outsize=1386 ok=1

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 #warning Upgrade NOTE: unity_Scale shader variable was removed; replaced 'unity_Scale.w' with '1.0'
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
@@ -106,7 +108,7 @@ v2f_aniOnly vert_onlyAnimation(appdata_full v)
 	v2f_aniOnly o;
 					
 	v.vertex.xyz += vertexOffsetObjectSpace(v);		
-	o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);				
+	o.vertex = UnityObjectToClipPos(v.vertex);				
 
 	return o;
 }
@@ -121,7 +123,7 @@ v2f_noProjPos vert_noScreen(appdata_full v)
 										
 	v.vertex.xyz += vertexOffsetObjectSpace(v);
 					
-	o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);		
+	o.vertex = UnityObjectToClipPos(v.vertex);		
 						
 	o.viewDirWorld = -WorldSpaceViewDir(v.vertex);
 					
@@ -143,7 +145,7 @@ v2f vert_full (appdata_full v)
 					
 	v.vertex.xyz += vertexOffsetObjectSpace(v);
 					
-	o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);		
+	o.vertex = UnityObjectToClipPos(v.vertex);		
 	o.projPos = ComputeScreenPos(o.vertex);
 					
 	o.viewDirWorld = -WorldSpaceViewDir(v.vertex);
