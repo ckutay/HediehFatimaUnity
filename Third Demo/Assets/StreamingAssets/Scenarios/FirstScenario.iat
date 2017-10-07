@@ -1,0 +1,31 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Adaptive Virtual Agent",
+			"Description": "",
+			"CharacterSources": ["Sarah.rpc"],
+			"PlayerDialogues": [
+				{
+					"CurrentState": "Start",
+					"NextState": "Greeting",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "START"
+				}],
+			"AgentDialogues": [
+				{
+					"CurrentState": "Greeting",
+					"NextState": "Re_Greeting",
+					"Meaning": ["Greeting"],
+					"Style": ["GoodMood"],
+					"Utterance": "Hey there, what's up? How are your classes going?",
+					"UtteranceId": "TTS-DB6DFDB526D507F0FA7010AA81ECAC9D"
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

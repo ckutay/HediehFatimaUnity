@@ -8,46 +8,49 @@ namespace Assets.Scripts.Animation
 {
 	public class LipSyncData : ScriptableObject
 	{
-		public static LipSyncData CreateFromFile(TextAsset xmlFile, AudioClip audioClip)
+		public static LipSyncData CreateFromFile(string xmlString, AudioClip audioClip)
 		{
 			var data = CreateInstance<LipSyncData>();
 
 			List<VisemeData> list = new List<VisemeData>();
-			try
+			if (!string.IsNullOrEmpty(xmlString))
 			{
-				XmlDocument doc = new XmlDocument();
-				doc.LoadXml(xmlFile.text);
-
-				if(doc.DocumentElement.Name != "LipSyncVisemes")
-					throw new Exception("Document root element mismatch");
-
-				var root = doc.DocumentElement;
-				foreach (XmlNode node in root.ChildNodes)
+				try
 				{
-					if(node.Name != "viseme")
-						throw new Exception("Invalid element \""+node.Name+"\"");
+					XmlDocument doc = new XmlDocument();
+					doc.LoadXml(xmlString);
 
-					if(node.ChildNodes.Count >0)
-						throw new Exception("viseme nodes cannot contain children");
+					if (doc.DocumentElement.Name != "LipSyncVisemes")
+						throw new Exception("Document root element mismatch");
 
-					var v = node.Attributes["type"].Value;
-					var t = node.Attributes["time"].Value;
-					var d = node.Attributes["duration"].Value;
+					var root = doc.DocumentElement;
+					foreach (XmlNode node in root.ChildNodes)
+					{
+						if (node.Name != "viseme")
+							throw new Exception("Invalid element \"" + node.Name + "\"");
 
-					var viseme = (Visemes) Enum.Parse(typeof (Visemes), v);
-					var time = float.Parse(t,CultureInfo.InvariantCulture);
-					var duration = float.Parse(d, CultureInfo.InvariantCulture);
+						if (node.ChildNodes.Count > 0)
+							throw new Exception("viseme nodes cannot contain children");
 
-					list.Add(new VisemeData(viseme,time,duration));
+						var v = node.Attributes["type"].Value;
+						var t = node.Attributes["time"].Value;
+						var d = node.Attributes["duration"].Value;
+
+						var viseme = (Visemes)Enum.Parse(typeof(Visemes), v);
+						var time = float.Parse(t, CultureInfo.InvariantCulture);
+						var duration = float.Parse(d, CultureInfo.InvariantCulture);
+
+						list.Add(new VisemeData(viseme, time, duration));
+					}
+
 				}
-
+				catch (Exception e)
+				{
+					Debug.Log("Error when loading XML file: " + e.Message);
+					return null;
+				}
 			}
-			catch (Exception e)
-			{
-				Debug.Log("Error when loading XML file: " + e.Message);
-				return null;
-			}
-
+			
 			data._visemes = list.ToArray();
 			data._audioClip = audioClip;
 
