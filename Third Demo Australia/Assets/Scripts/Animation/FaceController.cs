@@ -33,12 +33,7 @@ namespace Assets.Scripts
 
 			public void SetBlends(SkinnedMeshRenderer mesh, float amount)
 			{
-<<<<<<< HEAD
-				/*foreach (var b in _blends)
-					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);*/
-					
-					
-=======
+
 				foreach (var b in _blends){
 					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);
 					/**if (b.BlendShapeId >20 && amount>1){
@@ -50,7 +45,7 @@ namespace Assets.Scripts
 					}**/
 					//Debug.LogWarning("BlendSet "+b.BlendShapeId);
 				}
->>>>>>> OriginalFAtiMA
+
 				//fudge to smile
 				/*mesh.SetBlendShapeWeight(41, 40);
 				mesh.SetBlendShapeWeight(42,40);	*/			
