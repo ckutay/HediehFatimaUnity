@@ -90,10 +90,10 @@ Material:
       second: 0
     - first:
         name: _GlossMapScale
-      second: 0.304
+      second: 0.63
     - first:
         name: _Glossiness
-      second: 0.144
+      second: 0.21
     - first:
         name: _GlossyReflections
       second: 1

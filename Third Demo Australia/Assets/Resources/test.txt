@@ -1,0 +1,26 @@
+[actors]
+character	test
+player	player
+
+[line]	1
+[next]	2
+[who]	0
+[keys]	play_audio test 1	display_next choice 0
+Oh, how cool! It's a talking spider! Hi, talking spider.
+
+[choice]	2
+[who]	1
+3	Hello.
+-1	Goodbye
+
+[line]	3
+[next]	4
+[who]	0
+[keys]	play_audio test 2	display_next audio 0
+I beg your pardon?! How rude!
+
+[line]	4
+[next]	-1
+[who]	0
+[keys]	play_audio test 3
+Are you getting fresh with me?
