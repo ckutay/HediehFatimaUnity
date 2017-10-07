@@ -117,7 +117,6 @@ namespace Assets.Scripts.Animation
 			// Phonemes are stored out of sequence in the file, for depth sorting in the editor
 			// Sort them by timestamp to make finding the current one faster
 			_cachedVisemes.Sort((p1, p2) => p1.Time.CompareTo(p2.Time));
-			Debug.LogWarning(dataFile.AudioClip);
 			audioPlayer.clip = dataFile.AudioClip;
 
 			_playCoroutine = StartCoroutine(PlayCoroutine());

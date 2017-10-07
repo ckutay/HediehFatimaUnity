@@ -28,16 +28,13 @@ namespace Assets.Scripts
 			private SkinBlend[] _blends;
 
 			public string ExpressionName {
-				get {  return _expressionName; }
+				get { return _expressionName; }
 			}
 
 			public void SetBlends(SkinnedMeshRenderer mesh, float amount)
 			{
 				foreach (var b in _blends)
 					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);
-				//fudge to smile
-				mesh.SetBlendShapeWeight(41, 40);
-				mesh.SetBlendShapeWeight(42,40);				
 			}
 		}
 
@@ -132,7 +129,6 @@ namespace Assets.Scripts
 			private IEnumerator AnimationCoroutine()
 			{
 				float speed = 0;
-
 				while (Mathf.Abs(_targetAmount - _amount)>0.001f)
 				{
 					yield return null;

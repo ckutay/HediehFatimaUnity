@@ -32,17 +32,13 @@ namespace Assets.Scripts
 			_rpc = rpc;
 		    m_iat = iat;
 			m_dialogController = dialogCrt;
-			if (anchor){
-				_body = GameObject.Instantiate(archetype);
+	        _body = GameObject.Instantiate(archetype);
 
 			var t = _body.transform;
 			t.SetParent(anchor, false);
 			t.localPosition = Vector3.zero;
 			t.localRotation = Quaternion.identity;
 			t.localScale = Vector3.one;
-			}else{
-				_body=archetype;
-			}
 
 			m_dialogController.SetCharacterLabel("Client");
 		}
@@ -107,11 +103,10 @@ namespace Assets.Scripts
 					continue;
 
 				string actionKey = actionRpc.ActionName.ToString();
-				//Debug.Log("Action Key: " + actionKey);
+				Debug.Log("Action Key: " + actionKey);
 
 				switch (actionKey)
 				{
-					
 					case "Speak":
 						m_activeController.StartCoroutine(HandleSpeak(actionRpc));
                         break;
@@ -135,9 +130,6 @@ namespace Assets.Scripts
 		{
 			Name nextState = speakAction.Parameters[1];
 			var dialog = m_iat.GetDialogueActions(IntegratedAuthoringToolAsset.AGENT, speakAction.Parameters[0].ToString()).FirstOrDefault(a => string.Equals(a.Meaning, speakAction.Parameters[2].ToString(), StringComparison.CurrentCultureIgnoreCase) && string.Equals(a.Style, speakAction.Parameters[3].ToString(), StringComparison.CurrentCultureIgnoreCase));
-//            var dialog = m_iat.GetDialogueActions(IntegratedAuthoringToolAsset.AGENT, speakAction.Parameters[0].ToString()).FirstOrDefault(a => string.Equals(a.Meaning, speakAction.Parameters[2].ToString(), StringComparison.CurrentCultureIgnoreCase) && string.Equals(a.Style, speakAction.Parameters[3].ToString(), StringComparison.CurrentCultureIgnoreCase));
-
-            //		Debug.LogWarning(IntegratedAuthoringToolAsset.AGENT.ToString()+speakAction.Parameters[0].ToString()+speakAction.Parameters[1].ToString()+speakAction.Parameters[2].ToString()+speakAction.Parameters[3].ToString());
 
 			if (dialog == null)
 			{
@@ -148,8 +140,7 @@ namespace Assets.Scripts
 			{
 				var id = dialog.Id.ToString("N");
 				var p = "TTS-Dialogs/" + id + "/speech";
-
-				var clip = Resources.Load<AudioClip>(p) ;
+				var clip = Resources.Load<AudioClip>(p);
 				var data = Resources.Load<TextAsset>(p);
 
 				m_dialogController.AddDialogLine(dialog.Utterance);
@@ -201,8 +192,8 @@ namespace Assets.Scripts
 			_rpc.PerceptionActionLoop(_events);
 			yield return null;
 			_rpc.ActionFinished(actionRpc);
-//			m_iat.SetDialogueState("Client", "Disconnected");
-//			_body.Hide();
+			m_iat.SetDialogueState("Client", "Disconnected");
+			_body.Hide();
 			yield return new WaitForSeconds(2);
 			m_dialogController.Clear();
 			m_versionMenu.SetActive(true);

@@ -14,301 +14,180 @@
 				}],
 			"PlayerDialogues": [
 				{
-					"Id": "f01348b1-f038-4cb3-b1eb-88b65cc0cdb9",
-					"CurrentState": "EndSarah",
-					"NextState": "Close",
-					"Meaning": "Close",
-					"Style": "Formal",
-					"Utterance": "BYE"
-				}, 
-				{
-					"Id": "026e745f-e0c5-48af-b006-a62709ae4d74",
-					"CurrentState": "Re_Greeting",
-					"NextState": "Intro_no",
-					"Meaning": "Greeting",
-					"Style": "Formal",
-					"Utterance": "You mean it's not a holiday?"
-				}, 
-				{
-					"Id": "b7b93e76-5a0a-49da-9654-b94804fd00bd",
-					"CurrentState": "Re_Greeting",
-					"NextState": "Intro_yes",
-					"Meaning": "Greeting",
-					"Style": "Informal",
-					"Utterance": "Yes I am actually."
-				}, 
-				{
-					"Id": "bb19d565-a3e3-4777-9454-3474be5ae8c4",
-					"CurrentState": "Re_Guide2",
-					"NextState": "Guide3",
-					"Meaning": "Guidance",
-					"Style": "Formal",
-					"Utterance": "Yeah, make notes and use “?” and island map at top left in Omosa to help me navigate. "
-				}, 
-				{
-					"Id": "0580034d-521c-4200-aff0-61a88647c933",
-					"CurrentState": "Re_Personality1",
-					"NextState": "Personality2",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Easily upset"
-				}, 
-				{
-					"Id": "07f2411f-6cd3-417d-be05-a77302304587",
-					"CurrentState": "Re_Personality1",
-					"NextState": "Personality2",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Calm"
-				}, 
-				{
-					"Id": "b974c6e3-9e2d-4f37-889c-b75f65986690",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Prefer things to stay the same and not so creative"
-				}, 
-				{
-					"Id": "8e42571d-5c9d-41d9-9771-88952b7239ed",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Creative and open to new experiences"
-				}, 
-				{
-					"Id": "8036d9d1-e684-4ba6-86b7-7ad9d49743bd",
-					"CurrentState": "Re_Personality3",
-					"NextState": "Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Dependable and Self-disciplined"
-				}, 
-				{
-					"Id": "1ea74820-3c01-4091-b95d-37d5adb12eac",
-					"CurrentState": "Re_Personality3",
-					"NextState": "Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Disorganized and Careless"
-				}, 
-				{
-					"Id": "fdcb1e28-9b80-4bdc-939e-f7750b614728",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Quiet and Reserved"
-				}, 
-				{
-					"Id": "d624af7a-dfcc-4bfa-98c4-b4d9658803be",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Extraverted and Enthusiastic"
-				}, 
-				{
-					"Id": "9201d45d-6ad5-4227-8a3a-037a0276a801",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Critical and quarrelsome"
-				}, 
-				{
-					"Id": "cd66f70e-589f-40c2-820b-958cb07e817b",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Warm and caring"
-				}, 
-				{
-					"Id": "34201053-c4d5-4e7a-9543-e4390fc2300a",
-					"CurrentState": "Re_Pre_Greeting",
-					"NextState": "Greeting",
-					"Meaning": "Greeting",
-					"Style": "Formal",
-					"Utterance": "BEGIN"
-				}, 
-				{
-					"Id": "60104bee-6d96-4098-b604-1fbe017559cd",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_no",
-					"Meaning": "Question",
-					"Style": "Formal",
-					"Utterance": "No not really."
-				}, 
-				{
-					"Id": "c87815f3-6fa1-4401-b9da-506826e5e0c5",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_yes",
-					"Meaning": "Question",
-					"Style": "Informal",
-					"Utterance": "Yeah they sound interesting."
-				}, 
-				{
-					"Id": "b25f93db-7281-4a06-b7e6-c5a5b656fc60",
 					"CurrentState": "Start",
-					"NextState": "Pre_Greeting",
+					"NextState": "AfterPlayerGreeting",
+					"Meaning": "Greeting",
+					"Style": "Informal",
+					"Utterance": "Hello, how may I help you?"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "AfterPlayerGreeting",
 					"Meaning": "Greeting",
 					"Style": "Formal",
-					"Utterance": "START"
+					"Utterance": "Tech Solutions LTD, this is Tom speaking. How are you today?"
+				}, 
+				{
+					"CurrentState": "ProblemSolved",
+					"NextState": "AnythingElse",
+					"Meaning": "AskForFurtherAssistance",
+					"Style": "Informal",
+					"Utterance": "Anything else?"
+				}, 
+				{
+					"CurrentState": "ProblemSolved",
+					"NextState": "AnythingElse",
+					"Meaning": "AskForFurtherAssistance",
+					"Style": "Formal",
+					"Utterance": "We are glad that we could help you solve your problem. Is there anything else we can assist you with?"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "AfterPlayerGreeting",
+					"Meaning": "Greeting",
+					"Style": "Informal",
+					"Utterance": "Yo dude, wassup?"
+				}, 
+				{
+					"CurrentState": "Problem",
+					"NextState": "SolutionProposed",
+					"Meaning": "AskToCheckCapsLock",
+					"Style": "Informal",
+					"Utterance": "Check the caps lock..."
+				}, 
+				{
+					"CurrentState": "Problem",
+					"NextState": "SolutionProposed",
+					"Meaning": "AskToCheckCapsLock",
+					"Style": "Formal",
+					"Utterance": "Could you please check if the caps lock is turned on by accident?"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "AfterPlayerGreeting",
+					"Meaning": "Greeting",
+					"Style": "Formal",
+					"Utterance": "Dear Madam, is there anything I can do to help you?"
 				}],
 			"AgentDialogues": [
 				{
-					"Id": "5e011343-03ca-4ba6-ac43-80f6df8483b4",
-					"CurrentState": "Answer_no",
-					"NextState": "Guide1",
-					"Meaning": "Answer",
-					"Style": "GoodMood",
-					"Utterance": "No problem, it can be a bit overwhelming when you first arrive!"
+					"CurrentState": "-",
+					"NextState": "-",
+					"Meaning": "IsAnybodyThereQuestion",
+					"Style": "-",
+					"Utterance": "Are you still there?"
 				}, 
 				{
-					"Id": "e43a7fdc-0e69-41b3-9be7-db522cdb456a",
-					"CurrentState": "Answer_yes",
-					"NextState": "Guide1",
-					"Meaning": "Answer",
-					"Style": "GoodMood",
-					"Utterance": "That’s great because they can’t wait to meet you!"
+					"CurrentState": "-",
+					"NextState": "End",
+					"Meaning": "GiveUp",
+					"Style": "BadMood",
+					"Utterance": "You are useless! I hope you get fired!!"
 				}, 
 				{
-					"Id": "25eeb0d8-a06c-4750-b70f-6c82ef77aa5c",
-					"CurrentState": "Greeting",
-					"NextState": "Re_Greeting",
+					"CurrentState": "AfterPlayerGreeting",
+					"NextState": "GreetingEnd",
 					"Meaning": "Greeting",
 					"Style": "GoodMood",
-					"Utterance": "I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
+					"Utterance": "Good Day! How are you? I was wondering if you could help me..."
 				}, 
 				{
-					"Id": "5af127ef-aada-4e50-b906-83ebccf612f2",
-					"CurrentState": "Guide1",
-					"NextState": "Guide2",
-					"Meaning": "Guidance",
-					"Style": "GoodMood",
-					"Utterance": "If you want help with how to move around Omosa take the question mark (\"?\") button on the top left, and click the island map to move quickly around the island. I'm sure you can work it out. "
-				}, 
-				{
-					"Id": "66a1d53a-ded1-4194-b475-587d19fb4ec0",
-					"CurrentState": "Guide2",
-					"NextState": "Re_Guide2",
-					"Meaning": "Guidance",
-					"Style": "GoodMood",
-					"Utterance": "Remember to take notes as you talk to people so that later you can make some conclusions of what is causing these ecological changes. Did you get that?"
-				}, 
-				{
-					"Id": "1531e9f1-3786-4de8-ac5c-68ffd03d6f1b",
-					"CurrentState": "Guide3",
-					"NextState": "Last",
-					"Meaning": "Guidance",
-					"Style": "GoodMood",
-					"Utterance": "You are a fast learner!"
-				}, 
-				{
-					"Id": "9bb13768-6cd6-450f-968b-5e52898c76a6",
-					"CurrentState": "Intro_continue1",
-					"NextState": "Intro_continue2",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "The people of Omosa are worried that they can no longer find enough food to eat because the staple animal food source—the Yernt—is becoming harder to find. It's our job to sort this stuff out and help where we can."
-				}, 
-				{
-					"Id": "af6e2b10-4fc9-43b7-ba45-0734f04c9c8f",
-					"CurrentState": "Intro_continue2",
-					"NextState": "Intro_continue3",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "You will be working with the research team as we are trying to understand the problem and test our ideas about how to find a solution."
-				}, 
-				{
-					"Id": "dc4dec2c-eabe-4326-8ad1-a85a3a06a209",
-					"CurrentState": "Intro_continue3",
-					"NextState": "Personality1",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "Today you will be collecting information from the rest of the team and also talking to the Omosans who have a rich knowledge about their lands."
-				}, 
-				{
-					"Id": "99d202c0-1d8b-4557-9d1a-f74818ed5da1",
-					"CurrentState": "Intro_no",
-					"NextState": "Intro_continue1",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "Unfortunately not. You're here to help us to uncover the source of an ecological crisis!"
-				}, 
-				{
-					"Id": "78c326e8-a423-4b6b-880b-519aeb542c87",
-					"CurrentState": "Intro_yes",
-					"NextState": "Intro_continue1",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
-				}, 
-				{
-					"Id": "9e38bb80-f274-4cfa-bf6f-83c4cbf8ebc2",
-					"CurrentState": "Last",
-					"NextState": "EndSarah",
-					"Meaning": "End",
-					"Style": "GoodMood",
-					"Utterance": "After we finish this call, your next task is to open the files “Student Workbook” and “Omosa” on your desktop and login with the group id on your card. Have fun and see you later. Bye!"
-				}, 
-				{
-					"Id": "79168eac-7759-4e8b-85f6-eb135c6543e7",
-					"CurrentState": "Personality1",
-					"NextState": "Re_Personality1",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "You are going to meet Charlie the ecologist in the research lab. He gets upset easily but he’s always willing to try something new at work. What about you?"
-				}, 
-				{
-					"Id": "51d71ee8-bcea-43a5-9c4c-98f0281d0c66",
-					"CurrentState": "Personality2",
-					"NextState": "Re_Personality2",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "You will also meet Zafirah who uses computer simulations to make predictions about how changes in the weather and other events might impact on the island ecology. She is very creative though sometimes critical about other people’s ideas. What about you?"
-				}, 
-				{
-					"Id": "d475a747-3c12-4722-8b78-82493d0b9919",
-					"CurrentState": "Personality3",
-					"NextState": "Re_Personality3",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "In the village you will meet Lyina the hunter. She is enthusiastic and somewhat disorganized. What about you?"
-				}, 
-				{
-					"Id": "e659b743-2064-4c84-b79f-05fe29fa59c7",
-					"CurrentState": "Personality4",
-					"NextState": "Re_Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "When you get to the counting station you’ll find Pedro. He is a quiet person and dependable and self-disciplined in his job. What about you?"
-				}, 
-				{
-					"Id": "ac5c9363-27c4-4b05-bcb9-30c031fbf109",
-					"CurrentState": "Personality5",
-					"NextState": "Re_Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable. What about you?"
-				}, 
-				{
-					"Id": "47f4f399-7348-41ae-aff6-73c21eb29d8a",
-					"CurrentState": "Pre_Greeting",
-					"NextState": "Re_Pre_Greeting",
+					"CurrentState": "AfterPlayerGreeting",
+					"NextState": "GreetingEnd",
 					"Meaning": "Greeting",
-					"Style": "GoodMood",
-					"Utterance": "Hello, before we get started, please enter your group number in the textbox and then press BEGIN."
+					"Style": "Friend",
+					"Utterance": "Yo dude! Your friend here needs help."
 				}, 
 				{
-					"Id": "dc318063-8e99-4015-ae04-586dd4d9bdc8",
-					"CurrentState": "Question1",
-					"NextState": "Re_Question1",
-					"Meaning": "Question",
+					"CurrentState": "AnythingElse",
+					"NextState": "End",
+					"Meaning": "Farewell",
+					"Style": "BadMood",
+					"Utterance": "..."
+				}, 
+				{
+					"CurrentState": "-",
+					"NextState": "ProblemSolved",
+					"Meaning": "ProblemIsFixed",
 					"Style": "GoodMood",
-					"Utterance": "Are you looking forward to meeting everyone?"
+					"Utterance": "It worked!! Thank you."
+				}, 
+				{
+					"CurrentState": "-",
+					"NextState": "ProblemSolved",
+					"Meaning": "ProblemIsFixed",
+					"Style": "BadMood",
+					"Utterance": "It seems to be working now."
+				}, 
+				{
+					"CurrentState": "Farewell",
+					"NextState": "End",
+					"Meaning": "Farewell",
+					"Style": "Gratitude",
+					"Utterance": "You were a great help. Thank you very much. More people like you should exist in this world."
+				}, 
+				{
+					"CurrentState": "Farewell",
+					"NextState": "End",
+					"Meaning": "Farewell",
+					"Style": "GoodMood",
+					"Utterance": "Thanks for the help. Have a nice day."
+				}, 
+				{
+					"CurrentState": "AnythingElse",
+					"NextState": "Farewell",
+					"Meaning": "NoAdditionalProblem",
+					"Style": "BadMood",
+					"Utterance": "No, I'm fine."
+				}, 
+				{
+					"CurrentState": "AnythingElse",
+					"NextState": "Farewell",
+					"Meaning": "NoAdditionalProblem",
+					"Style": "GoodMood",
+					"Utterance": "No, that was the only problem I had."
+				}, 
+				{
+					"CurrentState": "Farewell",
+					"NextState": "End",
+					"Meaning": "Farewell",
+					"Style": "BadMood",
+					"Utterance": "You should be more respectful when talking to customers..."
+				}, 
+				{
+					"CurrentState": "SolutionProposed",
+					"NextState": "-",
+					"Meaning": "CheckSolution",
+					"Style": "BadMood",
+					"Utterance": "Let me see."
+				}, 
+				{
+					"CurrentState": "SolutionProposed",
+					"NextState": "-",
+					"Meaning": "CheckSolution",
+					"Style": "GoodMood",
+					"Utterance": "Thank you. Could you wait just a moment?"
+				}, 
+				{
+					"CurrentState": "AfterPlayerGreeting",
+					"NextState": "GreetingEnd",
+					"Meaning": "Greeting",
+					"Style": "BadMood",
+					"Utterance": "I need this fixed quickly!"
+				}, 
+				{
+					"CurrentState": "GreetingEnd",
+					"NextState": "Problem",
+					"Meaning": "ExplainComputerProblem",
+					"Style": "BadMood",
+					"Utterance": "I can't login into my e-mail account, and I am pretty sure I am using the correct password. This is unnacceptable."
+				}, 
+				{
+					"CurrentState": "GreetingEnd",
+					"NextState": "Problem",
+					"Meaning": "ExplainComputerProblem",
+					"Style": "GoodMood",
+					"Utterance": "I am suddenly unable to login in to my e-mail account, and I am pretty sure my password is correct."
 				}]
 		},
 	"types": [
