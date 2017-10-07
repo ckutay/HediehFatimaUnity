@@ -22,229 +22,701 @@
 					"Utterance": "BYE"
 				}, 
 				{
-					"Id": "026e745f-e0c5-48af-b006-a62709ae4d74",
+					"Id": "14a06741-fc3c-43e2-a54c-1b8830402d5e",
+					"CurrentState": "Re_AE10",
+					"NextState": "AE_11",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "I am OK."
+				}, 
+				{
+					"Id": "2a6b8fa3-fddd-4604-b0f0-6c35600a49b6",
+					"CurrentState": "Re_AE10",
+					"NextState": "AE_11",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "I am stressed."
+				}, 
+				{
+					"Id": "d0a4fc8d-bf60-49d0-8099-267c2ad644c1",
+					"CurrentState": "Re_AE12",
+					"NextState": "AE_13",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "55e53606-71d8-4881-91b2-f2ed8d8c5a29",
+					"CurrentState": "Re_AE12",
+					"NextState": "AE_13",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "fd54b8ce-230c-40ad-bc5c-eb8109d0278c",
+					"CurrentState": "Re_AE14",
+					"NextState": "AE_15",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "404104ed-870d-4b7a-9d74-641ce3264268",
+					"CurrentState": "Re_AE14",
+					"NextState": "AE_15",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "4118d9b6-625c-4c40-8ab1-395d0d44c9ba",
+					"CurrentState": "Re_AE15",
+					"NextState": "AE_16",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "9b12f0f8-fc9e-4eaa-8aac-943b8413daab",
+					"CurrentState": "Re_AE15",
+					"NextState": "AE_16",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "53c00fd4-994e-4080-8ada-abf6145d784b",
+					"CurrentState": "Re_AE4",
+					"NextState": "AE_5",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "3668ad95-c027-43e7-982e-2fc5d77c13c4",
+					"CurrentState": "Re_AE4",
+					"NextState": "AE_5",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "d44e850a-1499-40cc-83d7-18a7f91a1219",
+					"CurrentState": "Re_AE7",
+					"NextState": "AE_8",
+					"Meaning": "AE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "810949a0-1254-4a72-a9db-9fd800128050",
+					"CurrentState": "Re_AE7",
+					"NextState": "AE_8",
+					"Meaning": "AE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "77d21dbb-0ac7-457a-856e-9f4492243003",
+					"CurrentState": "Re_BE10",
+					"NextState": "BE_11",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Good"
+				}, 
+				{
+					"Id": "bc3cb60c-f186-48d3-aeda-b03ec3d72d38",
+					"CurrentState": "Re_BE10",
+					"NextState": "BE_11",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Not bad"
+				}, 
+				{
+					"Id": "b94985c6-4177-464b-a1e2-99f859211b51",
+					"CurrentState": "Re_BE11",
+					"NextState": "BE_12",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "6ada7313-6673-4998-9bfe-d1129b84e609",
+					"CurrentState": "Re_BE11",
+					"NextState": "BE_12",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "07298953-1745-4f1c-b143-3233f20f0bdc",
+					"CurrentState": "Re_BE12",
+					"NextState": "BE_13",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "f932d375-aaa4-4b66-be8e-9c6d6348cac4",
+					"CurrentState": "Re_BE12",
+					"NextState": "BE_13",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "b0c2f372-42fd-4748-8e66-6572127545cb",
+					"CurrentState": "Re_BE14",
+					"NextState": "BE_15",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "db7ab6aa-15ec-46c9-a875-aa9396cb07c8",
+					"CurrentState": "Re_BE14",
+					"NextState": "BE_15",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "c5411cfb-c2ab-4af4-9632-7fd1ff827aa9",
+					"CurrentState": "Re_BE15",
+					"NextState": "BE_16",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "fc6a4544-a2df-4d48-b6b5-250da8f368ba",
+					"CurrentState": "Re_BE15",
+					"NextState": "BE_16",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "4d06dcdb-d927-4466-8310-c8388b77c775",
+					"CurrentState": "Re_BE19",
+					"NextState": "BE_20",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Not helpful"
+				}, 
+				{
+					"Id": "ba43aee8-c278-4bf6-aba3-cd03bdf1670e",
+					"CurrentState": "Re_BE19",
+					"NextState": "BE_20",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Helpful"
+				}, 
+				{
+					"Id": "92f3163a-a126-4e8c-8322-5a5eaf3c9757",
+					"CurrentState": "Re_BE2",
+					"NextState": "BE_3",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "931c13da-4068-4c09-a0ff-c74d520201e0",
+					"CurrentState": "Re_BE2",
+					"NextState": "BE_3",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "6882d173-6e22-43e5-a1cc-53db2d85fedc",
+					"CurrentState": "Re_BE20",
+					"NextState": "AE_1",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Continue"
+				}, 
+				{
+					"Id": "38dda108-816d-4bee-977a-20e9c1cafecf",
+					"CurrentState": "Re_BE4",
+					"NextState": "BE_5",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "be11ec37-0f4e-4a0d-90fd-f084bb47a8ff",
+					"CurrentState": "Re_BE4",
+					"NextState": "BE_5",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "d2c9415a-545d-4528-a8ea-fef877a233ca",
+					"CurrentState": "Re_BE5",
+					"NextState": "BE_6",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Day"
+				}, 
+				{
+					"Id": "0f603e2f-4ba3-48a5-81e9-cb5d8358799b",
+					"CurrentState": "Re_BE5",
+					"NextState": "BE_6",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Night"
+				}, 
+				{
+					"Id": "b7a32763-6c8d-4d88-abdf-d266ae7028e2",
+					"CurrentState": "Re_BE6",
+					"NextState": "BE_7",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "1912d907-0d60-40f2-baa7-301a5b6cacbc",
+					"CurrentState": "Re_BE6",
+					"NextState": "BE_7",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "b40a0156-48c8-43bd-ad08-28ab47693264",
+					"CurrentState": "Re_BE9",
+					"NextState": "BE_10",
+					"Meaning": "BE",
+					"Style": "Formal",
+					"Utterance": "Yes"
+				}, 
+				{
+					"Id": "2015ec47-955b-462f-a5ab-956f4ec402ef",
+					"CurrentState": "Re_BE9",
+					"NextState": "BE_10",
+					"Meaning": "BE",
+					"Style": "Informal",
+					"Utterance": "No"
+				}, 
+				{
+					"Id": "4598ef7f-d55b-4782-8664-06f489b8aac7",
 					"CurrentState": "Re_Greeting",
-					"NextState": "Intro_no",
+					"NextState": "Greeting_no",
 					"Meaning": "Greeting",
 					"Style": "Formal",
-					"Utterance": "You mean it's not a holiday?"
+					"Utterance": "They're not good. I just can't seem to get anything done."
 				}, 
 				{
-					"Id": "b7b93e76-5a0a-49da-9654-b94804fd00bd",
+					"Id": "56e1d1df-74a6-477b-b3db-8a0f25a3725b",
 					"CurrentState": "Re_Greeting",
-					"NextState": "Intro_yes",
+					"NextState": "Greeting_yes",
 					"Meaning": "Greeting",
 					"Style": "Informal",
-					"Utterance": "Yes I am actually."
+					"Utterance": "They're good. I’m going okay."
 				}, 
 				{
-					"Id": "bb19d565-a3e3-4777-9454-3474be5ae8c4",
-					"CurrentState": "Re_Guide2",
-					"NextState": "Guide3",
-					"Meaning": "Guidance",
+					"Id": "e2645d35-43dc-4a0d-911a-f8bc42625eee",
+					"CurrentState": "Re_Intro1",
+					"NextState": "Intro_2",
+					"Meaning": "Intro",
 					"Style": "Formal",
-					"Utterance": "Yeah, make notes and use “?” and island map at top left in Omosa to help me navigate. "
+					"Utterance": "I am not stressed."
 				}, 
 				{
-					"Id": "0580034d-521c-4200-aff0-61a88647c933",
-					"CurrentState": "Re_Personality1",
-					"NextState": "Personality2",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Easily upset"
-				}, 
-				{
-					"Id": "07f2411f-6cd3-417d-be05-a77302304587",
-					"CurrentState": "Re_Personality1",
-					"NextState": "Personality2",
-					"Meaning": "PersonalityTest",
+					"Id": "5f8dd637-3355-4e11-b4dd-1fea6a43d2c7",
+					"CurrentState": "Re_Intro1",
+					"NextState": "Intro_2",
+					"Meaning": "Intro",
 					"Style": "Informal",
-					"Utterance": "Calm"
+					"Utterance": "I am stressed."
 				}, 
 				{
-					"Id": "b974c6e3-9e2d-4f37-889c-b75f65986690",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PersonalityTest",
+					"Id": "da9f5dcc-eae5-41dd-985f-bfed6db377cb",
+					"CurrentState": "Re_Intro3",
+					"NextState": "Before_Exam_1",
+					"Meaning": "Intro",
 					"Style": "Formal",
-					"Utterance": "Prefer things to stay the same and not so creative"
+					"Utterance": "Not bad"
 				}, 
 				{
-					"Id": "8e42571d-5c9d-41d9-9771-88952b7239ed",
-					"CurrentState": "Re_Personality2",
-					"NextState": "Personality3",
-					"Meaning": "PersonalityTest",
+					"Id": "75ed94c4-7b58-4a52-aa7b-31216bc4c4a5",
+					"CurrentState": "Re_Intro3",
+					"NextState": "Before_Exam_1",
+					"Meaning": "Intro",
 					"Style": "Informal",
-					"Utterance": "Creative and open to new experiences"
+					"Utterance": "Great"
 				}, 
 				{
-					"Id": "8036d9d1-e684-4ba6-86b7-7ad9d49743bd",
-					"CurrentState": "Re_Personality3",
-					"NextState": "Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Dependable and Self-disciplined"
-				}, 
-				{
-					"Id": "1ea74820-3c01-4091-b95d-37d5adb12eac",
-					"CurrentState": "Re_Personality3",
-					"NextState": "Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Disorganized and Careless"
-				}, 
-				{
-					"Id": "fdcb1e28-9b80-4bdc-939e-f7750b614728",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Quiet and Reserved"
-				}, 
-				{
-					"Id": "d624af7a-dfcc-4bfa-98c4-b4d9658803be",
-					"CurrentState": "Re_Personality4",
-					"NextState": "Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Extraverted and Enthusiastic"
-				}, 
-				{
-					"Id": "9201d45d-6ad5-4227-8a3a-037a0276a801",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Formal",
-					"Utterance": "Critical and quarrelsome"
-				}, 
-				{
-					"Id": "cd66f70e-589f-40c2-820b-958cb07e817b",
-					"CurrentState": "Re_Personality5",
-					"NextState": "Question1",
-					"Meaning": "PersonalityTest",
-					"Style": "Informal",
-					"Utterance": "Warm and caring"
-				}, 
-				{
-					"Id": "34201053-c4d5-4e7a-9543-e4390fc2300a",
-					"CurrentState": "Re_Pre_Greeting",
-					"NextState": "Greeting",
-					"Meaning": "Greeting",
-					"Style": "Formal",
-					"Utterance": "BEGIN"
-				}, 
-				{
-					"Id": "60104bee-6d96-4098-b604-1fbe017559cd",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_no",
-					"Meaning": "Question",
-					"Style": "Formal",
-					"Utterance": "No not really."
-				}, 
-				{
-					"Id": "c87815f3-6fa1-4401-b9da-506826e5e0c5",
-					"CurrentState": "Re_Question1",
-					"NextState": "Answer_yes",
-					"Meaning": "Question",
-					"Style": "Informal",
-					"Utterance": "Yeah they sound interesting."
-				}, 
-				{
-					"Id": "b25f93db-7281-4a06-b7e6-c5a5b656fc60",
+					"Id": "33e5aaed-02e8-4d25-82df-5ed84987cac2",
 					"CurrentState": "Start",
-					"NextState": "Pre_Greeting",
+					"NextState": "Greeting",
 					"Meaning": "Greeting",
 					"Style": "Formal",
 					"Utterance": "START"
 				}],
 			"AgentDialogues": [
 				{
-					"Id": "5e011343-03ca-4ba6-ac43-80f6df8483b4",
-					"CurrentState": "Answer_no",
-					"NextState": "Guide1",
-					"Meaning": "Answer",
+					"Id": "4b9de232-5d94-4de4-a3a1-6022e15f75ae",
+					"CurrentState": "AE_1",
+					"NextState": "AE_2",
+					"Meaning": "BE",
 					"Style": "GoodMood",
-					"Utterance": "No problem, it can be a bit overwhelming when you first arrive!"
+					"Utterance": "Ok, let’s talk about the exam day. First you need to arrive a bit early to the venue. Hanging around before an exam will only build the pressure."
 				}, 
 				{
-					"Id": "e43a7fdc-0e69-41b3-9be7-db522cdb456a",
-					"CurrentState": "Answer_yes",
-					"NextState": "Guide1",
-					"Meaning": "Answer",
+					"Id": "a540adb3-829e-4b50-b054-5085d10109a9",
+					"CurrentState": "AE_10",
+					"NextState": "Re_AE10",
+					"Meaning": "AE",
 					"Style": "GoodMood",
-					"Utterance": "That’s great because they can’t wait to meet you!"
+					"Utterance": "Remind yourself how you can control small things and the rest will come naturally. How are you feeling now?"
 				}, 
 				{
-					"Id": "25eeb0d8-a06c-4750-b70f-6c82ef77aa5c",
+					"Id": "efcc0cc1-d09f-4c5a-95cd-f52b54539da6",
+					"CurrentState": "AE_11",
+					"NextState": "AE_12",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "The fourth tip is to take a break. If you really find yourself struggling in an exam, raise your hand and take a toilet break."
+				}, 
+				{
+					"Id": "35631875-b7ed-424a-a114-05cdba01e0c6",
+					"CurrentState": "AE_12",
+					"NextState": "Re_AE12",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Splash your face with cold water, and sit back down calmly. Slowly read the next question and carry on with the rest of the exam. Are you ready for the last tip?"
+				}, 
+				{
+					"Id": "65f94dea-2d7b-4907-b3e3-765522079725",
+					"CurrentState": "AE_13",
+					"NextState": "AE_14",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Stay positive. The hardest things to overcome are our own negative thoughts, especially around exam time."
+				}, 
+				{
+					"Id": "144314aa-6497-4b04-8d92-4c3163f39fd7",
+					"CurrentState": "AE_14",
+					"NextState": "Re_AE14",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "It’s easy for them to creep into our heads, especially when we are under pressure. Before you know it they’re the only voices we can hear in our heads. Have you ever experienced that?"
+				}, 
+				{
+					"Id": "21ed363f-249b-4ba2-812c-4086655bd524",
+					"CurrentState": "AE_15",
+					"NextState": "Re_AE15",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "We often exaggerate the bad things, and these can quickly turn into irrational fears: \"It’s too hard\", \"I’m going to mess it up”, “I’m a failure” and “I’ll get kicked out of university”. Sound familiar?"
+				}, 
+				{
+					"Id": "a69cea6b-915a-4aeb-9c7d-959966eb4971",
+					"CurrentState": "AE_16",
+					"NextState": "AE_17",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Remember you got where you are because you worked hard and learned well. Exams are just a chance to show how good you are. "
+				}, 
+				{
+					"Id": "fef0ebe8-ff55-44b7-8425-deab7ccf46ff",
+					"CurrentState": "AE_17",
+					"NextState": "AE_18",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Remember you got where you are because you worked hard and learned well. Exams are just a chance to show how good you are. "
+				}, 
+				{
+					"Id": "ab0f42b0-4c54-49bd-acd1-0189dd4b51dc",
+					"CurrentState": "AE_18",
+					"NextState": "AE_19",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "If you find your inner gremlin whispering doubts in your ear, give yourself calm, rational reassurances: “I’ve done plenty of tests before”, “I’ll do my best”, “I’m just anxious: it will pass”."
+				}, 
+				{
+					"Id": "a34df0a6-d922-4db7-bac1-7e6f8ecb9741",
+					"CurrentState": "AE_19",
+					"NextState": "EndSarah",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Anticipation is usually worse than the event. You’ll be fine,  just keep calm and do your best. Good luck!"
+				}, 
+				{
+					"Id": "a341dea3-15bd-46ac-8c0a-9749e069697b",
+					"CurrentState": "AE_2",
+					"NextState": "AE_3",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Stay calm and focused, and keep your distance from others who are stressing out. And don’t forget to bring some water with you to take into the exam with you."
+				}, 
+				{
+					"Id": "3ee2608a-5291-4a06-b829-fb063f111035",
+					"CurrentState": "AE_3",
+					"NextState": "AE_4",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Second tip is to remember that stress is normal."
+				}, 
+				{
+					"Id": "904a4d8c-8c17-4e56-92d3-d073578d6ab5",
+					"CurrentState": "AE_4",
+					"NextState": "Re_AE4",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "You are bound to feel a little overwhelmed during an exam, it is usually an indicator of your motivation to do well! Have you ever thought in that way?"
+				}, 
+				{
+					"Id": "59717869-d5a9-40d1-a26b-afb9acc7e7df",
+					"CurrentState": "AE_5",
+					"NextState": "AE_6",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Acknowledge that stress is part of the process and you will be fine. Take a couple of long deep breaths at the start of the exam."
+				}, 
+				{
+					"Id": "f07e8bc2-e46f-4c9d-91f5-0a9ad8390651",
+					"CurrentState": "AE_6",
+					"NextState": "AE_7",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "Read the paper thoroughly before you start your answers. Make sure you understand what you have to do before you begin."
+				}, 
+				{
+					"Id": "1d472511-1fce-4a8b-a772-ae5b6854c19e",
+					"CurrentState": "AE_7",
+					"NextState": "Re_AE7",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "The third tip for the exam day is to remember you have plenty of time. Have you ever lost your concentration during the exam?"
+				}, 
+				{
+					"Id": "9d827a69-0a99-4a51-8f0b-050855e6eb90",
+					"CurrentState": "AE_8",
+					"NextState": "AE_9",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "If you can’t concentrate or you find your mind wandering, take a couple of minutes to compose yourself. Take a couple of deep breaths, have a drink of water and find your focus again before carrying on."
+				}, 
+				{
+					"Id": "809a780c-b1a0-443a-a8a6-9dcd8dc9f44e",
+					"CurrentState": "AE_9",
+					"NextState": "AE_10",
+					"Meaning": "AE",
+					"Style": "GoodMood",
+					"Utterance": "A good way of regaining composure is to spend some time controlling your muscles. Clench your fist and then concentrate on releasing your tension through your hand."
+				}, 
+				{
+					"Id": "79a23c28-346e-4f3c-9086-2e7471da3d74",
+					"CurrentState": "BE_10",
+					"NextState": "Re_BE10",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "The reward could be a snack, twenty minutes on Facebook or a DVD. When you finish, enjoy your reward, decide what you will do for your next treat and then get back to your studies. How does that sound?"
+				}, 
+				{
+					"Id": "9d0b2276-f992-4472-ac19-4e5bb8dbc962",
+					"CurrentState": "BE_11",
+					"NextState": "Re_BE11",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Fourth tip, you need to look after yourself. Do you look after your health?"
+				}, 
+				{
+					"Id": "08205848-0e15-4b37-9209-b618c2fcb8ee",
+					"CurrentState": "BE_12",
+					"NextState": "Re_BE12",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Eat regularly and try to have a balanced diet with plenty of fruit and vegetables. Avoid burning out by taking regular breaks every couple of hours or so and doing something different. Do you spend time out?"
+				}, 
+				{
+					"Id": "173de7c9-e440-4062-a430-6ca87b159703",
+					"CurrentState": "BE_13",
+					"NextState": "BE_14",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Catch up with friends and family, walk the dog, or just relax for half an hour, but try to keep yourself active by scheduling in some exercise every day."
+				}, 
+				{
+					"Id": "e3479051-8393-4713-8799-1d97e9111514",
+					"CurrentState": "BE_14",
+					"NextState": "Re_BE14",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "A walk around the block does wonders for your concentration. Are you ready for the next tip?"
+				}, 
+				{
+					"Id": "06a4ea78-2a11-4c03-b259-184e7f03882b",
+					"CurrentState": "BE_15",
+					"NextState": "Re_BE15",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Fifth you have to rest. It’s just as important as revision so make sure you get plenty of sleep. Try to go to bed at the same time every night and get into a routine. Do you get enough sleep?"
+				}, 
+				{
+					"Id": "70d714b9-9bde-4292-b6ab-544c721c3f96",
+					"CurrentState": "BE_16",
+					"NextState": "BE_17",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "You could also cut down on caffeine, alcohol and other drugs to help you get a proper night’s sleep. Let’s move on to the last tip for before the exams."
+				}, 
+				{
+					"Id": "fc6b2085-459e-45ea-b656-d82f99b541c8",
+					"CurrentState": "BE_17",
+					"NextState": "BE_18",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Sixth you have to be prepared. If you aren’t sure about something, ask someone. Talk to your friends, lecturers and tutors. Make sure you know what you should be revising and what to expect when you go into the exam. "
+				}, 
+				{
+					"Id": "deff90df-3b91-4b97-aaee-d3e39d52ec91",
+					"CurrentState": "BE_18",
+					"NextState": "BE_19",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "The night before, pack up everything you need for the following day, and double check the start time, date and venue. Once you are ready, get a good night’s rest."
+				}, 
+				{
+					"Id": "29314811-758b-4706-82e6-f20f50e99ff7",
+					"CurrentState": "BE_19",
+					"NextState": "Re_BE19",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "How did you find the tips for before the exams?"
+				}, 
+				{
+					"Id": "b5355691-9915-448f-8081-5a1758cd45e7",
+					"CurrentState": "BE_2",
+					"NextState": "Re_BE2",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "It’s important to get yourself organised. Sit down and make a list of the things you have to do to get ready for your exams. Have ever you done that before?"
+				}, 
+				{
+					"Id": "100ae2d5-7e3a-44db-a459-420136d05b2e",
+					"CurrentState": "BE_20",
+					"NextState": "Re_BE20",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Before we move on to the tips for the exam day, please answer the questionnaire and then press Continue."
+				}, 
+				{
+					"Id": "50295d52-4ad5-4e48-84bd-035f81c85f62",
+					"CurrentState": "BE_3",
+					"NextState": "BE_4",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Once you have your list, decide what needs to be done first. Prioritising your work makes it much easier to manage, but be realistic. Don’t overload yourself from day one, or you’ll always be fighting to catch up."
+				}, 
+				{
+					"Id": "c7a71414-9f92-404c-ade8-34eafde0b4a8",
+					"CurrentState": "BE_4",
+					"NextState": "Re_BE4",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Make a plan you know you can achieve. You’ll feel great when you meet your own goals. Are you ready for the next tip before the exam?"
+				}, 
+				{
+					"Id": "37c27727-6e3a-4ebb-a4dc-eb2b528bf6a6",
+					"CurrentState": "BE_5",
+					"NextState": "Re_BE5",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Second you need to study when you perform best. Some people perform best in the morning and others are more effective at night. When do you perform best?"
+				}, 
+				{
+					"Id": "5121e755-2885-4167-8319-28096b8a41a8",
+					"CurrentState": "BE_6",
+					"NextState": "Re_BE6",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Think about when you get the most out of your studies and plan your time around it and try to avoid too many distractions. Do you often get distracted by your phone?"
+				}, 
+				{
+					"Id": "f50fd1aa-86d4-452f-b8e8-756b6d55b84c",
+					"CurrentState": "BE_7",
+					"NextState": "BE_8",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "It is good to turn your phone off, log out of Facebook and concentrate on revising. It will pay off in the long run. Let’s move on to the next tip."
+				}, 
+				{
+					"Id": "18b7b9df-a6a3-4c6a-bd29-fbf7f5f624db",
+					"CurrentState": "BE_8",
+					"NextState": "BE_9",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Third you need to set yourself goals and rewards. You are working hard so you deserve a treat! "
+				}, 
+				{
+					"Id": "1a10c088-1959-4927-b5dc-a2a56b6dd2b1",
+					"CurrentState": "BE_9",
+					"NextState": "Re_BE9",
+					"Meaning": "BE",
+					"Style": "GoodMood",
+					"Utterance": "Work on one thing at a time and finish it before you move on to the next task. “Before you start anything, decide on a reward for completing it. Do you spend time on FB daily? "
+				}, 
+				{
+					"Id": "12372120-a7c4-4cd1-9873-790fdbfa421f",
+					"CurrentState": "Before_Exam_1",
+					"NextState": "BE_2",
+					"Meaning": "BExam",
+					"Style": "GoodMood",
+					"Utterance": "Before the exam, first you need to make a plan. "
+				}, 
+				{
+					"Id": "5a617dfa-3199-45bb-af9e-b8b508afd90f",
 					"CurrentState": "Greeting",
 					"NextState": "Re_Greeting",
 					"Meaning": "Greeting",
 					"Style": "GoodMood",
-					"Utterance": "I'm Sarah Newton. Welcome to Omosa! Sorry I couldn't welcome you in person. I bet you're wondering why you are there."
+					"Utterance": "Hey there, what's up? How are your classes going?"
 				}, 
 				{
-					"Id": "5af127ef-aada-4e50-b906-83ebccf612f2",
-					"CurrentState": "Guide1",
-					"NextState": "Guide2",
-					"Meaning": "Guidance",
+					"Id": "cd7bafab-282f-482f-b525-e9496ab13ed1",
+					"CurrentState": "Greeting_no",
+					"NextState": "Intro_1",
+					"Meaning": "Greeting",
 					"Style": "GoodMood",
-					"Utterance": "If you want help with how to move around Omosa take the question mark (\"?\") button on the top left, and click the island map to move quickly around the island. I'm sure you can work it out. "
+					"Utterance": "Sounds like you have some stuff happening."
 				}, 
 				{
-					"Id": "66a1d53a-ded1-4194-b475-587d19fb4ec0",
-					"CurrentState": "Guide2",
-					"NextState": "Re_Guide2",
-					"Meaning": "Guidance",
+					"Id": "149bc707-1f92-4919-a1cf-23ea64ee3340",
+					"CurrentState": "Greeting_yes",
+					"NextState": "Intro_1",
+					"Meaning": "Greeting",
 					"Style": "GoodMood",
-					"Utterance": "Remember to take notes as you talk to people so that later you can make some conclusions of what is causing these ecological changes. Did you get that?"
+					"Utterance": "Sounds good."
 				}, 
 				{
-					"Id": "1531e9f1-3786-4de8-ac5c-68ffd03d6f1b",
-					"CurrentState": "Guide3",
-					"NextState": "Last",
-					"Meaning": "Guidance",
-					"Style": "GoodMood",
-					"Utterance": "You are a fast learner!"
-				}, 
-				{
-					"Id": "9bb13768-6cd6-450f-968b-5e52898c76a6",
-					"CurrentState": "Intro_continue1",
-					"NextState": "Intro_continue2",
+					"Id": "e6cbee57-3b34-477d-a0a1-8f10f434eace",
+					"CurrentState": "Intro_1",
+					"NextState": "Re_Intro1",
 					"Meaning": "Introduction",
 					"Style": "GoodMood",
-					"Utterance": "The people of Omosa are worried that they can no longer find enough food to eat because the staple animal food source—the Yernt—is becoming harder to find. It's our job to sort this stuff out and help where we can."
+					"Utterance": "Exams are coming up. It can be a really stressful time of year. How are you feeling about that?"
 				}, 
 				{
-					"Id": "af6e2b10-4fc9-43b7-ba45-0734f04c9c8f",
-					"CurrentState": "Intro_continue2",
-					"NextState": "Intro_continue3",
-					"Meaning": "Introduction",
+					"Id": "13fc7d50-b608-44f5-9f46-60a4f100d4d2",
+					"CurrentState": "Intro_2",
+					"NextState": "Intro_3",
+					"Meaning": "Intro",
 					"Style": "GoodMood",
-					"Utterance": "You will be working with the research team as we are trying to understand the problem and test our ideas about how to find a solution."
+					"Utterance": "There are a few things you can do when you get stressed that will help you manage your stress and do your best in the exams."
 				}, 
 				{
-					"Id": "dc4dec2c-eabe-4326-8ad1-a85a3a06a209",
-					"CurrentState": "Intro_continue3",
-					"NextState": "Personality1",
-					"Meaning": "Introduction",
+					"Id": "1d7343fa-7614-4608-a0c7-50272e2f89f9",
+					"CurrentState": "Intro_3",
+					"NextState": "Re_Intro3",
+					"Meaning": "Intro",
 					"Style": "GoodMood",
-					"Utterance": "Today you will be collecting information from the rest of the team and also talking to the Omosans who have a rich knowledge about their lands."
-				}, 
-				{
-					"Id": "99d202c0-1d8b-4557-9d1a-f74818ed5da1",
-					"CurrentState": "Intro_no",
-					"NextState": "Intro_continue1",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "Unfortunately not. You're here to help us to uncover the source of an ecological crisis!"
-				}, 
-				{
-					"Id": "78c326e8-a423-4b6b-880b-519aeb542c87",
-					"CurrentState": "Intro_yes",
-					"NextState": "Intro_continue1",
-					"Meaning": "Introduction",
-					"Style": "GoodMood",
-					"Utterance": "You're here to help us to uncover the source of an ecological crisis!"
+					"Utterance": "I want to give you some tips for “Before the Exam” and some for “On the Day”. How does that sound?"
 				}, 
 				{
 					"Id": "9e38bb80-f274-4cfa-bf6f-83c4cbf8ebc2",
@@ -253,62 +725,6 @@
 					"Meaning": "End",
 					"Style": "GoodMood",
 					"Utterance": "After we finish this call, your next task is to open the files “Student Workbook” and “Omosa” on your desktop and login with the group id on your card. Have fun and see you later. Bye!"
-				}, 
-				{
-					"Id": "79168eac-7759-4e8b-85f6-eb135c6543e7",
-					"CurrentState": "Personality1",
-					"NextState": "Re_Personality1",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "You are going to meet Charlie the ecologist in the research lab. He gets upset easily but he’s always willing to try something new at work. What about you?"
-				}, 
-				{
-					"Id": "51d71ee8-bcea-43a5-9c4c-98f0281d0c66",
-					"CurrentState": "Personality2",
-					"NextState": "Re_Personality2",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "You will also meet Zafirah who uses computer simulations to make predictions about how changes in the weather and other events might impact on the island ecology. She is very creative though sometimes critical about other people’s ideas. What about you?"
-				}, 
-				{
-					"Id": "d475a747-3c12-4722-8b78-82493d0b9919",
-					"CurrentState": "Personality3",
-					"NextState": "Re_Personality3",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "In the village you will meet Lyina the hunter. She is enthusiastic and somewhat disorganized. What about you?"
-				}, 
-				{
-					"Id": "e659b743-2064-4c84-b79f-05fe29fa59c7",
-					"CurrentState": "Personality4",
-					"NextState": "Re_Personality4",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "When you get to the counting station you’ll find Pedro. He is a quiet person and dependable and self-disciplined in his job. What about you?"
-				}, 
-				{
-					"Id": "ac5c9363-27c4-4b05-bcb9-30c031fbf109",
-					"CurrentState": "Personality5",
-					"NextState": "Re_Personality5",
-					"Meaning": "PersonalityTest",
-					"Style": "GoodMood",
-					"Utterance": "Also at the counting station, you’ll meet Kim. She is warm, caring and emotionally stable. What about you?"
-				}, 
-				{
-					"Id": "47f4f399-7348-41ae-aff6-73c21eb29d8a",
-					"CurrentState": "Pre_Greeting",
-					"NextState": "Re_Pre_Greeting",
-					"Meaning": "Greeting",
-					"Style": "GoodMood",
-					"Utterance": "Hello, before we get started, please enter your group number in the textbox and then press BEGIN."
-				}, 
-				{
-					"Id": "dc318063-8e99-4015-ae04-586dd4d9bdc8",
-					"CurrentState": "Question1",
-					"NextState": "Re_Question1",
-					"Meaning": "Question",
-					"Style": "GoodMood",
-					"Utterance": "Are you looking forward to meeting everyone?"
 				}]
 		},
 	"types": [

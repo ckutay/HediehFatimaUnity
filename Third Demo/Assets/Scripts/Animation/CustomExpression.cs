@@ -15,9 +15,15 @@ public class CustomExpression : MonoBehaviour {
 	{
 		randomEyes = GetComponent<RandomEyes3D>();
 		
+<<<<<<< HEAD
 		Smile(5.0f); //make Sarah smile for 5 seconds
 		
 	}
+=======
+		//Smile(5.0f); //make Sarah smile for 5 seconds
+        randomEyes.SetGroup("Smile", true);
+    }
+>>>>>>> OriginalFAtiMA
 	
 	public void Smile(float duration)
 	{
