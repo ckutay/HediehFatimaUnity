@@ -28,25 +28,13 @@ namespace Assets.Scripts
 			private SkinBlend[] _blends;
 
 			public string ExpressionName {
-				get {  return _expressionName; }
+				get { return _expressionName; }
 			}
 
 			public void SetBlends(SkinnedMeshRenderer mesh, float amount)
 			{
-				foreach (var b in _blends){
+				foreach (var b in _blends)
 					mesh.SetBlendShapeWeight(b.BlendShapeId, b.Weight * amount);
-					/**if (b.BlendShapeId >20 && amount>1){
-						mesh.SetBlendShapeWeight(30, 100);
-						mesh.SetBlendShapeWeight(31, 100);
-						mesh.SetBlendShapeWeight(27, 100);
-						mesh.SetBlendShapeWeight(26, 100);
-
-					}**/
-					//Debug.LogWarning("BlendSet "+b.BlendShapeId);
-				}
-				//fudge to smile
-				/*mesh.SetBlendShapeWeight(41, 40);
-				mesh.SetBlendShapeWeight(42,40);	*/			
 			}
 		}
 
@@ -69,7 +57,6 @@ namespace Assets.Scripts
 		public IExpressionController GetExpressionController(string name)
 		{
 			IExpressionController c;
-            Debug.LogWarning(name);
 			if (_instatiatedControllers.TryGetValue(name, out c))
 				return c;
 
@@ -125,9 +112,7 @@ namespace Assets.Scripts
 					}
 
 					_amount = value;
-
 					_expression.SetBlends(_mesh, _amount);
-
 				}
 			}
 
@@ -144,24 +129,16 @@ namespace Assets.Scripts
 			private IEnumerator AnimationCoroutine()
 			{
 				float speed = 0;
-
 				while (Mathf.Abs(_targetAmount - _amount)>0.001f)
 				{
 					yield return null;
 					_amount = Mathf.SmoothDamp(_amount, _targetAmount, ref speed, _parent._blendSmoothDamping, float.MaxValue, Time.smoothDeltaTime);
 					_expression.SetBlends(_mesh, _amount);
-
-
-						_mesh.SetBlendShapeWeight(30, 50);
-						_mesh.SetBlendShapeWeight(31, 50);
-
 				}
-			
+
 				_amount = _targetAmount;
 				_expression.SetBlends(_mesh, _amount);
 				_transitionHandle = null;
-				//Debug.LogWarning(_amount);
-
 			}
 		}
 	}

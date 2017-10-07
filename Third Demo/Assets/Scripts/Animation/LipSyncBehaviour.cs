@@ -18,8 +18,6 @@ namespace Assets.Scripts.Animation
 		[SerializeField] private string _MBP_expression = "MBP_phoneme";
 		[SerializeField] private string _WQ_expression = "WQ_phoneme";
 
-		[SerializeField] private bool _disableVisemes = false;
-
 		[SerializeField]
 		[Range(0.0001f,float.MaxValue)]
 		private float _phonemeTime = 0.1f;
@@ -58,14 +56,7 @@ namespace Assets.Scripts.Animation
 				var id = VisemeEnumToExpressionId(viseme);
 				if(id==null)
 					continue;
-				try
-				{
-					_expressionCache.Add(viseme, faceController.GetExpressionController(id));
-				}
-				catch (Exception)
-				{
-					Debug.LogWarning("Unable to find expression for viseme \""+id+"\"");
-				}
+				_expressionCache.Add(viseme, faceController.GetExpressionController(id));
 			}
 		}
 
@@ -128,7 +119,7 @@ namespace Assets.Scripts.Animation
 			_cachedVisemes.Sort((p1, p2) => p1.Time.CompareTo(p2.Time));
 			audioPlayer.clip = dataFile.AudioClip;
 
-			_playCoroutine = StartCoroutine(PlayCoroutine(!_disableVisemes));
+			_playCoroutine = StartCoroutine(PlayCoroutine());
 		}
 
 		public void Pause()
@@ -171,49 +162,46 @@ namespace Assets.Scripts.Animation
 			StopCurrentPlay();
 		}
 
-		private IEnumerator PlayCoroutine(bool useVisemes)
+		private IEnumerator PlayCoroutine()
 		{
+			BuildExpressionCache();
+
 			int index = 0;
 			var audio = audioPlayer;
 			float time = 0;
 			audio.loop = false;
 			audio.Play();
-
-			if (useVisemes)
+			while (index < _cachedVisemes.Count)
 			{
-				BuildExpressionCache();
-				while (index < _cachedVisemes.Count)
+				if (_isPaused)
+					yield return new WaitWhile(() => _isPaused);
+
+				var currentViseme = _cachedVisemes[index];
+
+				float startTime = currentViseme.Time;
+				float endTime = currentViseme.Time + currentViseme.Duration;
+				if (time >= startTime)
 				{
-					if (_isPaused)
-						yield return new WaitWhile(() => _isPaused);
-
-					var currentViseme = _cachedVisemes[index];
-
-					float startTime = currentViseme.Time;
-					float endTime = currentViseme.Time + currentViseme.Duration;
-					if (time >= startTime)
+					if (_currentExpression == null)
 					{
-						if (_currentExpression == null)
-						{
-							//Debug.Log(currentViseme.Viseme);
-							_currentExpression = _expressionCache[currentViseme.Viseme];
-						}
+						//Debug.Log(currentViseme.Viseme);
+						_currentExpression = _expressionCache[currentViseme.Viseme];
+					}
 
-						//const float PEAK = 0.25f;
-						//float p = Mathf.Clamp01((audio.time - startTime) / (endTime - startTime));
-						//float blendAmount = p >= PEAK ? 1f- BlendEase((p - PEAK)/ (1f-PEAK)) : BlendEase(p/PEAK);
-						//_currentExpression.Amount = blendAmount;
-						_currentExpression.TargetAmount = 1;
-					}
-					yield return null;
-					time += Time.deltaTime;
-					if (endTime < time)
-					{
-						if (_currentExpression != null)
-							_currentExpression.TargetAmount = 0;
-						_currentExpression = null;
-						index++;
-					}
+					//const float PEAK = 0.25f;
+					//float p = Mathf.Clamp01((audio.time - startTime) / (endTime - startTime));
+					//float blendAmount = p >= PEAK ? 1f- BlendEase((p - PEAK)/ (1f-PEAK)) : BlendEase(p/PEAK);
+					//_currentExpression.Amount = blendAmount;
+					_currentExpression.TargetAmount = 1;
+				}
+				yield return null;
+				time += Time.deltaTime;
+				if (endTime < time)
+				{
+					if (_currentExpression != null)
+						_currentExpression.TargetAmount = 0;
+					_currentExpression = null;
+					index++;
 				}
 			}
 

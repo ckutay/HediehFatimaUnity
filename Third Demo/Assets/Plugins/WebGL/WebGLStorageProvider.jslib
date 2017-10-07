@@ -3,24 +3,16 @@ var Plugin = {
 	{
 		this._counter = 0;
 		this._activeRequests={};
-		this.stringToArrayBuffer = function(str)
+		this.stringToUintArray = function(str)
 			{
+				var utf8 = unescape(encodeURIComponent(str));
 				var uintArray = [];
-				for (var i=0; i<str.length; i++) {
-					var v = str.charCodeAt(i);
-					uintArray.push(v);
-				}
 				
+				for (var i = 0; i < utf8.length; i++) {
+					uintArray.push(utf8.charCodeAt(i));
+				}
 				return new Uint8Array(uintArray);
-			};
-		this.ua2hex = function(ua)
-		{
-			var h = '';
-			for (var i = 0; i < ua.length; i++) {
-				h += ua[i].toString(16);
 			}
-			return h;
-		};
 	},
 	WebGl_Storage_IsInitialized: function()
 	{
@@ -31,7 +23,7 @@ var Plugin = {
 		var url = Pointer_stringify(path);
 		var request = new XMLHttpRequest();
 		request.open("GET",url,false);
-		request.overrideMimeType('text/plain; charset=x-user-defined');
+		request.overrideMimeType('text\/plain; charset=x-user-defined');
 		
 		console.log("Downloading: \""+url+"\"");
 		
@@ -40,15 +32,14 @@ var Plugin = {
 		try
 		{
 			request.send(null);
-			obj.data = this.stringToArrayBuffer(request.responseText);
-			console.log("Finished downloading: \""+url+"\"");
+			obj.data = this.stringToUintArray(request.responseText);
 		}
 		catch(e)
 		{
-			console.log("Error downloading \""+url+"\"");
-			console.log(e);
 			obj.error = e;
-		}		
+		}
+		
+		console.log("Finished downloading: \""+url+"\"");
 		
 		var id = this._counter;
 		this._counter++;

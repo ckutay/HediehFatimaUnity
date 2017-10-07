@@ -20,13 +20,13 @@ public class UnityBodyImplement : MonoBehaviour
 
 	private FaceController.IExpressionController _currentEmotion;
 
-    public Coroutine PlaySpeech(AudioClip clip, string xmlStr)
-    {
-        var data = LipSyncData.CreateFromFile(xmlStr, clip);
-        return StartCoroutine(PlaySpeechCoroutine(data));
-    }
+	public Coroutine PlaySpeech(AudioClip clip, TextAsset asset)
+	{
+		var data = LipSyncData.CreateFromFile(asset, clip);
+		return StartCoroutine(PlaySpeechCoroutine(data));
+	}
 
-    private IEnumerator PlaySpeechCoroutine(LipSyncData data)
+	private IEnumerator PlaySpeechCoroutine(LipSyncData data)
 	{
 		_speechController.Play(data);
 		yield return new WaitWhile(() => _speechController.IsPlaying);
