@@ -1,10 +1,10 @@
 ﻿using AssetPackage;
 using UnityEngine;
-using ILogger = GAIPS.Rage.ILogger;
+//using ILogger = GAIPS.Rage.ILogger;
 
 namespace Assets.Scripts
 {
-	public class AssetManagerBridge : IBridge, ILogger
+	public class AssetManagerBridge : IBridge//, ILogger
 	{
 		public void Log(object msg)
 		{
