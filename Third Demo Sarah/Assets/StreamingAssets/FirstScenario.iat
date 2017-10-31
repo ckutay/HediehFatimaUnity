@@ -1,0 +1,1968 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Adaptive Virtual Agent",
+			"Description": "",
+			"CharacterSources": ["Sarah.rpc"],
+			"PlayerDialogues": [
+				{
+					"CurrentState": "finish",
+					"NextState": "finish",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Bye"
+				}, 
+				{
+					"CurrentState": "re_conv78",
+					"NextState": "conv79",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv78",
+					"NextState": "conv79",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv77",
+					"NextState": "conv78",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv76",
+					"NextState": "conv77",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv76",
+					"NextState": "conv77",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv75",
+					"NextState": "conv76",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv75",
+					"NextState": "conv76",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv73",
+					"NextState": "conv74",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv71",
+					"NextState": "conv72",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv71",
+					"NextState": "conv72",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv69",
+					"NextState": "conv70",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Phone"
+				}, 
+				{
+					"CurrentState": "re_conv69",
+					"NextState": "conv70",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Facebook"
+				}, 
+				{
+					"CurrentState": "re_conv69",
+					"NextState": "conv70",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Youtube"
+				}, 
+				{
+					"CurrentState": "re_conv69",
+					"NextState": "conv70",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Other social media"
+				}, 
+				{
+					"CurrentState": "re_conv69",
+					"NextState": "conv70",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "All"
+				}, 
+				{
+					"CurrentState": "re_conv67",
+					"NextState": "conv68",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Good"
+				}, 
+				{
+					"CurrentState": "re_conv67",
+					"NextState": "conv68",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Dumb"
+				}, 
+				{
+					"CurrentState": "re_conv67",
+					"NextState": "conv68",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not Sure"
+				}, 
+				{
+					"CurrentState": "re_conv66",
+					"NextState": "conv67",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv66",
+					"NextState": "conv67",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv64",
+					"NextState": "conv65",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv64",
+					"NextState": "conv65",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Study in groups"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Breaking down the work"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Avoid cramming"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not procrastinating"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "All of them"
+				}, 
+				{
+					"CurrentState": "re_conv62",
+					"NextState": "conv63",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Other"
+				}, 
+				{
+					"CurrentState": "re_conv61",
+					"NextState": "conv62",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv61",
+					"NextState": "conv62",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv60",
+					"NextState": "conv61",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "8 glasses and more"
+				}, 
+				{
+					"CurrentState": "re_conv60",
+					"NextState": "conv61",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Between 4 to 7 glasses"
+				}, 
+				{
+					"CurrentState": "re_conv60",
+					"NextState": "conv61",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Less than 4 glasses per day"
+				}, 
+				{
+					"CurrentState": "re_conv58",
+					"NextState": "conv59",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv58",
+					"NextState": "conv59",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv57",
+					"NextState": "conv58",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv57",
+					"NextState": "conv58",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not Sure"
+				}, 
+				{
+					"CurrentState": "re_conv57",
+					"NextState": "conv58",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv55",
+					"NextState": "conv56",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes everyday"
+				}, 
+				{
+					"CurrentState": "re_conv55",
+					"NextState": "conv56",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes I try to"
+				}, 
+				{
+					"CurrentState": "re_conv55",
+					"NextState": "conv56",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not usually"
+				}, 
+				{
+					"CurrentState": "re_conv55",
+					"NextState": "conv56",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I don’t care nutrition"
+				}, 
+				{
+					"CurrentState": "re_conv54",
+					"NextState": "conv55",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv54",
+					"NextState": "conv55",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv52",
+					"NextState": "conv53",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv52",
+					"NextState": "conv53",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv51",
+					"NextState": "conv52",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Other"
+				}, 
+				{
+					"CurrentState": "re_conv51",
+					"NextState": "conv52",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "when I am performing/speaking."
+				}, 
+				{
+					"CurrentState": "re_conv51",
+					"NextState": "conv52",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "when I am meeting a group of strangers"
+				}, 
+				{
+					"CurrentState": "re_conv51",
+					"NextState": "conv52",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "when the attention of others is squarely on me"
+				}, 
+				{
+					"CurrentState": "re_conv49_no",
+					"NextState": "conv50",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Continue"
+				}, 
+				{
+					"CurrentState": "re_conv48",
+					"NextState": "conv49_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv48",
+					"NextState": "conv50",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv47_1",
+					"NextState": "conv48",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv47",
+					"NextState": "conv46_3",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv47",
+					"NextState": "conv46_2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv47",
+					"NextState": "conv46_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv46",
+					"NextState": "re_conv47",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv45_no",
+					"NextState": "conv45",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv44",
+					"NextState": "conv45_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yeah I feel better."
+				}, 
+				{
+					"CurrentState": "re_conv44",
+					"NextState": "conv45_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No, I feel worse now."
+				}, 
+				{
+					"CurrentState": "re_conv44",
+					"NextState": "conv45_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I feel about the same."
+				}, 
+				{
+					"CurrentState": "re_conv42",
+					"NextState": "conv43",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "With different interests"
+				}, 
+				{
+					"CurrentState": "re_conv42",
+					"NextState": "conv43",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "With similar interests "
+				}, 
+				{
+					"CurrentState": "re_conv42",
+					"NextState": "conv43",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Both"
+				}, 
+				{
+					"CurrentState": "re_conv40",
+					"NextState": "conv41_No",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Dumb"
+				}, 
+				{
+					"CurrentState": "re_conv40",
+					"NextState": "conv41_good",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Good"
+				}, 
+				{
+					"CurrentState": "re_conv40",
+					"NextState": "conv41_No",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not sure"
+				}, 
+				{
+					"CurrentState": "re_conv39",
+					"NextState": "conv40",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not usually."
+				}, 
+				{
+					"CurrentState": "re_conv39",
+					"NextState": "conv40_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes mostly."
+				}, 
+				{
+					"CurrentState": "re_conv37",
+					"NextState": "conv38_both",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Both"
+				}, 
+				{
+					"CurrentState": "re_conv37",
+					"NextState": "conv38_ind",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Individually"
+				}, 
+				{
+					"CurrentState": "re_conv37",
+					"NextState": "conv38_group",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "In a group"
+				}, 
+				{
+					"CurrentState": "re_conv35",
+					"NextState": "conv36_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv35",
+					"NextState": "conv36_notsay",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Rather not to say"
+				}, 
+				{
+					"CurrentState": "re_conv35",
+					"NextState": "conv36_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes, I try"
+				}, 
+				{
+					"CurrentState": "re_conv34",
+					"NextState": "conv35",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No, I didn't realise."
+				}, 
+				{
+					"CurrentState": "re_conv34",
+					"NextState": "conv35",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes, I know physical excercise is good."
+				}, 
+				{
+					"CurrentState": "re_conv32",
+					"NextState": "conv33_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv32",
+					"NextState": "conv33_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv31",
+					"NextState": "conv32",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Sport"
+				}, 
+				{
+					"CurrentState": "re_conv31",
+					"NextState": "conv32",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Social groups"
+				}, 
+				{
+					"CurrentState": "re_conv31",
+					"NextState": "conv32",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Volunteering"
+				}, 
+				{
+					"CurrentState": "re_conv31",
+					"NextState": "conv32",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Other"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Meetup"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Social Network"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Email"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Skype"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Phone"
+				}, 
+				{
+					"CurrentState": "re_conv30",
+					"NextState": "conv31",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "All"
+				}, 
+				{
+					"CurrentState": "re_conv28",
+					"NextState": "conv29_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv28",
+					"NextState": "conv29_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not much"
+				}, 
+				{
+					"CurrentState": "re_conv28",
+					"NextState": "conv29_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv26",
+					"NextState": "conv27_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No, I don’t have much support"
+				}, 
+				{
+					"CurrentState": "re_conv26",
+					"NextState": "conv27_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes, I have support"
+				}, 
+				{
+					"CurrentState": "re_conv25",
+					"NextState": "conv26",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Sounds good"
+				}, 
+				{
+					"CurrentState": "re_conv25",
+					"NextState": "conv26",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Sounds weird"
+				}, 
+				{
+					"CurrentState": "re_conv23",
+					"NextState": "conv24_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv23",
+					"NextState": "conv24_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv21",
+					"NextState": "conv22_no",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "No"
+				}, 
+				{
+					"CurrentState": "re_conv21",
+					"NextState": "conv22_yes",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes"
+				}, 
+				{
+					"CurrentState": "re_conv18",
+					"NextState": "conv_19_day",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Day"
+				}, 
+				{
+					"CurrentState": "re_conv18",
+					"NextState": "conv_19_night",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Night"
+				}, 
+				{
+					"CurrentState": "re_conv18",
+					"NextState": "conv_19_either",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Either"
+				}, 
+				{
+					"CurrentState": "re_conv15",
+					"NextState": "conv17",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not really."
+				}, 
+				{
+					"CurrentState": "re_conv15",
+					"NextState": "conv16",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yeah, I feel life is pretty balanced."
+				}, 
+				{
+					"CurrentState": "re_conv12",
+					"NextState": "conv13",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I’d like to hear more about it."
+				}, 
+				{
+					"CurrentState": "re_conv12",
+					"NextState": "conv14",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "sounds weird"
+				}, 
+				{
+					"CurrentState": "re_conv12",
+					"NextState": "conv13",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Sounds good"
+				}, 
+				{
+					"CurrentState": "re_conv11",
+					"NextState": "conv11_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Dealing with my study/life stress"
+				}, 
+				{
+					"CurrentState": "re_conv11",
+					"NextState": "conv11_2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Just getting this study with you done"
+				}, 
+				{
+					"CurrentState": "re_conv11",
+					"NextState": "conv11_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Mix of both"
+				}, 
+				{
+					"CurrentState": "re_conv9",
+					"NextState": "conv10_2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I didn't  see stress positively."
+				}, 
+				{
+					"CurrentState": "re_conv9",
+					"NextState": "conv10_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Yes, I think stress can help at times."
+				}, 
+				{
+					"CurrentState": "re_conv7",
+					"NextState": "conv8_2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I am stressed."
+				}, 
+				{
+					"CurrentState": "re_conv7",
+					"NextState": "conv8_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "I am not stressed."
+				}, 
+				{
+					"CurrentState": "re_conv5",
+					"NextState": "conv6_2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "They're good. I’m going okay."
+				}, 
+				{
+					"CurrentState": "re_conv5",
+					"NextState": "conv6_1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "They're not good. I’m not making much progress."
+				}, 
+				{
+					"CurrentState": "re_conv3",
+					"NextState": "conv4",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv3",
+					"NextState": "conv3",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_conv2",
+					"NextState": "re_conv3",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Next"
+				}, 
+				{
+					"CurrentState": "re_greeting2_Sat_Sun",
+					"NextState": "con_weekend_sorry2",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not so good."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Sat_Sun",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It's going well."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Sat_Sun",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It's great."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_eve",
+					"NextState": "con_eve_sorry",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was not that good."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_eve",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was good."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_eve",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was great."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_day",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It's great."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_day",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It's going well."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Tue_Wed_day",
+					"NextState": "con_day_sorry",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Not so good."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Mon",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was great."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Mon",
+					"NextState": "con_happy",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was good."
+				}, 
+				{
+					"CurrentState": "re_greeting2_Mon",
+					"NextState": "con_weekend_sorry1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "It was not that good."
+				}, 
+				{
+					"CurrentState": "re_pre_greeting",
+					"NextState": "greeting1",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "BEGIN"
+				}, 
+				{
+					"CurrentState": "Start",
+					"NextState": "pre_greeting",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "START"
+				}],
+			"AgentDialogues": [
+				{
+					"CurrentState": "conv79",
+					"NextState": "finish",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I’d like you to answer a few questions for me now. Please return to the survey. Bye.",
+					"UtteranceId": "TTS-60B399ADC339AAC933615A11DAFAAF07"
+				}, 
+				{
+					"CurrentState": "conv78",
+					"NextState": "re_conv78",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Did you find our discussion useful?",
+					"UtteranceId": "TTS-0B6FF34C47D0CE3B1F6EC63F176BFD73"
+				}, 
+				{
+					"CurrentState": "conv77",
+					"NextState": "re_conv77",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Please score again, how you are feeling now, on the sliding scale of zero to ten, then select Next.",
+					"UtteranceId": "TTS-4DA6C6AC5A30C7A00E93B4E4804F68B9"
+				}, 
+				{
+					"CurrentState": "conv76",
+					"NextState": "re_conv76",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Do you feel less stress now than at the start of the session?",
+					"UtteranceId": "TTS-6CA4E8458F177881F2D746BECE4DDDE5"
+				}, 
+				{
+					"CurrentState": "conv75",
+					"NextState": "re_conv75",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You are bound to feel a little overwhelmed during tough study time – it’s usually an indicator of your motivation to do well! Have you ever thought in that way?",
+					"UtteranceId": "TTS-681DE3C692E80A0031625B84D8F1EC7D"
+				}, 
+				{
+					"CurrentState": "conv74",
+					"NextState": "conv75",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Last tip is to remember that stress is normal. Acknowledge that stress is part of the process and you’ll be fine.",
+					"UtteranceId": "TTS-A5C5301B725EEEBFD224D2854AE79B9D"
+				}, 
+				{
+					"CurrentState": "conv73",
+					"NextState": "re_conv73",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Are you ready for the last tip?",
+					"UtteranceId": "TTS-D6F48866C36CD9E5FC8C2A2D3F7EE70C"
+				}, 
+				{
+					"CurrentState": "conv72",
+					"NextState": "conv73",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Having a window open whilst studying is likely to increase comfort make you feel less trapped at your desk. Sitting in rooms with open windows has also\nbeen related to reducing levels of fatigue.\n",
+					"UtteranceId": "TTS-B218D0E4DA6D25374F659CFC9D73FC98"
+				}, 
+				{
+					"CurrentState": "conv71",
+					"NextState": "re_conv71",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Do you leave a window open while you are studying?",
+					"UtteranceId": "TTS-8AB70AD743F37750414346E295720AD4"
+				}, 
+				{
+					"CurrentState": "conv70",
+					"NextState": "conv71",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "It’s good to turn your phone off, log out of Facebook and concentrate on revising. It will pay off in the long run. Let’s move on to the next tip.",
+					"UtteranceId": "TTS-D44E78E45B14FBC8661F7E0CE8ECB292"
+				}, 
+				{
+					"CurrentState": "conv69",
+					"NextState": "re_conv69",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Try to avoid too many distractions when you are studying. What distracts you more?",
+					"UtteranceId": "TTS-FC49060F1DE934918896B28784D1D4FF"
+				}, 
+				{
+					"CurrentState": "conv68",
+					"NextState": "conv69",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "This reduces workload, encourages early preparation and increases the likelihood that you’ll have all the information at hand.",
+					"UtteranceId": "TTS-17D045552C2515062579CED525D94E97"
+				}, 
+				{
+					"CurrentState": "conv67",
+					"NextState": "re_conv67",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "It’s sometimes best used to “share” knowledge or notes. Break down an exam into topics and have two people in the group review each topic - have the reviews ready for other group members 2 to 4 weeks before the exam period. How does that sound?",
+					"UtteranceId": "TTS-BC72C65011EC96782AF775C1B6198FAB"
+				}, 
+				{
+					"CurrentState": "conv66",
+					"NextState": "re_conv66",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Longer periods are often needed for problem solving tasks and for writing papers or essays. Have you done group study before?",
+					"UtteranceId": "TTS-D03A52E1794C738EF632B9010F0F3844"
+				}, 
+				{
+					"CurrentState": "conv65",
+					"NextState": "conv66",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "In general, optimum efficiency is reached by planning to study in blocks of one hour 50 minutes of study followed by a 10 minutes break. Shorter periods are fine for studying notes and memorizing materials.",
+					"UtteranceId": "TTS-74C7B39156FCC93DE8B18AF0C1F7AA18"
+				}, 
+				{
+					"CurrentState": "conv64",
+					"NextState": "re_conv64",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Another tip is to start long jobs ahead of time. Avoid cramming, stress and poor quality work. Do you take breaks while you are studying?",
+					"UtteranceId": "TTS-A3416490151C4CA95EBC8DC5479D211C"
+				}, 
+				{
+					"CurrentState": "conv63",
+					"NextState": "conv64",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Break the work down by setting small goals. This helps to make the overall goal less daunting, and helps you to assess the time necessary to complete the task.",
+					"UtteranceId": "TTS-00737F9FBA89A6D5F710A56523B4177F"
+				}, 
+				{
+					"CurrentState": "conv62_1",
+					"NextState": "re_conv62",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Do you have any other ideas for reducing study work load?",
+					"UtteranceId": "TTS-2C8997EA801D8C38CF21C5DCF3EEB86B"
+				}, 
+				{
+					"CurrentState": "conv62",
+					"NextState": "conv62_1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You could also cut down on caffeine, alcohol and other drugs to help you get a proper night’s sleep. ",
+					"UtteranceId": "TTS-E39A1C073FFF61E73B09CE2043D4639E"
+				}, 
+				{
+					"CurrentState": "conv61",
+					"NextState": "re_conv61",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Next you have to rest. It’s just as important as revision so make sure you get plenty of sleep. Try to go to bed at the same time every night and get into a routine. Do you get enough sleep?",
+					"UtteranceId": "TTS-9D1133DBD2F019A50EC000E2E08E90AB"
+				}, 
+				{
+					"CurrentState": "conv60",
+					"NextState": "re_conv60",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How much water you drink per day?",
+					"UtteranceId": "TTS-15FD80DEC70B165E1D92A9E44F3C034D"
+				}, 
+				{
+					"CurrentState": "conv59",
+					"NextState": "conv60",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You need to have 2 serves of fruit, 5 serves of vegetable or legumes and 4 serves of grain foods every day. Also take 2 to 3 serves of milk, yoghurt or cheese and 1 to 3 serves of meat, poultry, fish, eggs or nut every day. ",
+					"UtteranceId": "TTS-C4A90EE22339C0C70EA2A75FC089D12F"
+				}, 
+				{
+					"CurrentState": "conv58",
+					"NextState": "re_conv58",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Have you ever thought how much healthy food you need to have every day?",
+					"UtteranceId": "TTS-A16E5437DC07B47BD308091E8115E955"
+				}, 
+				{
+					"CurrentState": "conv57",
+					"NextState": "re_conv57",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "One treat of biscuits, cake, pastries, alcohol, soft or energy drink, ice cream and chocolate are high in fat, sugars, salt or alcohol and have very few nutrients. I try to cut down those as much as I can. How about you?",
+					"UtteranceId": "TTS-3861EC03E9F5C9D8A75936A04761B56B"
+				}, 
+				{
+					"CurrentState": "conv56",
+					"NextState": "conv57",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Eat healthy food, especially fish, fresh fruit and vegies, complex carbohydrates, Folate, Vitamin D, and Omega 3. Hydration assists concentration, working memory, anxiety, mood, headaches and fatigue.",
+					"UtteranceId": "TTS-14EE463D50EAC2F2925B73E9FC9574E8"
+				}, 
+				{
+					"CurrentState": "conv55",
+					"NextState": "re_conv55",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Eat regularly and try to have a balanced diet with plenty of fruit and vegetables. Nutrition is linked to development, management and prevention of specific mental health problems. Do you usually eat healthy food?",
+					"UtteranceId": "TTS-03101E579BBCDE13F0BA9D2B15E4B3A9"
+				}, 
+				{
+					"CurrentState": "conv54",
+					"NextState": "re_conv54",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You need to look after yourself. Do you look after your health?",
+					"UtteranceId": "TTS-EB87E0E5DD91E4E5E4A8DD5B0A00979C"
+				}, 
+				{
+					"CurrentState": "conv53",
+					"NextState": "conv54",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "When this type of fear leads to avoiding social situations, starts to interfere with daily life like studies, work or relationships, and it’s bringing your mood down, it’s time to get professional help!",
+					"UtteranceId": "TTS-908137D186BF16B215D5B64675569EA4"
+				}, 
+				{
+					"CurrentState": "conv52",
+					"NextState": "re_conv52",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Feeling nervous in social situations is a very common experience. For some of us fears about being criticized, judged negatively, being embarrassed or humiliated pop up in ordinary, everyday situations. Do you have these types of fears?",
+					"UtteranceId": "TTS-6B7E5268A712F82CB89C054571F559AA"
+				}, 
+				{
+					"CurrentState": "conv51",
+					"NextState": "re_conv51",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "In what situation do you feel nervous most?",
+					"UtteranceId": "TTS-134556F04E0B8CA5E268B15863743E9C"
+				}, 
+				{
+					"CurrentState": "conv50",
+					"NextState": "conv51",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Ok, let’s talk about more tips. ",
+					"UtteranceId": "TTS-136DC16A276FC0F3149696795AC79D14"
+				}, 
+				{
+					"CurrentState": "conv49_no",
+					"NextState": "re_conv49_no",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Please do the survey before you continue.",
+					"UtteranceId": "TTS-8429CA8B4DC077440B208D952AF85BF5"
+				}, 
+				{
+					"CurrentState": "conv48",
+					"NextState": "re_conv48",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Did you go back to survey?",
+					"UtteranceId": "TTS-CCB2A349811984995C7D0DA66A829CEA"
+				}, 
+				{
+					"CurrentState": "conv47",
+					"NextState": "re_conv47_1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Before we go on, I’d like you to return to the survey and answer a few questions for me, about your experience. I’m waiting here for you. I’ll see you again soon.",
+					"UtteranceId": "TTS-3881AD3B336B06B9CB80B7FF3DF37545"
+				}, 
+				{
+					"CurrentState": "conv46_3",
+					"NextState": "conv47",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I think you’ll feel less stress after our next session. I’d really like to see some more improvement for you.",
+					"UtteranceId": "TTS-DB17CA9348335434754888EE3FC56BF8"
+				}, 
+				{
+					"CurrentState": "conv46_2",
+					"NextState": "conv47",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "It’s really great that you are not stressing out. ",
+					"UtteranceId": "TTS-A8AAD2B15BF0A1CEB486A2E3F3E5E1CF"
+				}, 
+				{
+					"CurrentState": "conv46_1",
+					"NextState": "conv47",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I hope I can help you feel less stressed in our next session.",
+					"UtteranceId": "TTS-A454A45071161AC7CFE0ECEC1E131870"
+				}, 
+				{
+					"CurrentState": "conv46",
+					"NextState": "re_conv46",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "As a last thing together, could you score again your emotional feeling towards your study and then select next?",
+					"UtteranceId": "TTS-C603665CA832FAEFAC965ED0EC137863"
+				}, 
+				{
+					"CurrentState": "conv45",
+					"NextState": "conv46",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Thank you for the feedback. I’ll take it on board.",
+					"UtteranceId": "TTS-C8A9DBB03D0B43F5BFCC3EA1FD7A0A41"
+				}, 
+				{
+					"CurrentState": "conv45_no",
+					"NextState": "re_conv45_no",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Why is that?",
+					"UtteranceId": "TTS-FB1685AA657F408CAAE79E5568FC3393"
+				}, 
+				{
+					"CurrentState": "conv45_yes",
+					"NextState": "conv46",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I’m so glad. We're doing some great work together.",
+					"UtteranceId": "TTS-22D17E51296C3AF4B4E2AED40698C8FC"
+				}, 
+				{
+					"CurrentState": "conv44",
+					"NextState": "re_conv44",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Have I been able to help you – that was my aim? ",
+					"UtteranceId": "TTS-A96D68C61E13EF8E6A3DBE71F4731BDD"
+				}, 
+				{
+					"CurrentState": "conv43",
+					"NextState": "conv44",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Together we can embrace difference! Expand our minds and experiences by meeting people from different backgrounds, cultures, religions.",
+					"UtteranceId": "TTS-B64DA8B29AF19DD5102C55FDB9759B4B"
+				}, 
+				{
+					"CurrentState": "conv42",
+					"NextState": "re_conv42",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You also can join a social or special interest group on Macquarie Campus or your local area. What type of people do you like to meet?",
+					"UtteranceId": "TTS-C099135D4E6E63593CEE9E7F9738BC3C"
+				}, 
+				{
+					"CurrentState": "conv41_No",
+					"NextState": "conv42",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Try that, it might change your opinion.",
+					"UtteranceId": "TTS-83D872AE65A765F7100C50EED3EA53E5"
+				}, 
+				{
+					"CurrentState": "conv41_good",
+					"NextState": "conv42",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Nice to see you liked it. ",
+					"UtteranceId": "TTS-B34C8D899623308603D3FF2D9D9187A8"
+				}, 
+				{
+					"CurrentState": "conv40",
+					"NextState": "re_conv40",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "My friend does volunteering job. This is another way to be socialized. She joins new people with similar interests and values. She feels connected and valued by the community. I want to give it a try. How does that sound?",
+					"UtteranceId": "TTS-D155C200D2BA07EC0824D7BC17275FE4"
+				}, 
+				{
+					"CurrentState": "conv40_yes",
+					"NextState": "conv40",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Me too.",
+					"UtteranceId": "TTS-30D3B589D252729146AB9598089C34C7"
+				}, 
+				{
+					"CurrentState": "conv39",
+					"NextState": "re_conv39",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Exercising with others like friends, family or a group, makes us feel connected. Do you like meeting new people?",
+					"UtteranceId": "TTS-F755E2810F0163B53DFDFAB3384E3139"
+				}, 
+				{
+					"CurrentState": "conv38_both",
+					"NextState": "conv39",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Great, same as me.",
+					"UtteranceId": "TTS-84EF68AA30F9CC4FF514A555EEA1B266"
+				}, 
+				{
+					"CurrentState": "conv38_ind",
+					"NextState": "conv39",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sometimes, it's nice to have our own time.",
+					"UtteranceId": "TTS-79E9057FE27E9279A9CAF2FECD180FA9"
+				}, 
+				{
+					"CurrentState": "conv38_group",
+					"NextState": "conv39",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "It can be more fun.",
+					"UtteranceId": "TTS-121D165130A5E6E287FF614998171470"
+				}, 
+				{
+					"CurrentState": "conv37",
+					"NextState": "re_conv37",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Daily exercise produces positive mood, especially working towards personal goals and fitness challenges. It’s linked to a sense of wellbeing, confidence, autonomy, mastery and life satisfaction. Do you like to exercise in a group or individually?",
+					"UtteranceId": "TTS-D4D0B5CC43D36762975F652A6DDFD576"
+				}, 
+				{
+					"CurrentState": "conv36_no",
+					"NextState": "conv37",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Maybe give it a go.",
+					"UtteranceId": "TTS-670844F45BA429D7E6F7C9FB3050D714"
+				}, 
+				{
+					"CurrentState": "conv36_notsay",
+					"NextState": "conv37",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sure, I don't want to be impolite.",
+					"UtteranceId": "TTS-BB1676AB71E4D2DA77E85364ED8F5F7B"
+				}, 
+				{
+					"CurrentState": "conv36_yes",
+					"NextState": "conv37",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I thought so.",
+					"UtteranceId": "TTS-2E960A76DFEC296F30BA0C313616E05E"
+				}, 
+				{
+					"CurrentState": "conv35",
+					"NextState": "re_conv35",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Apparently, regular daily exercise improves your sleep, reduces anxiety and stress. I hope you don’t mind me asking, but do you exercise regularly?",
+					"UtteranceId": "TTS-57600D533B4D559231A05AE615A3448B"
+				}, 
+				{
+					"CurrentState": "conv34",
+					"NextState": "re_conv34",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "My friend told me that physical activity can improve life satisfaction, communication, social interaction and relationships. Did you realize that?",
+					"UtteranceId": "TTS-BE1CCE4828413DEE5390243E8DB956B2"
+				}, 
+				{
+					"CurrentState": "conv33_no",
+					"NextState": "conv34",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Give it a try, I didn’t realize how much fun it would be until I tried it.",
+					"UtteranceId": "TTS-CE76669837C29794C96AFE0725E89B7F"
+				}, 
+				{
+					"CurrentState": "conv33_yes",
+					"NextState": "conv34",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Wow! How good is that!",
+					"UtteranceId": "TTS-11578AB7E347BA9E2390DC2A651C70E3"
+				}, 
+				{
+					"CurrentState": "conv32",
+					"NextState": "re_conv32",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I have joined a sport team recently. It’s cheap and a great way to meet new people and get fit at the same time! Are you a member of a sport team or a gym?",
+					"UtteranceId": "TTS-BB316D039056D2DEDBBC748871FAB9CC"
+				}, 
+				{
+					"CurrentState": "conv31",
+					"NextState": "re_conv31",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I do the same. Which social activity do you like to participate most?",
+					"UtteranceId": "TTS-D13FCD6298485FF6E6E056D1AC06AFF9"
+				}, 
+				{
+					"CurrentState": "conv30",
+					"NextState": "re_conv30",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How do you communicate with friends?",
+					"UtteranceId": "TTS-DCD6DD4193810BCA751F52A743A50968"
+				}, 
+				{
+					"CurrentState": "conv29_no",
+					"NextState": "conv30",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You need to stay in touch, make time in your life to contact family and friends regularly. ",
+					"UtteranceId": "TTS-229701A494E65C49F43B1E9154113A2B"
+				}, 
+				{
+					"CurrentState": "conv29_yes",
+					"NextState": "conv30",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Excellent, lucky you are. ",
+					"UtteranceId": "TTS-B87A2DC6300B6903E1CCED311730534D"
+				}, 
+				{
+					"CurrentState": "conv28_1",
+					"NextState": "re_conv28",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Connecting can expand our world view, and lead to new experiences. Do you connect with your family and friends?",
+					"UtteranceId": "TTS-6ED82F3CDBFAEF22FDD76AF994729647"
+				}, 
+				{
+					"CurrentState": "conv28",
+					"NextState": "conv28_1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Connecting with others boosts our confidence and self-esteem and promotes a sense of belonging. We can feel supported and valued and make great friendships. ",
+					"UtteranceId": "TTS-91F2A8D8DE975C179E131B5036A66B95"
+				}, 
+				{
+					"CurrentState": "conv27_no",
+					"NextState": "conv28",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sorry to hear you don’t feel supported in your life.",
+					"UtteranceId": "TTS-D2BAC9714DE61C017688CD61A80B0FBB"
+				}, 
+				{
+					"CurrentState": "conv27_yes",
+					"NextState": "conv28",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "That is what I wanted to hear.",
+					"UtteranceId": "TTS-D4779340964DE97EC7BDE5EE8505A898"
+				}, 
+				{
+					"CurrentState": "conv26",
+					"NextState": "re_conv26",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Let’s talk about socializing which is good for our mental health. That’s why I’m here. It helps reduce the symptoms of depression and anxiety. I’m supported by my friends and family. Do you feel supported in your life? ",
+					"UtteranceId": "TTS-7106D26F2BDE7344AE4FA8F5D8144CB3"
+				}, 
+				{
+					"CurrentState": "conv26_weird",
+					"NextState": "conv26",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "What do you suggest? ",
+					"UtteranceId": "TTS-86A641AA4C60893ED6CACEC4A9685588"
+				}, 
+				{
+					"CurrentState": "conv25",
+					"NextState": "re_conv25",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "When one of my friends chooses to miss a study day, she assigns a time to make up that block of time, on a weeknight or weekend. I think that’s a good idea. What do you think?",
+					"UtteranceId": "TTS-8357FB4EECC60922316F5969CD3E4A6A"
+				}, 
+				{
+					"CurrentState": "conv24_yesno",
+					"NextState": "conv25",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "So that is why you sometimes study on weekends",
+					"UtteranceId": "TTS-CC180FCF0791ECC23F88D1754D708B86"
+				}, 
+				{
+					"CurrentState": "conv24_no",
+					"NextState": "conv25",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Wow, I wish I could be as dedicated as you.",
+					"UtteranceId": "TTS-99332D3E82D82B6AC729B92B249A4774"
+				}, 
+				{
+					"CurrentState": "conv24_yes",
+					"NextState": "conv25",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "That's OK.",
+					"UtteranceId": "TTS-3082C00C0D1F7B74F0E98645600D2D3E"
+				}, 
+				{
+					"CurrentState": "conv23",
+					"NextState": "re_conv23",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I’ve heard it’s best to mostly study in a normal “work day” and treat university as a 9 to 5 job and avoid doing “Overtime” regularly. Do you sometimes miss a class?",
+					"UtteranceId": "TTS-1D54DE86120361890F6899783E21DF84"
+				}, 
+				{
+					"CurrentState": "conv22_no",
+					"NextState": "conv23",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Yeah I think its best to have a break.",
+					"UtteranceId": "TTS-503EE7C9E5FB1A27FFDB740EE85316FE"
+				}, 
+				{
+					"CurrentState": "conv22_yes",
+					"NextState": "conv23",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Don’t you get exhausted? I feel I need a break.",
+					"UtteranceId": "TTS-7ECBF1F4EE4C5856EB1F5EA4690FC93B"
+				}, 
+				{
+					"CurrentState": "conv21",
+					"NextState": "re_conv21",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I’d read a study about it. So I always try to use daylight hours, and I don’t let study take over my nights or weekends. What about you? Do you sometimes study on weekends?",
+					"UtteranceId": "TTS-032515C4253F6EFEA79DEB78B07D566F"
+				}, 
+				{
+					"CurrentState": "conv20",
+					"NextState": "conv21",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Did you know that 60 minutes of study during the day is the equivalent of 90 minutes of study at night?\n",
+					"UtteranceId": "TTS-D8905644D59D7C292672D0837E25B5C1"
+				}, 
+				{
+					"CurrentState": "conv_19_either",
+					"NextState": "conv20",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "You’re lucky.",
+					"UtteranceId": "TTS-BBE85FEAFAEA7CBFC08CFB27B83A2C19"
+				}, 
+				{
+					"CurrentState": "conv_19_night",
+					"NextState": "conv20",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "So you are a night person.",
+					"UtteranceId": "TTS-706CA8613D668F5911B7891E79B5A97A"
+				}, 
+				{
+					"CurrentState": "conv19_day",
+					"NextState": "conv20",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "So you are a day person.",
+					"UtteranceId": "TTS-0F636F942AECFFCFDC81F677D45DEE86"
+				}, 
+				{
+					"CurrentState": "conv18_1",
+					"NextState": "re_conv18",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I use daylight hours for studying and usually perform best in the morning after breakfast, but some people are more effective at night. It totally depends on you. When do you perform best?",
+					"UtteranceId": "TTS-52590AA6F66018E4D205A1D8D0AF52C8"
+				}, 
+				{
+					"CurrentState": "conv18",
+					"NextState": "conv18_1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Scheduling helps my friend ensures that she’s allocated enough time to all of her commitments and hasn’t left anything out. ",
+					"UtteranceId": "TTS-53BDC91D5014BE1B7AC74CE22AAC52C7"
+				}, 
+				{
+					"CurrentState": "conv17",
+					"NextState": "conv18",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "No problem. I got the tip from my friend. ",
+					"UtteranceId": "TTS-08C27ACAB245587FCAC17AE1B13274E1"
+				}, 
+				{
+					"CurrentState": "conv16",
+					"NextState": "conv18",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Good on you. Sounds like you are an organized person.",
+					"UtteranceId": "TTS-B396166084B323268A49921D67D461A6"
+				}, 
+				{
+					"CurrentState": "conv15",
+					"NextState": "re_conv15",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Ok, let’s start. To manage my stress, I usually take some time to make a list of all of my work, study and social commitments, and draw up a schedule. I don’t over-commit myself. Do you have balance in your study, work and social life?",
+					"UtteranceId": "TTS-FC39F1C36799A8E849E2FCBBB0877EA6"
+				}, 
+				{
+					"CurrentState": "conv14",
+					"NextState": "conv15",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Well, hopefully I can put your mind at ease.",
+					"UtteranceId": "TTS-2E18BFB41A67151AC72144673C159588"
+				}, 
+				{
+					"CurrentState": "conv13",
+					"NextState": "conv15",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "That’s great to hear.",
+					"UtteranceId": "TTS-C54D12346748D66E27C726D469D2A767"
+				}, 
+				{
+					"CurrentState": "conv12",
+					"NextState": "re_conv12",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I want to tell you some tips I've learnt from personal experience and from some of my friends. I hope you find them helpful too. How does that sound?",
+					"UtteranceId": "TTS-8334DE2082CD240A0FC2639B4422BCA5"
+				}, 
+				{
+					"CurrentState": "conv11_2",
+					"NextState": "conv12",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Thanks for being honest.",
+					"UtteranceId": "TTS-24E3ADF94DF27C325B58A485AF40636D"
+				}, 
+				{
+					"CurrentState": "conv11_1",
+					"NextState": "conv12",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "That's why I'm here.",
+					"UtteranceId": "TTS-A48D7FA6CE4C2FEF9EC28FE28B88B488"
+				}, 
+				{
+					"CurrentState": "conv11",
+					"NextState": "re_conv11",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "What are you trying to get help with today?",
+					"UtteranceId": "TTS-AC9B8A44E88CFDA65301D0AA6B4B0EA0"
+				}, 
+				{
+					"CurrentState": "conv10_2",
+					"NextState": "conv11",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I guess at the time it’s hard to see stress positively. ",
+					"UtteranceId": "TTS-C8333B9DD9BDF68DE152728CDF767985"
+				}, 
+				{
+					"CurrentState": "conv10_1",
+					"NextState": "conv11",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "We think alike.",
+					"UtteranceId": "TTS-A05FB3D2170F35F347B417385EAD882A"
+				}, 
+				{
+					"CurrentState": "conv9",
+					"NextState": "re_conv9",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "There are a few things I usually do when I get stressed that help me to be managed and do my best. I remind myself that stress can help to motivate us to achieve our goals. Do you think the same?",
+					"UtteranceId": "TTS-7230587E31531A1B6DA359FA4B571A90"
+				}, 
+				{
+					"CurrentState": "conv8_2",
+					"NextState": "conv9",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Yes I also get really stressed when I have lots of study. ",
+					"UtteranceId": "TTS-7ADE245218CC6A054F8FD7DAE6769F32"
+				}, 
+				{
+					"CurrentState": "conv8_1",
+					"NextState": "conv9",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "That is good. Stress can come at different times though. ",
+					"UtteranceId": "TTS-17DFE86148C9F4EDE40BB1177A9E3C9D"
+				}, 
+				{
+					"CurrentState": "conv7",
+					"NextState": "re_conv7",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Being at university can be a great experience, but also a stressful one. How are you feeling about that?",
+					"UtteranceId": "TTS-585F4F4AF3E019A5E4283614650C0EB1"
+				}, 
+				{
+					"CurrentState": "conv6_2",
+					"NextState": "conv7",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sounds good. I’m glad to hear that.",
+					"UtteranceId": "TTS-0C8F802FB3BDB86A33E625510208268C"
+				}, 
+				{
+					"CurrentState": "conv6_1",
+					"NextState": "conv7",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Oh dear, Sounds like you have some stuff happening. I am here for you.",
+					"UtteranceId": "TTS-5C1D1C02C3801EB0FF4E192EA6BC29C6"
+				}, 
+				{
+					"CurrentState": "conv5_1",
+					"NextState": "re_conv5",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Life can box you in….. look at me!!!! I’m stuck inside this machine!!!!! just kidding……haha…... How are your studies going?",
+					"UtteranceId": "TTS-2B9C9D9E55ED80ECB0D7A2996D1C4159"
+				}, 
+				{
+					"CurrentState": "conv6",
+					"NextState": "conv5_1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I’m hoping to give you some ideas that might help you with your study and life in general. ",
+					"UtteranceId": "TTS-10E3414497C03B2EB32F4412195552B7"
+				}, 
+				{
+					"CurrentState": "conv4",
+					"NextState": "conv6",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "It’s really great that you are not stressing out. ",
+					"UtteranceId": "TTS-A8AAD2B15BF0A1CEB486A2E3F3E5E1CF"
+				}, 
+				{
+					"CurrentState": "conv3",
+					"NextState": "conv6",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I think you’ll feel less stress after I give you some tips. I’d really like to see some more improvement for you.",
+					"UtteranceId": "TTS-5AD38BFCB8F614F7F4B341F1D5F5281F"
+				}, 
+				{
+					"CurrentState": "conv2",
+					"NextState": "re_conv2",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Please indicate your emotional feeling now and select next.",
+					"UtteranceId": "TTS-86C773188D96714089EFE506EA8577D5"
+				}, 
+				{
+					"CurrentState": "conv1",
+					"NextState": "conv2",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Before we get started, I want you to think about your emotional feeling towards your study on a scale of 0 to 10. Zero means “extremely good and relaxed” and 10 means “extremely bad and stressed”.",
+					"UtteranceId": "TTS-3ADC46FE6C1914992A7E1C94581B6ADD"
+				}, 
+				{
+					"CurrentState": "con_weekend_sorry2",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sorry your weekend isn’t great, I hope I can help you feel better.",
+					"UtteranceId": "TTS-1D64E7A65B6A893188E3428643F5F608"
+				}, 
+				{
+					"CurrentState": "con_eve_sorry",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sorry you had a bad day, I hope I canhelp you feel better.",
+					"UtteranceId": "TTS-9D07037DA7CDCC6888B8C0906773B736"
+				}, 
+				{
+					"CurrentState": "con_day_sorry",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sorry your day isn’t going well, I hope I canhelp you feel better.",
+					"UtteranceId": "TTS-DCFC9ACF5FC154F5CEECA0AE70283293"
+				}, 
+				{
+					"CurrentState": "con_weekend_sorry1",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "Sorry your weekend wasn’t great, I hope I can help you feel better.",
+					"UtteranceId": "TTS-ACAEB10F0C9F7313E93BAF2BA6CD9E83"
+				}, 
+				{
+					"CurrentState": "con_happy",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I'm happy for you.",
+					"UtteranceId": "TTS-5C3927377FA7D38B36FA80C1DA08235B"
+				}, 
+				{
+					"CurrentState": "greeting2_Sat_Sun",
+					"NextState": "re_greeting2_Sat_Sun",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How is your weekend?",
+					"UtteranceId": "TTS-5AC81B75B132FBC53D67D2AA99F4BF7A"
+				}, 
+				{
+					"CurrentState": "greeting2_Thu_Fri",
+					"NextState": "conv1",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "I hope you have something nice planned for your weekend.",
+					"UtteranceId": "TTS-E1B9EB125A1F3CFEE8FC11B4DB8E03A7"
+				}, 
+				{
+					"CurrentState": "greeting2_Tue_Wed_eve",
+					"NextState": "re_greeting2_Tue_Wed_eve",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How was your day?",
+					"UtteranceId": "TTS-08D9E562EB30D89E48552784D13D6FC7"
+				}, 
+				{
+					"CurrentState": "greeting2_Tue_Wed_day",
+					"NextState": "re_greeting2_Tue_Wed_day",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How is your day going?",
+					"UtteranceId": "TTS-2C0F561E6177BC33CF19AA71E30A3CB6"
+				}, 
+				{
+					"CurrentState": "greeting2_Mon",
+					"NextState": "re_greeting2_Mon",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "How was your weekend?",
+					"UtteranceId": "TTS-D1F80A9963F7AE3753854CE9B462B179"
+				}, 
+				{
+					"CurrentState": "whichday",
+					"NextState": "greeting2_Sat_Sun",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "",
+					"UtteranceId": "TTS-D41D8CD98F00B204E9800998ECF8427E"
+				}, 
+				{
+					"CurrentState": "whichday",
+					"NextState": "greeting2_Thu_Fri",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "",
+					"UtteranceId": "TTS-D41D8CD98F00B204E9800998ECF8427E"
+				}, 
+				{
+					"CurrentState": "whichday",
+					"NextState": "greeting2_Tue_Wed_eve",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "",
+					"UtteranceId": "TTS-D41D8CD98F00B204E9800998ECF8427E"
+				}, 
+				{
+					"CurrentState": "whichday",
+					"NextState": "greeting2_Tue_Wed_day",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "",
+					"UtteranceId": "TTS-D41D8CD98F00B204E9800998ECF8427E"
+				}, 
+				{
+					"CurrentState": "whichday",
+					"NextState": "greeting2_Mon",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "",
+					"UtteranceId": "TTS-D41D8CD98F00B204E9800998ECF8427E"
+				}, 
+				{
+					"CurrentState": "greeting1",
+					"NextState": "whichday",
+					"Meaning": ["greeting"],
+					"Style": ["Empathic"],
+					"Utterance": "My name is Sarah. I’m very happy to meet you and hope you’ll find our session together worthwhile. Please make yourself comfortable.",
+					"UtteranceId": "TTS-D1C64590FA07FF27F761C5F0DBA3723F"
+				}, 
+				{
+					"CurrentState": "pre_greeting",
+					"NextState": "re_pre_greeting",
+					"Meaning": ["Greeting"],
+					"Style": ["Formal"],
+					"Utterance": "Hey, before we get started, please enter your user number in the textbox and then press BEGIN. ",
+					"UtteranceId": "TTS-FC0C0324D6592D0CC8BD8F1B90924C73"
+				}]
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}
